@@ -1,0 +1,9 @@
+.themify_builder_module.module-type-products:before {
+	content: "\e60d";
+}
+.themify_builder_module.module-type-product-categories:before {
+	content: "\e60d";
+}
+.themify_builder_field.category_products small {
+	display: none;
+}

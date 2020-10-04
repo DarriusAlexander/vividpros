@@ -1,0 +1,20 @@
+2020-09-23T23:37:58+00:00 CRITICAL Uncaught Error: Class 'NmBridgeWoocommerce\EbWooIntTemplateManager' not found in /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce-integration/includes/class-bridge-woocommerce-activator.php:102
+Stack trace:
+#0 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce-integration/includes/class-bridge-woocommerce-activator.php(41): NmBridgeWoocommerce\BridgeWoocommerceActivator::addDefaultEmailTmplOptions()
+#1 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce-integration/bridge-woocommerce.php(65): NmBridgeWoocommerce\BridgeWoocommerceActivator::activate()
+#2 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(287): bridge_woo_update_check()
+#3 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters()
+#4 /opt/bitnami/apps/wordpress/htdocs/wp-includes/plugin.php(478): WP_Hook->do_action()
+#5 /opt/bitnami/apps/wordpress/htdocs/wp-settings.php(409): do_action()
+#6 /opt/bitnami/apps/wordpress/htdocs/wp-config.php(108): requ in /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce-integration/includes/class-bridge-woocommerce-activator.php on line 102
+
+2020-09-23T23:37:59+00:00 CRITICAL Uncaught Error: Class 'NmBridgeWoocommerce\EbWooIntTemplateManager' not found in /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce-integration/includes/class-bridge-woocommerce-activator.php:102
+Stack trace:
+#0 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce-integration/includes/class-bridge-woocommerce-activator.php(41): NmBridgeWoocommerce\BridgeWoocommerceActivator::addDefaultEmailTmplOptions()
+#1 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce-integration/bridge-woocommerce.php(65): NmBridgeWoocommerce\BridgeWoocommerceActivator::activate()
+#2 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(287): bridge_woo_update_check()
+#3 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters()
+#4 /opt/bitnami/apps/wordpress/htdocs/wp-includes/plugin.php(478): WP_Hook->do_action()
+#5 /opt/bitnami/apps/wordpress/htdocs/wp-settings.php(409): do_action()
+#6 /opt/bitnami/apps/wordpress/htdocs/wp-config.php(108): requ in /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce-integration/includes/class-bridge-woocommerce-activator.php on line 102
+

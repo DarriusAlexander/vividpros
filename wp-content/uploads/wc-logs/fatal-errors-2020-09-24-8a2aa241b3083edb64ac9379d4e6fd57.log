@@ -1,0 +1,10 @@
+2020-09-24T18:19:35+00:00 CRITICAL Uncaught wfAPICallFailedException: The Wordfence scanning servers are currently unavailable. This may be for maintenance or a temporary outage. If this still occurs in an hour, please contact support. [404] in /home/vividp7/public_html/wp-content/plugins/wordfence/lib/wfAPI.php:155
+Stack trace:
+#0 /home/vividp7/public_html/wp-content/plugins/wordfence/lib/wfAPI.php(36): wfAPI->getURL('https://noc1.wo...', Array, 900)
+#1 /home/vividp7/public_html/wp-content/plugins/wordfence/lib/wordfenceClass.php(4310): wfAPI->call('record_toupp', Array, Array)
+#2 /home/vividp7/public_html/wp-content/plugins/wordfence/lib/wordfenceClass.php(1447): wordfence::ajax_recordTOUPP_callback()
+#3 /home/vividp7/public_html/wp-includes/class-wp-hook.php(287): wordfence::ajaxReceiver('')
+#4 /home/vividp7/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#5 /home/vividp7/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#6 /home/vividp7/public_html/wp-admin/admin-ajax.php(176): do_action(' in /home/vividp7/public_html/wp-content/plugins/wordfence/lib/wfAPI.php on line 155
+

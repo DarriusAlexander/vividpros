@@ -1,0 +1,186 @@
+.tb-module-type-contact:before {
+	content: "\e75a"
+}
+table.contact_fields {
+	width: 100%;
+	margin: 20px 0 0;
+	border-collapse: collapse;
+	border:  none;
+}
+table.contact_fields th {
+	text-align: left;
+	padding: 12px 0;
+}
+table.contact_fields tr {
+	border-top: solid 1px #e5e5e5;
+}
+table.contact_fields thead tr:first-child {
+	border-bottom: none;
+}
+table.contact_fields td {
+	vertical-align: top;
+	padding: 12px 0 10px;
+	box-sizing: border-box;
+}
+table.contact_fields th:nth-of-type(3) {
+	display: none;
+}
+table.contact_fields td:nth-of-type(3) {
+	padding: 0;
+}
+table.contact_fields tr:not(.tb_contact_new_row) td:nth-child(2),
+table.contact_fields tr:not(.tb_contact_new_row) td:nth-child(3) {
+	display: block;
+}
+table.contact_fields tr:not(.tb_contact_new_row) td:last-child,
+table.contact_fields td:last-child .tb_contact_field_remove {
+	width: 50px;
+	text-align: center;
+}
+table.contact_fields tr:not(.tb_contact_new_row).tb_no_sort td:last-child {
+	text-align: left;
+}
+table.contact_fields tr.tb_contact_new_row td {
+	vertical-align: top;
+	position: relative;
+}
+table.contact_fields tr.tb_contact_new_row td:nth-child(2) {
+	padding-right:50px;
+	z-index: 9;
+	min-width:200px;
+}
+table.contact_fields .tb_field {
+	margin: 0 0 2px;
+}
+input.tb_new_field_textbox{
+	border: 1px solid #ccc;
+	padding: 3px;
+}
+table.contact_fields tbody p {
+	margin-bottom: 0;
+}
+table.contact_fields tbody tr td:first-child,
+table.contact_fields tfoot tr td:first-child {
+	padding-right: 12px;
+}
+table.contact_fields tbody tr td:first-child {
+	position: relative;
+}
+table.contact_fields .ui-state-highlight {
+	height: 36px;
+}
+table.contact_fields .ui-sortable-handle:not(.tb_no_sort) {
+	cursor: move;
+}
+table.contact_fields .ui-sortable-handle:not(.tb_no_sort):hover {
+	background: #fff;
+	box-shadow: 0 8px 8px -10px rgba(0,0,0,.3), 0 -8px 8px -10px rgba(0,0,0,.3);
+}
+table.contact_fields .tb_new_field_action {
+	display: inline-block;
+	margin: 0 0 15px;
+	white-space: nowrap;
+}
+table.contact_fields .tb_new_field_action span {
+	margin-right: 5px;
+}
+ul.tb_new_field_type  {
+	margin: 0;
+	padding: 0;
+}
+ul.tb_new_field_type  li {
+	font-size: .9em;
+	display: inline-block;
+	margin: 0 1em .5em 0;
+}
+.tb_new_field ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.tb_new_field ul li {
+	position: relative;
+	padding-right: 15%;
+}
+.tb_new_field ul li .tb_contact_value_remove {
+	position: absolute;
+}
+.tb_contact_field_remove {
+	position: absolute;
+	right: 5px;
+	top: .5em;
+	vertical-align: top;
+}
+table.contact_fields .tb_contact_value_remove {
+	color: inherit;
+	font-size: .85em;
+	margin: .6em 0 0 .5em;
+}
+table.contact_fields td:first-child {
+	max-width: 80px;
+}
+table.contact_fields td:last-child {
+	padding-top: .7em;
+}
+table.contact_fields textarea,
+table.contact_fields input[type=text] {
+	width: 90%;
+	vertical-align: top;
+	margin-top:0;
+}
+table.contact_fields input[type=text].small{
+	width: 30%;
+}
+.tb_field.builder_contact_fields .tb_input {
+	float: none;
+	width: 100%;
+}
+.fields_contact .tb_field.optin .tb_label,
+.fields_contact .tb_field.optin .tb_input {
+    width: auto;
+}
+.fields_contact .tb_field.optin .tb_field {
+    display: flex;
+    flex-flow: row-reverse;
+	justify-content: flex-end;
+}
+.tb_panel_docked .fields_contact .selectwrapper{
+	width:90%;	
+}
+.tb_panel_docked .fields_contact .tb_field.optin .tb_label,
+.tb_panel_docked .fields_contact .tb_field.optin .tb_input {
+	width:100%;
+	padding-top:0;
+}
+.tb_panel_docked .tb_new_field_type ul {
+	flex-direction: column;
+	-webkit-flex-direction: column;
+}
+table.contact_fields .tpb_dc_toggle.switch-wrapper {
+	right: 10%;
+	top: -2px;
+}
+/* tb_panel_docked mode */
+.tb_panel_docked table.contact_fields td:first-child {
+	min-width: 80px;
+	max-width: 100%;
+	padding-right: 5px;
+}
+.tb_lightbox_small table.contact_fields td,
+.tb_panel_docked table.contact_fields td:nth-of-type(1) {
+	width: auto;
+	min-width: auto;
+}
+.tb_field.user_role .selectwrapper{
+	margin: 0;
+}
+.tb_lightbox_small .fields_contact .tb_field.optin .tb_field,
+.tb_panel_docked .fields_contact .tb_field.optin .tb_field {
+    flex-wrap: wrap;
+	flex-flow: row wrap;
+	justify-content: normal;
+}
+.tb_lightbox_small .fields_contact .tb_field.optin .tb_label,
+.tb_panel_docked .fields_contact .tb_field.optin .tb_label {
+    order: 2;
+}

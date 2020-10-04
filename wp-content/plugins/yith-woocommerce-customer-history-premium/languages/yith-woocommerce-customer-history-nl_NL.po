@@ -1,0 +1,577 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: YIT WooCommerce Advanced Product Options\n"
+"POT-Creation-Date: 2017-09-14 12:55+0100\n"
+"PO-Revision-Date: 2017-09-15 10:29+0100\n"
+"Language-Team: Yithemes <plugins@yithemes.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.2\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e;_n:1,2;__ngettext:1,2;"
+"__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;"
+"_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Last-Translator: \n"
+"Language: nl_NL\n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-SearchPathExcluded-0: ../plugin-fw\n"
+
+#: ../includes/classes/yith-wcch-admin.php:66
+msgid "Customers & Users"
+msgstr "Klanten & Gebruikers"
+
+#: ../includes/classes/yith-wcch-admin.php:67
+#: ../templates/backend/customer.php:24
+msgid "Customer"
+msgstr "Klant"
+
+#: ../includes/classes/yith-wcch-admin.php:68
+#: ../templates/backend/customers.php:61 ../templates/backend/users.php:47
+#: ../templates/backend/users.php:61
+msgid "Other Users"
+msgstr "Andere Gebruikers"
+
+#: ../includes/classes/yith-wcch-admin.php:69
+msgid "Live Sessions"
+msgstr "Live Sessie"
+
+#: ../includes/classes/yith-wcch-admin.php:70
+#: ../templates/backend/sessions.php:42 ../templates/backend/trash.php:32
+#: ../templates/backend/trash.php:38
+msgid "Trash"
+msgstr "Prullenbak"
+
+#: ../includes/classes/yith-wcch-admin.php:71
+msgid "Session"
+msgstr "Sessie"
+
+#: ../includes/classes/yith-wcch-admin.php:72
+msgid "Live Searches"
+msgstr "Live Zoekopdrachten"
+
+#: ../includes/classes/yith-wcch-admin.php:73
+#: ../templates/backend/stats-searches.php:24
+#: ../templates/backend/stats-spent.php:41 ../templates/backend/stats.php:24
+msgid "Statistics"
+msgstr "Statistieken"
+
+#: ../includes/classes/yith-wcch-admin.php:74
+#: ../includes/classes/yith-wcch-admin.php:75
+msgid "Statistics - Search"
+msgstr "Statistieken - Zoeken"
+
+#: ../includes/classes/yith-wcch-admin.php:75
+msgid "Statistics - Spent"
+msgstr "Statistieken - Uitgaven"
+
+#: ../includes/classes/yith-wcch-admin.php:76
+#: ../templates/backend/emails.php:15
+msgid "Emails"
+msgstr "E-mails"
+
+#: ../includes/classes/yith-wcch-admin.php:77
+#: ../templates/backend/customer.php:39 ../templates/backend/customers.php:155
+#: ../templates/backend/email.php:51 ../templates/backend/users.php:153
+msgid "Email"
+msgstr "E-mail"
+
+#: ../includes/classes/yith-wcch-admin.php:78
+#: ../templates/backend/settings.php:29
+msgid "Settings"
+msgstr "Instellingen"
+
+#: ../includes/classes/yith-wcch-admin.php:82
+msgid "YITH Plugins"
+msgstr "YITH Plugins"
+
+#: ../includes/classes/yith-wcch-admin.php:84
+msgid "Customer History"
+msgstr "Klanthistorie"
+
+#: ../includes/classes/yith-wcch-email.php:85
+msgid "Your email was sent successfully"
+msgstr "Uw e-mail is succesvol verzonden"
+
+#: ../includes/classes/yith-wcch-email.php:90
+msgid "ERROR: there was a database problem"
+msgstr "FOUT: er is een database probleem"
+
+#: ../includes/classes/yith-wcch-email.php:92
+msgid "ERROR: \"wp_mail\" function problem"
+msgstr "FOUT: \"wp_mail\" functie probleem"
+
+#: ../includes/classes/yith-wcch.php:372
+msgid "File imported."
+msgstr "Bestand geïmporteerd."
+
+#: ../includes/classes/yith-wcch.php:374 ../includes/classes/yith-wcch.php:393
+#: ../includes/classes/yith-wcch.php:416
+msgid "Error!"
+msgstr "Fout!"
+
+#: ../includes/classes/yith-wcch.php:389
+msgid "Sessions deleted."
+msgstr "Sessies verwijderd."
+
+#: ../includes/classes/yith-wcch.php:397 ../includes/classes/yith-wcch.php:420
+msgid "Sorry, you are not allowed to access this page."
+msgstr "Sorry, u bent niet geautoriseerd om deze pagina te betreden."
+
+#: ../includes/classes/yith-wcch.php:412
+msgid "Emails deleted."
+msgstr "E-mails verwijderd."
+
+#: ../init.php:47
+msgid ""
+"YITH WooCommerce Customer History is enabled but not effective. In order to "
+"work it requires WooCommerce."
+msgstr ""
+"YITH WooCommerce Customer History is ingeschakeld maar niet werkend. Het "
+"heeft WooCommerce nodig om te werken."
+
+#: ../templates/backend/customer.php:36
+msgid "User ID"
+msgstr "Gebruikers ID"
+
+#: ../templates/backend/customer.php:37
+msgid "Name"
+msgstr "Naam"
+
+#: ../templates/backend/customer.php:38
+msgid "Username"
+msgstr "Gebruikersnaam"
+
+#: ../templates/backend/customer.php:40
+msgid "Website"
+msgstr "Website"
+
+#: ../templates/backend/customer.php:58
+msgid "Total Orders"
+msgstr "Totaal Bestellingen"
+
+#: ../templates/backend/customer.php:59 ../templates/backend/customers.php:90
+#: ../templates/backend/users.php:90
+msgid "Pending Orders"
+msgstr "Bestellingen in behandeling"
+
+#: ../templates/backend/customer.php:60
+msgid "Refunded Orders"
+msgstr "Bestellingen Gerestitueerd"
+
+#: ../templates/backend/customer.php:61 ../templates/backend/customers.php:92
+#: ../templates/backend/users.php:92
+msgid "Orders average"
+msgstr "Bestelling gemiddelde"
+
+#: ../templates/backend/customer.php:62 ../templates/backend/customers.php:93
+#: ../templates/backend/users.php:93
+msgid "Total Spent"
+msgstr "Totaal uitgaven"
+
+#: ../templates/backend/customer.php:115
+msgid "Edit this user"
+msgstr "Bewerk deze gebruiker"
+
+#: ../templates/backend/customer.php:116
+msgid "Send an email"
+msgstr "Stuur een e-mail"
+
+#: ../templates/backend/customer.php:143
+msgid "Latest Orders"
+msgstr "Laatste bestellingen"
+
+#: ../templates/backend/customer.php:147
+msgid "Order"
+msgstr "Bestelling"
+
+#: ../templates/backend/customer.php:148 ../templates/backend/customer.php:188
+#: ../templates/backend/customer.php:216 ../templates/backend/emails.php:23
+#: ../templates/backend/searches.php:58 ../templates/backend/sessions.php:74
+#: ../templates/backend/trash.php:66
+msgid "Date"
+msgstr "Datum"
+
+#: ../templates/backend/customer.php:149
+msgid "Type"
+msgstr "Type"
+
+#: ../templates/backend/customer.php:150
+msgid "Status"
+msgstr "Status"
+
+#: ../templates/backend/customer.php:151
+msgid "Items"
+msgstr "Items"
+
+#: ../templates/backend/customer.php:152
+msgid "Refunded Items"
+msgstr "Items Gerestitueerd"
+
+#: ../templates/backend/customer.php:153
+msgid "Refunded"
+msgstr "Gerestitueerd"
+
+#: ../templates/backend/customer.php:154 ../templates/backend/customers.php:65
+#: ../templates/backend/customers.php:166 ../templates/backend/searches.php:34
+#: ../templates/backend/searches.php:105 ../templates/backend/sessions.php:46
+#: ../templates/backend/sessions.php:181
+#: ../templates/backend/stats-searches.php:35
+#: ../templates/backend/stats-searches.php:85
+#: ../templates/backend/stats-spent.php:52
+#: ../templates/backend/stats-spent.php:92 ../templates/backend/stats.php:35
+#: ../templates/backend/stats.php:84 ../templates/backend/trash.php:42
+#: ../templates/backend/trash.php:153 ../templates/backend/users.php:65
+#: ../templates/backend/users.php:164
+msgid "Total"
+msgstr "Totaal"
+
+#: ../templates/backend/customer.php:155 ../templates/backend/customers.php:94
+#: ../templates/backend/emails.php:27 ../templates/backend/sessions.php:75
+#: ../templates/backend/trash.php:67 ../templates/backend/users.php:94
+msgid "Actions"
+msgstr "Acties"
+
+#: ../templates/backend/customer.php:174 ../templates/backend/customers.php:154
+#: ../templates/backend/emails.php:50 ../templates/backend/users.php:152
+msgid "View"
+msgstr "Toon"
+
+#: ../templates/backend/customer.php:183
+msgid "Search History"
+msgstr "Zoek Geschiedenis"
+
+#: ../templates/backend/customer.php:184 ../templates/backend/customer.php:212
+msgid "Complete History"
+msgstr "Volledige Geschiedenis"
+
+#: ../templates/backend/customer.php:189
+msgid "Key"
+msgstr "Sleutel"
+
+#: ../templates/backend/customer.php:211
+msgid "Sessions History"
+msgstr "Sessies Geschiedenis"
+
+#: ../templates/backend/customer.php:217 ../templates/backend/searches.php:57
+#: ../templates/backend/sessions.php:72 ../templates/backend/stats.php:58
+#: ../templates/backend/trash.php:65
+msgid "URL"
+msgstr "URL"
+
+#: ../templates/backend/customer.php:239 ../templates/backend/sessions.php:103
+#: ../templates/backend/trash.php:92
+msgid "Search"
+msgstr "Zoeken"
+
+#: ../templates/backend/customer.php:243 ../templates/backend/sessions.php:109
+#: ../templates/backend/trash.php:98
+msgid "Add to cart"
+msgstr "Toevoegen aan winkelwagen"
+
+#: ../templates/backend/customer.php:247 ../templates/backend/sessions.php:115
+#: ../templates/backend/trash.php:104
+msgid "New order"
+msgstr "Nieuwe bestelling"
+
+#: ../templates/backend/customer.php:283
+msgid "Error"
+msgstr "Fout"
+
+#: ../templates/backend/customer.php:284
+msgid "I'm sorry, you are not allowed to see this page!"
+msgstr "Sorry, u bent niet geautoriseerd om deze pagina te zien!"
+
+#: ../templates/backend/customer.php:284
+msgid "Back"
+msgstr "Terug"
+
+#: ../templates/backend/customers.php:47 ../templates/backend/customers.php:60
+#: ../templates/backend/users.php:60
+msgid "Customers"
+msgstr "Klanten"
+
+#: ../templates/backend/customers.php:50 ../templates/backend/customers.php:53
+#: ../templates/backend/users.php:50 ../templates/backend/users.php:53
+msgid "Search Customer"
+msgstr "Zoek klant"
+
+#: ../templates/backend/customers.php:56
+msgid "Complete customers list."
+msgstr "Volledige klantenlijst."
+
+#: ../templates/backend/customers.php:66 ../templates/backend/customers.php:167
+#: ../templates/backend/searches.php:35 ../templates/backend/searches.php:106
+#: ../templates/backend/sessions.php:47 ../templates/backend/sessions.php:182
+#: ../templates/backend/stats-searches.php:36
+#: ../templates/backend/stats-searches.php:86
+#: ../templates/backend/stats-spent.php:53
+#: ../templates/backend/stats-spent.php:93 ../templates/backend/stats.php:36
+#: ../templates/backend/stats.php:85 ../templates/backend/trash.php:43
+#: ../templates/backend/trash.php:154 ../templates/backend/users.php:66
+#: ../templates/backend/users.php:165
+msgid "Page"
+msgstr "Pagina"
+
+#: ../templates/backend/customers.php:87 ../templates/backend/emails.php:24
+#: ../templates/backend/searches.php:56 ../templates/backend/sessions.php:68
+#: ../templates/backend/stats-spent.php:75 ../templates/backend/trash.php:64
+#: ../templates/backend/users.php:87
+msgid "User"
+msgstr "Gebruiker"
+
+#: ../templates/backend/customers.php:88 ../templates/backend/users.php:88
+msgid "Role"
+msgstr "Rol"
+
+#: ../templates/backend/customers.php:89 ../templates/backend/users.php:89
+msgid "Orders"
+msgstr "Bestellingen"
+
+#: ../templates/backend/customers.php:91 ../templates/backend/users.php:91
+msgid "Refund Orders"
+msgstr "Restitutie Bestellingen"
+
+#: ../templates/backend/email.php:52 ../templates/backend/emails.php:16
+msgid "Send new email"
+msgstr "Verstuur nieuwe e-mail"
+
+#: ../templates/backend/email.php:55
+msgid ""
+"Set default \"Sender\" name and email values in <a href=\"admin.php?"
+"page=yith-wcch-settings.php\">plugin settings</a>."
+msgstr ""
+"Stel een default \"Verzender\" naam en email waardes in <a href=\"admin.php?"
+"page=yith-wcch-settings.php\">plugin instellingen</a>."
+
+#: ../templates/backend/email.php:62 ../templates/backend/email.php:83
+msgid "From"
+msgstr "Van"
+
+#: ../templates/backend/email.php:63 ../templates/backend/email.php:87
+msgid "To"
+msgstr "Tot"
+
+#: ../templates/backend/email.php:64 ../templates/backend/email.php:96
+#: ../templates/backend/emails.php:25
+msgid "Subject"
+msgstr "Onderwerp"
+
+#: ../templates/backend/email.php:79
+msgid "Sender Name"
+msgstr "Naam verzender"
+
+#: ../templates/backend/email.php:100 ../templates/backend/emails.php:26
+msgid "Content"
+msgstr "Inhoud"
+
+#: ../templates/backend/email.php:105
+msgid "Send"
+msgstr "Verzonden"
+
+#: ../templates/backend/emails.php:19
+msgid "Complete emails list."
+msgstr "Volledige e-mail lijst."
+
+#: ../templates/backend/searches.php:27
+#: ../templates/backend/stats-searches.php:30
+#: ../templates/backend/stats-searches.php:57
+#: ../templates/backend/stats-spent.php:47 ../templates/backend/stats.php:30
+msgid "Searches"
+msgstr "Zoekopdrachten"
+
+#: ../templates/backend/searches.php:28
+msgid "Complete searches list."
+msgstr "Volledige zoekopdrachten lijst."
+
+#: ../templates/backend/searches.php:31
+msgid "Check for new Searches"
+msgstr "Controleer op nieuwe zoekopdrachten"
+
+#: ../templates/backend/searches.php:84 ../templates/backend/sessions.php:143
+#: ../templates/backend/trash.php:122
+msgid "Guest"
+msgstr "Gast"
+
+#: ../templates/backend/sessions.php:13
+msgid "trash"
+msgstr "prullenbak"
+
+#: ../templates/backend/sessions.php:13
+msgid ""
+"Your session was deleted, you can find it in <a href=\"admin.php?page=yith-"
+"wcch-trash.php\">"
+msgstr ""
+"Uw sessie was verwijderd, u kunt hem vinden in <a href=\"admin.php?page=yith-"
+"wcch-trash.php\">"
+
+#: ../templates/backend/sessions.php:35 ../templates/backend/sessions.php:41
+#: ../templates/backend/stats.php:57 ../templates/backend/trash.php:37
+msgid "Sessions"
+msgstr "Sessies"
+
+#: ../templates/backend/sessions.php:36
+msgid "Complete sessions list."
+msgstr "Volledige sessies lijst."
+
+#: ../templates/backend/sessions.php:39
+msgid "Check for new Sessions"
+msgstr "Controleer op nieuwe sessies"
+
+#: ../templates/backend/sessions.php:70
+msgid "IP"
+msgstr "IP"
+
+#: ../templates/backend/sessions.php:73
+msgid "Referer"
+msgstr "Verwijzing"
+
+#: ../templates/backend/sessions.php:144
+msgid "Bot"
+msgstr "Bot"
+
+#: ../templates/backend/sessions.php:152
+msgid "Unregistered IP address"
+msgstr "Niet geregistreerd IP Adres"
+
+#: ../templates/backend/settings.php:40
+msgid "Results per page"
+msgstr "Resultaten per pagina"
+
+#: ../templates/backend/settings.php:44
+msgid "Save \"admin\" sessions?"
+msgstr "\"admin\" sessies opslaan?"
+
+#: ../templates/backend/settings.php:47 ../templates/backend/settings.php:56
+#: ../templates/backend/settings.php:65 ../templates/backend/settings.php:74
+msgid "No"
+msgstr "Nee"
+
+#: ../templates/backend/settings.php:48 ../templates/backend/settings.php:57
+#: ../templates/backend/settings.php:66 ../templates/backend/settings.php:75
+msgid "Yes"
+msgstr "Ja"
+
+#: ../templates/backend/settings.php:53
+msgid "Save users IP address?"
+msgstr "Gebruikers IP adres opslaan?"
+
+#: ../templates/backend/settings.php:62
+msgid "Hide users with no orders?"
+msgstr "Verberg gebruikers zonder bestellingen?"
+
+#: ../templates/backend/settings.php:71
+msgid "Show BOT sessions?"
+msgstr "Toon BOT sessies?"
+
+#: ../templates/backend/settings.php:80
+msgid "Default Sender Name"
+msgstr "Default naam verzender"
+
+#: ../templates/backend/settings.php:84
+msgid "Default Sender Email"
+msgstr "Default e-mail verzender"
+
+#: ../templates/backend/settings.php:88
+msgid "Timezone"
+msgstr "Tijdzone"
+
+#: ../templates/backend/settings.php:100
+msgid "Save"
+msgstr "Opslaan"
+
+#: ../templates/backend/settings.php:113
+msgid "CSV Export"
+msgstr "CSV Exporteren"
+
+#: ../templates/backend/settings.php:117
+msgid "You will download a CSV file with only \"Sessions\"."
+msgstr "U download een CSV bestand met uitsluitend \"Sessies\"."
+
+#: ../templates/backend/settings.php:118 ../templates/backend/settings.php:131
+msgid "Download"
+msgstr "Download"
+
+#: ../templates/backend/settings.php:126
+msgid "Backup Export"
+msgstr "Backup Exporteren"
+
+#: ../templates/backend/settings.php:130
+msgid ""
+"You will download a file with \"Sessions\", \"Searches\", \"Emails\" and "
+"\"Stats\"."
+msgstr ""
+"U download een bestand met \"Sessies\", \"E-mails\" en \"Statistieken\"."
+
+#: ../templates/backend/settings.php:138
+msgid "Backup Import"
+msgstr "Backup Importeren"
+
+#: ../templates/backend/settings.php:142
+msgid "Imported data will be added to your database."
+msgstr "Geïmporteerde data zullen worden toegevoegd aan uw database."
+
+#: ../templates/backend/settings.php:145
+msgid "Import"
+msgstr "Importeren"
+
+#: ../templates/backend/settings.php:152
+msgid "Empty Tables"
+msgstr "Lege tabellen"
+
+#: ../templates/backend/settings.php:153
+msgid "ATTENTION: you will lose all saved Sessions, Searches and Emails!"
+msgstr ""
+"LET OP: u zult alle opgeslagen sessies, zoekopdrachten en e-mails verliezen!"
+
+#: ../templates/backend/settings.php:157
+msgid "Delete all Sessions & Searches"
+msgstr "Verwijder alle sessies & zoekopdrachten"
+
+#: ../templates/backend/settings.php:164
+msgid "Delete all Emails"
+msgstr "Verwijder alle e-mails"
+
+#: ../templates/backend/stats-searches.php:25
+#: ../templates/backend/stats-spent.php:42 ../templates/backend/stats.php:25
+msgid "Check your shop statistics."
+msgstr "Controleer uw winkel statistieken."
+
+#: ../templates/backend/stats-searches.php:29
+#: ../templates/backend/stats-spent.php:46 ../templates/backend/stats.php:29
+msgid "Site Pages"
+msgstr "Site pagina´s"
+
+#: ../templates/backend/stats-searches.php:31
+#: ../templates/backend/stats-spent.php:48 ../templates/backend/stats.php:31
+msgid "Total spent by user"
+msgstr "Totaal uitgegeven door gebruiker"
+
+#: ../templates/backend/stats-searches.php:58
+msgid "Keywords"
+msgstr "Sleutelwoorden"
+
+#: ../templates/backend/stats-spent.php:74
+msgid "Total spent"
+msgstr "Totaal uitgaven"
+
+#: ../templates/backend/trash.php:13
+msgid "sessions"
+msgstr "sessies"
+
+#: ../templates/backend/trash.php:13
+msgid ""
+"Your session was restored, you can find it in <a href=\"admin.php?page=yith-"
+"wcch-sessions.php\">"
+msgstr ""
+"Uw sessie is hersteld, u kunt het vinden in <a href=\"admin.php?page=yith-"
+"wcch-sessions.php\">"
+
+#: ../templates/backend/trash.php:33
+msgid "All the sessions that you have deleted."
+msgstr "Alle sessies die u heeft verwijderd."
+
+#: ../templates/backend/users.php:56
+msgid "Complete users list."
+msgstr "Volledige gebruikerslijst."

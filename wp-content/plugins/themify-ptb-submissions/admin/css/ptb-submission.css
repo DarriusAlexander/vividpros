@@ -1,0 +1,164 @@
+#ptb-submission-edit-form [data-type='title'] .mce-menu-item.mce-ptb-submission{
+    border-top:1px dashed #000;
+}
+.ptb-submission_settings_desc{
+    width: 54%;
+}
+.ptb-submission_tabs_ li{
+    display: none;
+}
+.add-submission-form  input[type="submit"].button-primary,
+#ptb-submission-edit-form #ptb_submit{
+    border: none;
+    font-size: 14px;
+    padding: 10px 24px;
+    color: #fff;
+    height: auto;
+    background: #644a9f;
+    text-align: center;
+    box-shadow: none;
+    white-space: nowrap;
+    border-radius: 0;
+}
+.add-submission-form  input[type="submit"].button-primary:hover,
+#ptb-submission-edit-form #ptb_submit:hover,
+#ptb-submission-import-form .ptb-submission-file-btn:hover{
+    background: #f26522;
+    -ms-transform:none;
+    transform:none;
+    box-shadow: none;
+}
+.ptb-submission-small-description{
+    display: block;
+    margin-top: 10px;
+    color: #999;
+}
+.ptb-submission-small-description a{
+    text-decoration: underline;
+    color: #999;
+}
+.ptb-frontend-loader{
+    margin: -40px 0 0 -40px;
+    height: 80px;
+    width: 80px;
+    background-color: rgba(0,0,0,.8);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    z-index: 999;
+    border-radius: 15px;
+    padding: 0;
+    border: none;
+    display: none;
+}
+.ptb-frontend-wait .ptb-frontend-loader{
+    background: #444 url(../img/ajax-loader.gif) no-repeat center center;
+    display: block;
+}
+.ptb-frontend-loader.done{
+    background: #444 url(../img/ajax-done.png) no-repeat center center;
+    display: block;
+}
+.ptb-frontend-wait{
+    cursor: wait;
+    z-index: -1;
+    opacity: 0.5;
+    position: relative;
+}
+
+.form-table.add-submission-form input[type="text"],
+.form-table.add-submission-form input[type="email"]{
+    width: 322px;
+}
+.ptb-submission-small-input input{
+    width: 90px;
+    margin: 0;
+}
+.ptb-submission-small-input strong{
+    margin-left: 5px;
+}
+.ptb-submission-small-input{
+    margin-top: 13px;
+}
+.ptb-submission-success-message{
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+.ptb-submission-success-message .ptb_back_active_module_input{
+    width: 100%;
+    margin-top: 13px;
+}
+.add-submission-form textarea{
+    resize: vertical;
+    min-height: 75px;
+}
+#ptb-submission-edit-form [data-type='title'] .ptb_delete_module,
+#ptb-submission-edit-form [data-type='user_email'] .ptb_delete_module,
+#ptb-submission-edit-form [data-type='user_name'] .ptb_delete_module,
+#ptb-submission-edit-form [data-type='user_password'] .ptb_delete_module{
+    visibility: hidden;
+}
+.ptb-submission-file-btn+input[type="file"]{
+    display: none !important;
+}
+#ptb-submission-import-form{
+    text-align: center;
+}
+#ptb-submission-import-form .ptb-submission-file-btn{
+    background: #664c9e;
+    margin: 5px 0;
+    padding: 10px 30px;
+    display: inline-block;
+    color: #fff;
+    box-shadow: 0 2px 0 #5c448e;
+    -moz-box-shadow: 0 2px 0 #5c448e;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    outline: none;
+    text-align: center;
+    text-decoration: none;
+}
+.ptb-submission-error{
+    color: #ff0000;
+    font-weight: bold;
+}
+.ptb_account_page_select{
+    width: 30%;
+}
+.ptb-submission-warrning{
+    color:#ff0000;
+}
+#ptb-submission-posts-filter .chosen-container{
+    max-width: 208px;
+    vertical-align: top;
+}
+#ptb-submission-posts-filter{
+    margin: 10px 0;
+    border-bottom: 1px solid #e1e1e1;
+    padding-bottom: 10px;
+    float: left;
+    width: 100%;
+}
+#ptb-submission-posts-filter p.submit{
+    float: right;
+    clear: both;
+    margin: 10px 0 0 0;
+    padding: 0;
+}
+#ptb-submission-posts-filter .ptb-submission-datepicker{
+    width: 122px;
+}
+#ptb-submission-posts-filter input[type="text"],
+#ptb-submission-posts-filter .chosen-container-multi .chosen-choices{
+    min-height: 36px !important;
+}
+#ptb-submission-posts-filter .chosen-container-multi .chosen-choices{
+    line-height: 35px;
+    border-color: #ddd;
+}
+.ptb-submission_page_ptb-submission-posts .ui-datepicker{
+    display: none;
+}
+#ptb-submission-users-form{
+    margin-top: 40px;
+}

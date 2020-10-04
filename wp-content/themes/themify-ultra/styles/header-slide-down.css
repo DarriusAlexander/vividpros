@@ -1,0 +1,212 @@
+/*
+HEADER SLIDE DOWN
+================================================ */
+body.fixed-header.page-loaded #pagewrap {
+	padding-top: 0 !important;
+}
+body.fixed-header.page-loaded #headerwrap.fixed-header,
+body.fixed-header.page-loaded #headerwrap {
+	position: relative;
+	transition: 1s;
+}
+
+/* transparent header */
+body.fixed-header.page-loaded.transparent-header #body {
+	margin-top: -65px;
+}
+
+/* header */
+#header {
+	text-align: inherit;
+	padding: 0;
+	display: -ms-flexbox;
+	display: flex;
+	flex-flow: row wrap;
+	width: 100%;
+	max-width: none;
+	z-index: auto;
+}
+.header-bar {
+	margin-left: 2%;
+}
+
+/* site logo */
+#site-logo {
+	margin: 15px 10px 15px 0;
+	display: inline-block;
+	vertical-align: middle;
+}
+#site-logo,
+#site-logo a {
+	transition: none;
+}
+
+/* site description */
+#site-description {
+	display: inline-block;
+	margin: 10px 0;
+	vertical-align: middle;
+}
+
+/* menu icon */
+#headerwrap .header-icons {
+	position: absolute;
+	top: 26px;
+	right: 2%;
+	text-decoration: none;
+	color: inherit;
+	z-index: 2 !important;
+	transform: translateY(-50%);
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+}
+.mobile-menu-visible #headerwrap .header-icons {
+	top: auto;
+	bottom: 5px;
+}
+#menu-icon {
+	order: 1;
+	outline: none;
+}
+.mobile-menu-visible .menu-icon-inner {
+	border: none;
+	transform-origin: center;
+	width: 1.35em;
+	height: 1.35em;
+}
+.mobile-menu-visible .menu-icon-inner:before {
+	transform: rotateZ(-45deg);
+	top: 50%;
+}
+.mobile-menu-visible .menu-icon-inner:after {
+	transform: rotateZ(45deg);
+	top: 50%;
+}
+
+.mobile_menu_active.slide-cart #cart-icon,
+#cart-icon {
+	margin-left: 0;
+	margin-right: .9em;
+}
+
+/* Slide Menu Styles */
+.mobile_menu_active #mobile-menu.sidemenu,
+.mobile-menu-visible #mobile-menu.sidemenu,
+#mobile-menu.sidemenu {
+	display: -ms-flexbox;
+	display: flex;
+	flex-direction: column;
+	order: -1;
+	width: 100%;
+	position: static;
+	background-color: #5a408e;
+	color: #fff;
+	max-height: 0;
+	opacity: 0;
+	visibility: hidden;
+	transition: all .25s linear;
+}
+.mobile_menu_active.mobile-menu-visible #mobile-menu.sidemenu,
+.mobile-menu-visible #mobile-menu.sidemenu {
+	max-height: 500px;
+	opacity: 1;
+	visibility: visible;
+	padding: 1em 0;
+}
+.mobile_menu_active #mobile-menu.sidemenu {
+	padding: 0;
+}
+.mobile_menu_active.mobile-menu-visible #mobile-menu.sidemenu {
+	padding: 2em 0 0;
+}
+
+/* main navigation */
+.navbar-wrapper {
+	text-align: center;
+}
+#main-nav {
+	font-size: 1.1em;
+}
+#main-nav .mega-menu-posts .post,
+#main-nav .mega-menu-posts .post-title {
+	text-align: left;
+}
+
+/* header widget */
+.header-widget {
+	order: -1;
+}
+
+/* body overlay */
+.mobile-menu-visible .body-overlay,
+.body-overlay.body-overlay-on {
+	display: none;
+}
+.slide-cart-visible .body-overlay.body-overlay-on {
+	display: block;
+}
+body.mobile-menu-visible {
+	overflow-y: visible;
+}
+
+/* fixed header */
+#headerwrap.fixed-header .header-bar {
+	display: block;
+}
+
+/* Mobile Menu Active Styles */
+body:not(.header-overlay):not(.header-minbar):not(.header-leftpane):not(.header-rightpane).mobile-menu-visible.mobile_menu_active.sidemenu-right,
+body:not(.header-overlay):not(.header-minbar):not(.header-leftpane):not(.header-rightpane).mobile-menu-visible.mobile_menu_active.sidemenu-right #headerwrap.fixed-header,
+body:not(.header-overlay):not(.header-minbar):not(.header-leftpane):not(.header-rightpane).mobile-menu-visible.mobile_menu_active.sidemenu-left,
+body:not(.header-overlay):not(.header-minbar):not(.header-leftpane):not(.header-rightpane).mobile-menu-visible.mobile_menu_active.sidemenu-left #headerwrap.fixed-header {
+	left: 0;
+}
+.mobile_menu_active #header {
+	padding: 0;
+}
+.mobile_menu_active .navbar-wrapper {
+	text-align: left;
+}
+.mobile_menu_active #site-logo {
+	margin: 15px 10px 15px 0;
+}
+.mobile_menu_active #site-description {
+	margin: 10px 0;
+}
+.mobile_menu_active #menu-icon-close {
+	display: none;
+}
+
+/* Media queries */
+@media screen and (min-width: 1261px) {
+	.navbar-wrapper,
+	.header-widget {
+		width: 100%;
+		max-width: 1160px;
+		margin: auto;
+	}
+}
+@media screen and (max-width: 1260px) {
+	.mobile_menu_active .header-widget,
+	.header-widget,
+	.navbar-wrapper {
+		width: 100%;
+		max-width: 96%;
+		margin: auto;
+	}
+}
+@media screen and (max-width: 680px) {
+	.header-bar {
+		margin-left: 5%;
+	}
+	#headerwrap .header-icons {
+		right: 5%;
+		min-width: auto;
+	}
+	.mobile_menu_active .header-widget,
+	.header-widget,
+	.navbar-wrapper {
+		max-width: 90%;
+	}
+}

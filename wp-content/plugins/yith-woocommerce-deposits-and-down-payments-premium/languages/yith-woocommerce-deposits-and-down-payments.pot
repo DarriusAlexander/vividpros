@@ -1,0 +1,1121 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: YITH WooCommerce Deposits and Down Payments\n"
+"POT-Creation-Date: 2018-01-31 16:45+0100\n"
+"PO-Revision-Date: 2015-10-13 16:08+0100\n"
+"Last-Translator: \n"
+"Language-Team: Your Inspiration Themes <support@yithemes.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7.1\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;__ngettext:1,2;_n_noop:1,2;_c,_nc:4c,1,2;"
+"_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;esc_attr__;esc_attr_e\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: plugin-fw\n"
+
+#: includes/admin-tables/class.yith-wcdp-category-deposits-table.php:91
+msgid "Thumbnail"
+msgstr ""
+
+#: includes/admin-tables/class.yith-wcdp-category-deposits-table.php:111
+#: includes/admin-tables/class.yith-wcdp-product-deposits-table.php:121
+#: includes/admin-tables/class.yith-wcdp-role-deposits-table.php:94
+#: templates/admin/deposits-panel.php:40 templates/admin/deposits-panel.php:63
+#: templates/admin/deposits-panel.php:86
+msgid "Amount"
+msgstr ""
+
+#: includes/admin-tables/class.yith-wcdp-category-deposits-table.php:112
+#: includes/admin-tables/class.yith-wcdp-product-deposits-table.php:122
+#: includes/admin-tables/class.yith-wcdp-role-deposits-table.php:95
+#: templates/admin/deposits-panel.php:41 templates/admin/deposits-panel.php:64
+#: templates/admin/deposits-panel.php:87
+msgid "Rate"
+msgstr ""
+
+#: includes/admin-tables/class.yith-wcdp-category-deposits-table.php:144
+#: includes/admin-tables/class.yith-wcdp-product-deposits-table.php:154
+#: includes/admin-tables/class.yith-wcdp-role-deposits-table.php:127
+msgid "Update"
+msgstr ""
+
+#: includes/admin-tables/class.yith-wcdp-category-deposits-table.php:146
+#: includes/admin-tables/class.yith-wcdp-product-deposits-table.php:156
+#: includes/admin-tables/class.yith-wcdp-role-deposits-table.php:129
+msgid "Delete"
+msgstr ""
+
+#: includes/admin-tables/class.yith-wcdp-category-deposits-table.php:159
+msgid "Category"
+msgstr ""
+
+#: includes/admin-tables/class.yith-wcdp-category-deposits-table.php:160
+#: includes/admin-tables/class.yith-wcdp-product-deposits-table.php:171
+#: includes/admin-tables/class.yith-wcdp-role-deposits-table.php:143
+#: includes/class.yith-wcdp-admin-premium.php:660
+msgid "Deposit type"
+msgstr ""
+
+#: includes/admin-tables/class.yith-wcdp-category-deposits-table.php:161
+#: includes/admin-tables/class.yith-wcdp-product-deposits-table.php:172
+#: includes/admin-tables/class.yith-wcdp-role-deposits-table.php:144
+msgid "Deposit value"
+msgstr ""
+
+#: includes/admin-tables/class.yith-wcdp-category-deposits-table.php:162
+#: includes/admin-tables/class.yith-wcdp-product-deposits-table.php:173
+#: includes/admin-tables/class.yith-wcdp-role-deposits-table.php:145
+msgid "Actions"
+msgstr ""
+
+#: includes/admin-tables/class.yith-wcdp-product-deposits-table.php:169
+#: templates/emails/deposit-table.php:28 templates/my-deposits.php:32
+msgid "Product"
+msgstr ""
+
+#: includes/admin-tables/class.yith-wcdp-product-deposits-table.php:170
+msgid "Price"
+msgstr ""
+
+#: includes/admin-tables/class.yith-wcdp-role-deposits-table.php:142
+msgid "Role"
+msgstr ""
+
+#: includes/class.yith-wcdp-admin-premium.php:89
+msgid "No items found."
+msgstr ""
+
+#: includes/class.yith-wcdp-admin-premium.php:91
+msgid "Value entered cannot exceed 100%"
+msgstr ""
+
+#: includes/class.yith-wcdp-admin-premium.php:198
+msgid "Send notification email"
+msgstr ""
+
+#: includes/class.yith-wcdp-admin-premium.php:218
+#: includes/class.yith-wcdp-admin-premium.php:219
+msgid "Remind deposit expiring"
+msgstr ""
+
+#: includes/class.yith-wcdp-admin-premium.php:291
+msgid "Notification email sent"
+msgstr ""
+
+#: includes/class.yith-wcdp-admin-premium.php:325
+#, php-format
+msgid ""
+"This item should be manually refunded by admin, since the %d days available "
+"to complete payment have passed and deposit has expired"
+msgstr ""
+
+#: includes/class.yith-wcdp-admin-premium.php:326
+msgid "Create refund"
+msgstr ""
+
+#: includes/class.yith-wcdp-admin-premium.php:326
+msgid "Hide this notice"
+msgstr ""
+
+#: includes/class.yith-wcdp-admin-premium.php:338
+#, php-format
+msgid "This item has been refunded, due to deposit expiration (refund #%d)"
+msgstr ""
+
+#: includes/class.yith-wcdp-admin-premium.php:362
+msgid "Deposit to Refund"
+msgstr ""
+
+#: includes/class.yith-wcdp-admin-premium.php:621
+msgid "Deposits"
+msgstr ""
+
+#: includes/class.yith-wcdp-admin-premium.php:640
+msgid "Deposit checked"
+msgstr ""
+
+#: includes/class.yith-wcdp-admin-premium.php:642
+msgid "Whether deposit option should be selected by default or not"
+msgstr ""
+
+#: includes/class.yith-wcdp-admin-premium.php:650
+#: templates/admin/product-deposit-tab-premium.php:47
+msgid "Let users pay balances online"
+msgstr ""
+
+#: includes/class.yith-wcdp-admin-premium.php:652
+msgid ""
+"Check this option to create balance orders with \"Pending Payment\" status, "
+"so that users can complete purchases online; otherwise \"On Hold\" status "
+"will be applied (this behaviour can be overridden in product page)"
+msgstr ""
+
+#: includes/class.yith-wcdp-admin-premium.php:662
+msgid "Select the type of deposit you want to apply to selected products"
+msgstr ""
+
+#: includes/class.yith-wcdp-admin-premium.php:665
+msgid "Fixed amount"
+msgstr ""
+
+#: includes/class.yith-wcdp-admin-premium.php:666
+msgid "Percent value of product price"
+msgstr ""
+
+#: includes/class.yith-wcdp-admin-premium.php:675
+msgid "Deposit Rate"
+msgstr ""
+
+#: includes/class.yith-wcdp-admin-premium.php:677
+msgid "Percentage of product total price required as deposit"
+msgstr ""
+
+#: includes/class.yith-wcdp-admin-premium.php:692
+msgid "Labels & Messages"
+msgstr ""
+
+#: includes/class.yith-wcdp-admin-premium.php:699
+#: includes/class.yith-wcdp-admin-premium.php:703
+#: includes/class.yith-wcdp-admin.php:297
+#: includes/class.yith-wcdp-admin.php:648
+#: includes/class.yith-wcdp-admin.php:670
+#: includes/class.yith-wcdp-frontend.php:366
+#: includes/class.yith-wcdp-frontend.php:373
+#: includes/class.yith-wcdp-frontend.php:389
+#: includes/class.yith-wcdp-premium.php:442
+#: plugin-options/settings-options.php:92 templates/my-deposits.php:26
+#: templates/my-deposits.php:27
+msgid "Deposit"
+msgstr ""
+
+#: includes/class.yith-wcdp-admin-premium.php:707
+#: templates/single-add-deposit-to-cart.php:32
+msgid "Pay deposit"
+msgstr ""
+
+#: includes/class.yith-wcdp-admin-premium.php:711
+#: templates/loop-add-deposit-to-cart.php:28
+msgid "Pay Deposit"
+msgstr ""
+
+#: includes/class.yith-wcdp-admin-premium.php:715
+#: templates/single-add-deposit-to-cart.php:28
+msgid "Pay full amount"
+msgstr ""
+
+#: includes/class.yith-wcdp-admin-premium.php:719
+msgid "Pay Full Amount"
+msgstr ""
+
+#: includes/class.yith-wcdp-admin-premium.php:723
+#: includes/class.yith-wcdp-admin-premium.php:727
+#: includes/class.yith-wcdp-frontend.php:465
+msgid "Partially Paid"
+msgstr ""
+
+#: includes/class.yith-wcdp-admin-premium.php:731
+msgid "Full price label"
+msgstr ""
+
+#: includes/class.yith-wcdp-admin-premium.php:735
+#: includes/class.yith-wcdp-frontend.php:334 includes/class.yith-wcdp.php:418
+msgid "Full price"
+msgstr ""
+
+#: includes/class.yith-wcdp-admin-premium.php:739
+msgid "Balance label"
+msgstr ""
+
+#: includes/class.yith-wcdp-admin-premium.php:743
+#: includes/class.yith-wcdp-admin.php:649
+#: includes/class.yith-wcdp-admin.php:672
+#: includes/class.yith-wcdp-frontend.php:340 includes/class.yith-wcdp.php:419
+msgid "Balance"
+msgstr ""
+
+#: includes/class.yith-wcdp-admin-premium.php:747
+msgid "Pay on location"
+msgstr ""
+
+#: includes/class.yith-wcdp-admin-premium.php:751
+msgid "You can complete this order on location"
+msgstr ""
+
+#: includes/class.yith-wcdp-admin-premium.php:755
+msgid "Position of product note"
+msgstr ""
+
+#: includes/class.yith-wcdp-admin-premium.php:758
+msgid "Do not show any note on product"
+msgstr ""
+
+#: includes/class.yith-wcdp-admin-premium.php:759
+msgid "Below product title"
+msgstr ""
+
+#: includes/class.yith-wcdp-admin-premium.php:760
+msgid "Below product price"
+msgstr ""
+
+#: includes/class.yith-wcdp-admin-premium.php:761
+msgid "Below product excerpt"
+msgstr ""
+
+#: includes/class.yith-wcdp-admin-premium.php:762
+msgid "Below single Add to Cart"
+msgstr ""
+
+#: includes/class.yith-wcdp-admin-premium.php:763
+msgid "Below product meta"
+msgstr ""
+
+#: includes/class.yith-wcdp-admin-premium.php:764
+msgid "Below product share"
+msgstr ""
+
+#: includes/class.yith-wcdp-admin-premium.php:771
+msgid "Product note"
+msgstr ""
+
+#: includes/class.yith-wcdp-admin-premium.php:775
+msgid "You can override this option from single product edit page"
+msgstr ""
+
+#: includes/class.yith-wcdp-admin-premium.php:788
+msgid "Deposit expiration"
+msgstr ""
+
+#: includes/class.yith-wcdp-admin-premium.php:795
+msgid "Enable deposit expiration"
+msgstr ""
+
+#: includes/class.yith-wcdp-admin-premium.php:797
+msgid ""
+"Check this option, if you want to set a number of days, after which order "
+"with deposits cannot be completed anymore"
+msgstr ""
+
+#: includes/class.yith-wcdp-admin-premium.php:803
+msgid "Days before expiration"
+msgstr ""
+
+#: includes/class.yith-wcdp-admin-premium.php:805
+msgid ""
+"Number of days after which order with deposit cannot be completed anymore"
+msgstr ""
+
+#: includes/class.yith-wcdp-admin-premium.php:818
+msgid "Expiration fallback"
+msgstr ""
+
+#: includes/class.yith-wcdp-admin-premium.php:820
+msgid "Select an action to carry out when a deposit expires"
+msgstr ""
+
+#: includes/class.yith-wcdp-admin-premium.php:823
+msgid "Do nothing"
+msgstr ""
+
+#: includes/class.yith-wcdp-admin-premium.php:824
+msgid "Refund deposit for the product"
+msgstr ""
+
+#: includes/class.yith-wcdp-admin-premium.php:838
+msgid "Notify options"
+msgstr ""
+
+#: includes/class.yith-wcdp-admin-premium.php:845
+msgid "Customer deposit created"
+msgstr ""
+
+#: includes/class.yith-wcdp-admin-premium.php:847
+msgid "Send an email to customer when an order with deposit is created"
+msgstr ""
+
+#: includes/class.yith-wcdp-admin-premium.php:853
+msgid "Admin - for deposit created"
+msgstr ""
+
+#: includes/class.yith-wcdp-admin-premium.php:855
+msgid "Send an email to admin(s) when an order with deposit is created"
+msgstr ""
+
+#: includes/class.yith-wcdp-admin-premium.php:861
+msgid "Customer - deposit expiring"
+msgstr ""
+
+#: includes/class.yith-wcdp-admin-premium.php:863
+msgid "Send an email to customer when an order is expiring"
+msgstr ""
+
+#: includes/class.yith-wcdp-admin-premium.php:869
+msgid "Days before notification"
+msgstr ""
+
+#: includes/class.yith-wcdp-admin-premium.php:871
+msgid ""
+"Set here the number of days before expiration of a deposit, when a notifying "
+"email will be sent to customers"
+msgstr ""
+
+#: includes/class.yith-wcdp-admin.php:80 includes/class.yith-wcdp-admin.php:370
+msgid "Settings"
+msgstr ""
+
+#: includes/class.yith-wcdp-admin.php:81 includes/class.yith-wcdp-admin.php:374
+msgid "Premium Version"
+msgstr ""
+
+#: includes/class.yith-wcdp-admin.php:127
+msgid "YITH Plugins"
+msgstr ""
+
+#: includes/class.yith-wcdp-admin.php:148
+#: includes/class.yith-wcdp-admin.php:149
+msgid "Deposits and Down Payments"
+msgstr ""
+
+#: includes/class.yith-wcdp-admin.php:375
+msgid "Live Demo"
+msgstr ""
+
+#: includes/class.yith-wcdp-admin.php:393
+msgid "Plugin Documentation"
+msgstr ""
+
+#: includes/class.yith-wcdp-admin.php:471
+msgctxt "Admin: column heading in \"Orders\" table"
+msgid "Balances"
+msgstr ""
+
+#: includes/class.yith-wcdp-admin.php:578
+msgctxt "Admin: Single order page. Suborder details box"
+msgid "Balance Orders"
+msgstr ""
+
+#: includes/class.yith-wcdp-admin.php:578
+msgid ""
+"Note: from this box you can monitor the status of suborders concerning full "
+"payments."
+msgstr ""
+
+#: includes/class.yith-wcdp-admin.php:582
+msgctxt "Admin: Single order page. Info box with parent order details"
+msgid "Deposit order"
+msgstr ""
+
+#: includes/class.yith-wcdp-admin.php:634
+msgctxt "Admin: single order page. Link to parent order"
+msgid "Back to main order"
+msgstr ""
+
+#: includes/class.yith-wcdp-admin.php:729
+msgid "Full payment order"
+msgstr ""
+
+#: includes/class.yith-wcdp-frontend-premium.php:376
+#, php-format
+msgid ""
+"This order contains expired deposit; full amount order %s was consequently "
+"switched to cancelled and it cannot be completed anymore"
+msgid_plural ""
+"This order contains expired deposit; full amount orders %s were consequently "
+"switched to cancelled and they cannot be completed anymore"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class.yith-wcdp-frontend-premium.php:397
+msgid "Payment options"
+msgstr ""
+
+#: includes/class.yith-wcdp-frontend.php:390
+msgid "Full payment"
+msgstr ""
+
+#: includes/class.yith-wcdp-frontend.php:426
+#: includes/class.yith-wcdp-frontend.php:522
+msgid "of"
+msgstr ""
+
+#: includes/class.yith-wcdp-frontend.php:540
+msgid "View Full Payment"
+msgstr ""
+
+#: includes/class.yith-wcdp-frontend.php:575 includes/class.yith-wcdp.php:446
+msgid "Pay"
+msgstr ""
+
+#: includes/class.yith-wcdp-frontend.php:582
+msgid "Cancel"
+msgstr ""
+
+#: includes/class.yith-wcdp-frontend.php:588 includes/class.yith-wcdp.php:452
+msgid "View"
+msgstr ""
+
+#: includes/class.yith-wcdp-premium.php:535
+msgid "Email expiring deposit notification to customer"
+msgstr ""
+
+#: includes/class.yith-wcdp-suborders-premium.php:107
+msgid "Item refunded manually for deposit expiration"
+msgstr ""
+
+#: includes/class.yith-wcdp-suborders-premium.php:333
+msgid "Item refunded automatically for deposit expiration"
+msgstr ""
+
+#: includes/class.yith-wcdp-suborders-premium.php:354
+#, php-format
+msgid ""
+"Item %s has been automatically refunded, because %d days allowed to complete "
+"payment have passed"
+msgid_plural ""
+"Items %s have been automatically refunded, because %d days allowed to "
+"complete payment have passed"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class.yith-wcdp-suborders-premium.php:376
+#, php-format
+msgid "Item #%s stock increased from %s to %s."
+msgstr ""
+
+#: includes/class.yith-wcdp-suborders-premium.php:385
+#, php-format
+msgid ""
+"The %d days granted to complete this order have passed. For this reason, it "
+"has been switched to cancelled, and it cannot be completed anymore"
+msgstr ""
+
+#: includes/class.yith-wcdp-suborders-premium.php:477
+msgid "Expiring deposit notification sent"
+msgstr ""
+
+#: includes/class.yith-wcdp-suborders.php:212
+msgid "This order has been created to allow payment of the balance"
+msgstr ""
+
+#: includes/compatibility/class.yith-wcdp-yith-pdf-invoice-compatibility.php:82
+msgid "Discount for Funds Used"
+msgstr ""
+
+#: includes/emails/class.yith-wcdp-admin-deposit-created-email.php:39
+msgid "Admin - new deposit"
+msgstr ""
+
+#: includes/emails/class.yith-wcdp-admin-deposit-created-email.php:40
+msgid ""
+"This email is sent to admins when a customer creates an order in which a "
+"deposit for one or more products has been paid"
+msgstr ""
+
+#: includes/emails/class.yith-wcdp-admin-deposit-created-email.php:42
+msgid "New customer deposit"
+msgstr ""
+
+#: includes/emails/class.yith-wcdp-admin-deposit-created-email.php:43
+msgid "[{site_title}] New customer deposit ({order_number}) - {order_date}"
+msgstr ""
+
+#: includes/emails/class.yith-wcdp-admin-deposit-created-email.php:104
+msgid "Recipient(s)"
+msgstr ""
+
+#: includes/emails/class.yith-wcdp-admin-deposit-created-email.php:106
+#, php-format
+msgid ""
+"Enter recipients (comma separated) for this email. Defaults to <code>%s</"
+"code>."
+msgstr ""
+
+#: includes/emails/class.yith-wcdp-admin-deposit-created-email.php:111
+#: includes/emails/class.yith-wcdp-customer-deposit-created-email.php:122
+#: includes/emails/class.yith-wcdp-customer-deposit-expiring-email.php:167
+msgid "Subject"
+msgstr ""
+
+#: includes/emails/class.yith-wcdp-admin-deposit-created-email.php:113
+#: includes/emails/class.yith-wcdp-customer-deposit-created-email.php:124
+#, php-format
+msgid ""
+"This controls the email subject line. Leave it blank to use the default "
+"subject: <code>%s</code>."
+msgstr ""
+
+#: includes/emails/class.yith-wcdp-admin-deposit-created-email.php:118
+#: includes/emails/class.yith-wcdp-customer-deposit-created-email.php:129
+#: includes/emails/class.yith-wcdp-customer-deposit-expiring-email.php:174
+msgid "Email Heading"
+msgstr ""
+
+#: includes/emails/class.yith-wcdp-admin-deposit-created-email.php:120
+#: includes/emails/class.yith-wcdp-customer-deposit-created-email.php:131
+#, php-format
+msgid ""
+"This controls the main heading in the notification email. Leave it blank to "
+"use the default heading: <code>%s</code>."
+msgstr ""
+
+#: includes/emails/class.yith-wcdp-admin-deposit-created-email.php:125
+#: includes/emails/class.yith-wcdp-customer-deposit-created-email.php:136
+#: includes/emails/class.yith-wcdp-customer-deposit-expiring-email.php:181
+msgid "Email type"
+msgstr ""
+
+#: includes/emails/class.yith-wcdp-admin-deposit-created-email.php:127
+#: includes/emails/class.yith-wcdp-customer-deposit-created-email.php:138
+#: includes/emails/class.yith-wcdp-customer-deposit-expiring-email.php:183
+msgid "Choose a format for the email to send."
+msgstr ""
+
+#: includes/emails/class.yith-wcdp-customer-deposit-created-email.php:39
+msgid "New deposit created"
+msgstr ""
+
+#: includes/emails/class.yith-wcdp-customer-deposit-created-email.php:40
+msgid ""
+"This email is sent to customers when they create an order with one or more "
+"deposit"
+msgstr ""
+
+#: includes/emails/class.yith-wcdp-customer-deposit-created-email.php:42
+#: includes/emails/class.yith-wcdp-customer-deposit-created-email.php:43
+msgid "Balance for one or more orders have to be paid"
+msgstr ""
+
+#: includes/emails/class.yith-wcdp-customer-deposit-created-email.php:45
+msgid ""
+"<p>Hi there. Your order #{order_number} is being currently processed, and "
+"its actual status is {order_status}.</p>\n"
+"<p>The following down payments can already be paid:</p>\n"
+"{deposit_list}"
+msgstr ""
+
+#: includes/emails/class.yith-wcdp-customer-deposit-created-email.php:48
+msgid ""
+"Hi there. Your order #{order_number} is being currently processed, and its "
+"actual status is {order_status}.\n"
+"The following down payments can already be paid:\n"
+"\n"
+"{deposit_list}"
+msgstr ""
+
+#: includes/emails/class.yith-wcdp-customer-deposit-created-email.php:145
+#: includes/emails/class.yith-wcdp-customer-deposit-expiring-email.php:189
+msgid "Email HTML Content"
+msgstr ""
+
+#: includes/emails/class.yith-wcdp-customer-deposit-created-email.php:147
+msgid ""
+"This field lets you modify the main content of the HTML email. You can use "
+"the following placeholders: <code>{order_id}</code> <code>{order_date}</"
+"code> <code>{order_state}</code> <code>{customer_name}</code> "
+"<code>{customer_login}</code> <code>{customer_email}</code> "
+"<code>{suborder_list}</code> <code>{suborder_table}</code>"
+msgstr ""
+
+#: includes/emails/class.yith-wcdp-customer-deposit-created-email.php:150
+msgid ""
+"<p>Hi there. Your order #{order_number} is currently is being currently "
+"processed, and its actual status is {order_status}.</p>\n"
+"<p>The following down payments can already be paid:</p>\n"
+"{deposit_list}"
+msgstr ""
+
+#: includes/emails/class.yith-wcdp-customer-deposit-created-email.php:156
+#: includes/emails/class.yith-wcdp-customer-deposit-expiring-email.php:199
+msgid "Email Text Content"
+msgstr ""
+
+#: includes/emails/class.yith-wcdp-customer-deposit-created-email.php:158
+msgid ""
+"This field lets you modify the main content of the text email. You can use "
+"the following placeholders: <code>{order_id}</code> <code>{order_date}</"
+"code> <code>{order_state}</code> <code>{customer_name}</code> "
+"<code>{customer_login}</code> <code>{customer_email}</code> "
+"<code>{suborder_list}</code> <code>{suborder_table}</code>"
+msgstr ""
+
+#: includes/emails/class.yith-wcdp-customer-deposit-created-email.php:161
+msgid ""
+"Hi there. Your order #{order_number} is currently is being currently "
+"processed, and its actual status is {order_status}.\n"
+"The following down payments can already be paid:\n"
+"\n"
+"{deposit_list}"
+msgstr ""
+
+#: includes/emails/class.yith-wcdp-customer-deposit-expiring-email.php:39
+msgid "Deposit expiring"
+msgstr ""
+
+#: includes/emails/class.yith-wcdp-customer-deposit-expiring-email.php:40
+msgid ""
+"This email is sent to customers as notification of their deposits, before "
+"expiration"
+msgstr ""
+
+#: includes/emails/class.yith-wcdp-customer-deposit-expiring-email.php:42
+#: includes/emails/class.yith-wcdp-customer-deposit-expiring-email.php:43
+msgid "You still have down payments that have to be paid"
+msgstr ""
+
+#: includes/emails/class.yith-wcdp-customer-deposit-expiring-email.php:45
+#: includes/emails/class.yith-wcdp-customer-deposit-expiring-email.php:194
+msgid ""
+"<p>Hurry up! The following down payments are expiring: you have only "
+"<strong>{days_before_expire}</strong> days left</p>\n"
+"{deposit_list}"
+msgstr ""
+
+#: includes/emails/class.yith-wcdp-customer-deposit-expiring-email.php:47
+#: includes/emails/class.yith-wcdp-customer-deposit-expiring-email.php:204
+msgid ""
+"Hurry up! The following down payments are expiring: you have only "
+"{days_before_expire} days left\n"
+"\n"
+"{deposit_list}"
+msgstr ""
+
+#: includes/emails/class.yith-wcdp-customer-deposit-expiring-email.php:169
+#, php-format
+msgid ""
+"This controls the email subject line. Leave blank to use the default "
+"subject: <code>%s</code>."
+msgstr ""
+
+#: includes/emails/class.yith-wcdp-customer-deposit-expiring-email.php:176
+#, php-format
+msgid ""
+"This controls the main heading contained in the notification email. Leave it "
+"blank to use the default heading: <code>%s</code>."
+msgstr ""
+
+#: includes/emails/class.yith-wcdp-customer-deposit-expiring-email.php:191
+msgid ""
+"This field lets you modify the main content of the HTML email. You can use "
+"the following placeholders: <code>{order_id}</code> <code>{order_date}</"
+"code> <code>{order_state}</code> <code>{customer_name}</code> "
+"<code>{customer_login}</code> <code>{customer_email}</code> "
+"<code>{suborder_list}</code> <code>{suborder_table}</code> "
+"<code>{expiration_date}</code> <code>{days_before_expiration}</code>"
+msgstr ""
+
+#: includes/emails/class.yith-wcdp-customer-deposit-expiring-email.php:201
+msgid ""
+"This field lets you modify the main content of the text email. You can use "
+"the following placeholders: <code>{order_id}</code> <code>{order_date}</"
+"code> <code>{order_state}</code> <code>{customer_name}</code> "
+"<code>{customer_login}</code> <code>{customer_email}</code> "
+"<code>{suborder_list}</code> <code>{suborder_table}</code> "
+"<code>{expiration_date}</code> <code>{days_before_expiration}</code>"
+msgstr ""
+
+#: init.php:137
+msgid ""
+"YITH WooCommerce Deposits and Down Payments is enabled but not effective. It "
+"requires WooCommerce in order to work."
+msgstr ""
+
+#: init.php:147
+msgid ""
+"You can't activate the free version of YITH WooCommerce Deposits and Down "
+"Payments while you are using the premium one."
+msgstr ""
+
+#: plugin-options/settings-options.php:54
+msgid "General"
+msgstr ""
+
+#: plugin-options/settings-options.php:61
+msgid "Enable plugin features"
+msgstr ""
+
+#: plugin-options/settings-options.php:63
+msgid ""
+"Uncheck this option if you want to disable all plugin features in one click"
+msgstr ""
+
+#: plugin-options/settings-options.php:69
+#: templates/admin/product-deposit-tab-premium.php:27
+#: templates/admin/product-deposit-tab.php:27
+#: templates/admin/product-deposit-variation.php:27
+msgid "Enable deposit"
+msgstr ""
+
+#: plugin-options/settings-options.php:71
+msgid ""
+"Check this option to enable deposit for all products (this behaviour can be "
+"overridden in product page)"
+msgstr ""
+
+#: plugin-options/settings-options.php:77
+#: templates/admin/product-deposit-bulk-edit-premium.php:51
+#: templates/admin/product-deposit-bulk-edit.php:41
+#: templates/admin/product-deposit-tab-premium.php:43
+#: templates/admin/product-deposit-tab.php:38
+#: templates/admin/product-deposit-variation.php:43
+msgid "Force deposit"
+msgstr ""
+
+#: plugin-options/settings-options.php:79
+msgid ""
+"Check this option to force deposit for all the products (this behaviour can "
+"be overridden in product page)"
+msgstr ""
+
+#: plugin-options/settings-options.php:99
+msgid "Deposit Amount"
+msgstr ""
+
+#: plugin-options/settings-options.php:101
+msgid "Deposit required per product"
+msgstr ""
+
+#: plugin-options/settings-options.php:114
+msgid "Shipping Handling"
+msgstr ""
+
+#: plugin-options/settings-options.php:116
+msgid ""
+"Select how to handle shipping for products that need to be shipped, when "
+"balance order switches to completed"
+msgstr ""
+
+#: plugin-options/settings-options.php:119
+msgid "Use default shipping method"
+msgstr ""
+
+#: plugin-options/settings-options.php:120
+msgid "Show shipping selection form to users on single product page"
+msgstr ""
+
+#: plugin-options/settings-options.php:121
+msgid ""
+"Select a shipping method to apply to all orders with products that require "
+"shipping"
+msgstr ""
+
+#: plugin-options/settings-options.php:128
+msgid "Shipping Method"
+msgstr ""
+
+#: plugin-options/settings-options.php:130
+msgid "Select shipping method for products purchased with deposit"
+msgstr ""
+
+#: templates/admin/deposits-panel.php:27
+msgid "User role deposits"
+msgstr ""
+
+#: templates/admin/deposits-panel.php:29
+msgid "Add new user role deposit"
+msgstr ""
+
+#: templates/admin/deposits-panel.php:35
+msgid "Search for a role&hellip;"
+msgstr ""
+
+#: templates/admin/deposits-panel.php:44 templates/admin/deposits-panel.php:67
+#: templates/admin/deposits-panel.php:90
+msgid "Add Deposit"
+msgstr ""
+
+#: templates/admin/deposits-panel.php:51
+msgid "Product deposits"
+msgstr ""
+
+#: templates/admin/deposits-panel.php:53
+msgid "Add new product deposit"
+msgstr ""
+
+#: templates/admin/deposits-panel.php:58
+msgid "Search for a product&hellip;"
+msgstr ""
+
+#: templates/admin/deposits-panel.php:74
+msgid "Deposits for product categories"
+msgstr ""
+
+#: templates/admin/deposits-panel.php:76
+msgid "Add new product category deposit"
+msgstr ""
+
+#: templates/admin/deposits-panel.php:77
+msgid "Search for a category&hellip;"
+msgstr ""
+
+#: templates/admin/product-deposit-bulk-edit-premium.php:26
+#: templates/admin/product-deposit-bulk-edit.php:26
+msgid "Deposit?"
+msgstr ""
+
+#: templates/admin/product-deposit-bulk-edit-premium.php:29
+#: templates/admin/product-deposit-bulk-edit-premium.php:39
+#: templates/admin/product-deposit-bulk-edit-premium.php:50
+#: templates/admin/product-deposit-bulk-edit-premium.php:61
+#: templates/admin/product-deposit-bulk-edit.php:29
+#: templates/admin/product-deposit-bulk-edit.php:40
+#: templates/admin/product-deposit-tab-premium.php:28
+#: templates/admin/product-deposit-tab-premium.php:36
+#: templates/admin/product-deposit-tab-premium.php:42
+#: templates/admin/product-deposit-tab-premium.php:48
+#: templates/admin/product-deposit-tab.php:28
+#: templates/admin/product-deposit-tab.php:37
+#: templates/admin/product-deposit-variation.php:28
+#: templates/admin/product-deposit-variation.php:36
+#: templates/admin/product-deposit-variation.php:42
+#: templates/admin/product-deposit-variation.php:48
+msgid "Default"
+msgstr ""
+
+#: templates/admin/product-deposit-bulk-edit-premium.php:30
+#: templates/admin/product-deposit-bulk-edit-premium.php:40
+#: templates/admin/product-deposit-bulk-edit.php:30
+#: templates/admin/product-deposit-tab-premium.php:29
+#: templates/admin/product-deposit-tab-premium.php:37
+#: templates/admin/product-deposit-tab.php:30
+#: templates/admin/product-deposit-variation.php:29
+#: templates/admin/product-deposit-variation.php:37
+msgid "Yes"
+msgstr ""
+
+#: templates/admin/product-deposit-bulk-edit-premium.php:31
+#: templates/admin/product-deposit-bulk-edit-premium.php:41
+#: templates/admin/product-deposit-bulk-edit.php:31
+#: templates/admin/product-deposit-tab-premium.php:30
+#: templates/admin/product-deposit-tab-premium.php:38
+#: templates/admin/product-deposit-tab.php:31
+#: templates/admin/product-deposit-variation.php:30
+#: templates/admin/product-deposit-variation.php:38
+msgid "No"
+msgstr ""
+
+#: templates/admin/product-deposit-bulk-edit-premium.php:36
+msgid "Default?"
+msgstr ""
+
+#: templates/admin/product-deposit-bulk-edit-premium.php:47
+#: templates/admin/product-deposit-bulk-edit.php:37
+msgid "Force?"
+msgstr ""
+
+#: templates/admin/product-deposit-bulk-edit-premium.php:52
+#: templates/admin/product-deposit-bulk-edit.php:42
+#: templates/admin/product-deposit-tab-premium.php:44
+#: templates/admin/product-deposit-tab.php:39
+#: templates/admin/product-deposit-variation.php:44
+msgid "Allow deposit"
+msgstr ""
+
+#: templates/admin/product-deposit-bulk-edit-premium.php:58
+msgid "How to pay Balances?"
+msgstr ""
+
+#: templates/admin/product-deposit-bulk-edit-premium.php:62
+#: templates/admin/product-deposit-tab-premium.php:49
+msgid "Let users pay the balance online (pending payment)"
+msgstr ""
+
+#: templates/admin/product-deposit-bulk-edit-premium.php:63
+#: templates/admin/product-deposit-tab-premium.php:50
+msgid "Customers will pay the balance using other means (on hold)"
+msgstr ""
+
+#: templates/admin/product-deposit-bulk-edit-premium.php:69
+msgid "Notes"
+msgstr ""
+
+#: templates/admin/product-deposit-tab-premium.php:28
+#: templates/admin/product-deposit-tab.php:29
+#: templates/admin/product-deposit-variation.php:28
+msgid "Check this option to enable payment of deposit for this product"
+msgstr ""
+
+#: templates/admin/product-deposit-tab-premium.php:35
+#: templates/admin/product-deposit-variation.php:35
+msgid "Deposit checked?"
+msgstr ""
+
+#: templates/admin/product-deposit-tab-premium.php:41
+#: templates/admin/product-deposit-tab.php:36
+#: templates/admin/product-deposit-variation.php:41
+msgid "Accept or force deposit"
+msgstr ""
+
+#: templates/admin/product-deposit-tab-premium.php:53
+#: templates/admin/product-deposit-variation.php:53
+msgid "Additional product notes"
+msgstr ""
+
+#: templates/admin/product-deposit-tab-premium.php:55
+#: templates/admin/product-deposit-variation.php:55
+msgid ""
+"This option overrides general option set in deposit panel; note location can "
+"be selected on plugin panel"
+msgstr ""
+
+#: templates/admin/product-deposit-variation.php:47
+msgid "Create balance orders"
+msgstr ""
+
+#: templates/admin/product-deposit-variation.php:49
+msgid "Let users pay the balance online"
+msgstr ""
+
+#: templates/admin/product-deposit-variation.php:50
+msgid "Customers will pay the balance using other means"
+msgstr ""
+
+#: templates/emails/admin-deposit-created-email.php:27
+#, php-format
+msgid "Order #%s"
+msgstr ""
+
+#: templates/emails/admin-deposit-created-email.php:28
+#, php-format
+msgid ""
+"You have received an order with deposits from %s. Here you find details of "
+"full amount payments:"
+msgstr ""
+
+#: templates/emails/deposit-list.php:40
+msgid "Pay now!"
+msgstr ""
+
+#: templates/emails/deposit-table.php:27
+msgid "Suborder"
+msgstr ""
+
+#: templates/emails/deposit-table.php:29 templates/my-deposits.php:33
+msgid "Status"
+msgstr ""
+
+#: templates/emails/deposit-table.php:30
+msgid "Total"
+msgstr ""
+
+#: templates/emails/deposit-table.php:81
+msgid "Total paid:"
+msgstr ""
+
+#: templates/emails/deposit-table.php:85
+msgid "Total to be paid:"
+msgstr ""
+
+#: templates/emails/plain/admin-deposit-created-email.php:25
+#, php-format
+msgid ""
+"You have received an order with deposits from %s. This is the detail of full "
+"amount payments:"
+msgstr ""
+
+#: templates/emails/plain/admin-deposit-created-email.php:29
+#, php-format
+msgid "Order number: %s"
+msgstr ""
+
+#: templates/emails/plain/admin-deposit-created-email.php:32
+msgid "Deposits:"
+msgstr ""
+
+#: templates/emails/plain/admin-deposit-created-email.php:36
+#, php-format
+msgid "View order: %s"
+msgstr ""
+
+#: templates/emails/plain/deposit-list.php:33
+msgid "Payment url:"
+msgstr ""
+
+#: templates/emails/plain/deposit-table.php:47
+msgid "Order"
+msgstr ""
+
+#: templates/emails/plain/deposit-table.php:57
+msgid "Total paid"
+msgstr ""
+
+#: templates/emails/plain/deposit-table.php:58
+msgid "Total to pay"
+msgstr ""
+
+#: templates/my-deposits.php:26
+#, php-format
+msgid "%s Details"
+msgstr ""
+
+#: templates/my-deposits.php:27
+#, php-format
+msgid ""
+"Some products in this order have been bought with %s. In order to complete "
+"the transaction and to ship the products, all remaining amounts have to be "
+"paid. Here follow details with owned balance for items in this order:"
+msgstr ""
+
+#: templates/my-deposits.php:34
+msgid "Paid"
+msgstr ""
+
+#: templates/my-deposits.php:35
+msgid "To be paid"
+msgstr ""
+
+#: templates/my-deposits.php:51
+msgid "Subtotal: "
+msgstr ""
+
+#: templates/my-deposits.php:53
+msgid "Discount: "
+msgstr ""
+
+#: templates/shipping-calculator.php:33
+msgid "Calculate Shipping"
+msgstr ""
+
+#: templates/shipping-calculator.php:39
+msgid "Select a country&hellip;"
+msgstr ""
+
+#: templates/shipping-calculator.php:57 templates/shipping-calculator.php:63
+msgid "State / county"
+msgstr ""
+
+#: templates/shipping-calculator.php:64
+msgid "Select a state&hellip;"
+msgstr ""
+
+#: templates/shipping-calculator.php:75
+msgid "State / County"
+msgstr ""
+
+#: templates/shipping-calculator.php:84
+msgid "City"
+msgstr ""
+
+#: templates/shipping-calculator.php:92
+msgid "Postcode / ZIP"
+msgstr ""
+
+#: templates/shipping-calculator.php:97
+msgid "Update Shipping Methods"
+msgstr ""
+
+#: templates/single-add-deposit-to-cart.php:37
+#, php-format
+msgid ""
+"This action will let you pay a deposit of <span class=\"deposit-price\">%s</"
+"span> for this product"
+msgstr ""
+
+#: templates/single-add-deposit-to-cart.php:43
+msgid ""
+"Please, select a shipping method for delivery of your product when balance "
+"is paid"
+msgstr ""

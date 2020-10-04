@@ -1,0 +1,3930 @@
+# Translation of Plugins - WordPress Download Manager - Development (trunk) in French (France)
+# This file is distributed under the same license as the Plugins - WordPress Download Manager - Development (trunk) package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Plugins - WordPress Download Manager - Development "
+"(trunk)\n"
+"POT-Creation-Date: 2019-06-10 02:24+0600\n"
+"PO-Revision-Date: 2019-06-10 02:29+0600\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Poedit 2.2.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin/class.WordPressDownloadManagerAdmin.php:193 modules/strings.php:18
+#: tpls/new-package-form.php:72 tpls/wpdm-add-new-file-front.php:58
+#: tpls4/new-package-form.php:72 tpls4/wpdm-add-new-file-front.php:68
+#, fuzzy
+#| msgid "Attach File"
+msgid "Attached Files"
+msgstr "Joindre un fichier"
+
+#: admin/class.WordPressDownloadManagerAdmin.php:194
+#, fuzzy
+#| msgid "Attach File"
+msgid "Attach Dir"
+msgstr "Joindre un fichier"
+
+#: admin/class.WordPressDownloadManagerAdmin.php:195
+#: admin/tpls/metaboxes/package-settings.php:6
+#: tpls/metaboxes/package-settings-front.php:3 tpls/new-package-form.php:81
+#: tpls/wpdm-add-new-file-front.php:67
+#: tpls4/metaboxes/package-settings-front.php:3 tpls4/new-package-form.php:81
+#: tpls4/wpdm-add-new-file-front.php:77
+msgid "Package Settings"
+msgstr "Réglages du paquet"
+
+#: admin/class.WordPressDownloadManagerAdmin.php:196
+msgid "Attach File"
+msgstr "Joindre un fichier"
+
+#: admin/menus/class.Addons.php:23
+msgid "Add-Ons &lsaquo; Download Manager"
+msgstr "Modules ‹ Download Manager"
+
+#: admin/menus/class.Addons.php:23
+msgid "Add-Ons"
+msgstr "Modules"
+
+#: admin/menus/class.BulkImport.php:26
+#, fuzzy
+#| msgid "Templates &lsaquo; Download Manager"
+msgid "Bulk Import &lsaquo; Download Manager"
+msgstr "Modèles &lsaquo; Download Manager"
+
+#: admin/menus/class.BulkImport.php:26 admin/tpls/import.php:5
+msgid "Bulk Import"
+msgstr "Import en masse"
+
+#: admin/menus/class.BulkImport.php:306 admin/tpls/import.php:168
+#: admin/tpls/settings/addon-update.php:61
+#: admin/tpls/settings/addon-update.php:106
+#: admin/tpls/settings/user-interface.php:117
+#: admin/tpls/settings/user-interface.php:146 libs/class.FileList.php:58
+#: libs/class.FileList.php:234 libs/class.FileList.php:252
+#: libs/class.FileList.php:459 libs/class.Package.php:108
+#: libs/class.Package.php:195 libs/class.Package.php:732
+#: libs/class.Package.php:760 libs/class.Package.php:863
+#: libs/class.Package.php:1025 libs/class.Package.php:1060
+#: libs/class.Package.php:1548 libs/class.PackageLocks.php:158
+#: libs/class.PackageLocks.php:182 libs/socialconnect/facebookconnect.php:242
+#: tpls/lock-options-iframe.php:315 tpls/lock-options/password-lock.php:41
+#: tpls/lock-options/recaptcha-lock.php:24 tpls/wpdm-all-downloads-bu.php:87
+#: tpls/wpdm-all-downloads.php:196 tpls4/lock-options-iframe.php:315
+#: tpls4/lock-options/password-lock.php:41
+#: tpls4/lock-options/recaptcha-lock.php:24 tpls4/wpdm-all-downloads-bu.php:87
+#: tpls4/wpdm-all-downloads.php:179 wpdm-functions.php:97
+#: wpdm-functions.php:124 wpdm-functions.php:226 wpdm-functions.php:234
+#: wpdm-functions.php:239 wpdm-functions.php:1033 wpdm-functions.php:1109
+msgid "Download"
+msgstr "Télécharger"
+
+#: admin/menus/class.Categories.php:47 admin/menus/class.Categories.php:139
+msgid "Category Image:"
+msgstr "Image de catégorie :"
+
+#: admin/menus/class.Categories.php:49 admin/menus/class.Categories.php:141
+msgid "Image URL"
+msgstr "URL de l’image"
+
+#: admin/menus/class.Categories.php:49 admin/menus/class.Categories.php:141
+msgid "Select Category Image"
+msgstr "Sélectionner une image de catégorie"
+
+#: admin/menus/class.Categories.php:49 admin/menus/class.Categories.php:141
+msgid "Insert From Media Library"
+msgstr "Insérer depuis la bibliothèque de médias"
+
+#: admin/menus/class.Categories.php:106 admin/menus/class.Categories.php:199
+msgid "Access:"
+msgstr "Accès :"
+
+#: admin/menus/class.Categories.php:107 admin/menus/class.Categories.php:202
+msgid ""
+"Select the roles who should have access to the packages under this category"
+msgstr ""
+"Sélectionnez les rôles qui devraient avoir accès aux paquets de cette "
+"catégorie"
+
+#: admin/menus/class.Categories.php:110 admin/menus/class.Categories.php:215
+#: admin/tpls/metaboxes/package-settings.php:71
+#: tpls/metaboxes/package-settings-front.php:61
+#: tpls4/metaboxes/package-settings-front.php:61
+msgid "All Visitors"
+msgstr "Tou·te·s les internautes"
+
+#: admin/menus/class.Packages.php:242 admin/menus/class.Stats.php:23
+msgid "Stats"
+msgstr "Statistiques"
+
+#: admin/menus/class.Packages.php:244
+#, fuzzy
+#| msgid "Direct Download"
+msgid "Generate Download URL"
+msgstr "Télécharger"
+
+#: admin/menus/class.Packages.php:246 admin/menus/class.Packages.php:311
+#, fuzzy
+#| msgid "Download Link"
+msgid "Email Download Link"
+msgstr "Lien de téléchargement"
+
+#: admin/menus/class.Packages.php:260
+#, fuzzy
+#| msgid "No downloads available"
+msgid "Download Availability Period"
+msgstr "Aucun téléchargement disponible"
+
+#: admin/menus/class.Packages.php:265
+#, fuzzy
+#| msgid "Download will be available from "
+msgid "Download Available From:"
+msgstr "Ce téléchargement sera disponible à partir du "
+
+#: admin/menus/class.Packages.php:269
+#, fuzzy
+#| msgid "Download was expired on"
+msgid "Download Expire on:"
+msgstr "Le téléchargement a expiré le"
+
+#: admin/menus/class.Packages.php:319
+#, fuzzy
+#| msgid "Emails"
+msgid "Emails:"
+msgstr "E-mails"
+
+#: admin/menus/class.Packages.php:323
+msgid "Multiple emails separated by comma(,)"
+msgstr "Plusieurs e-mails séparés par une virgule (,)"
+
+#: admin/menus/class.Packages.php:344
+#, fuzzy
+#| msgid "Email Subject"
+msgid "Subject:"
+msgstr "Sujet de l’e-mail"
+
+#: admin/menus/class.Packages.php:350
+#, fuzzy
+#| msgid "Message"
+msgid "Message:"
+msgstr "Message"
+
+#: admin/menus/class.Packages.php:360
+msgid "Close"
+msgstr "Fermer"
+
+#: admin/menus/class.Packages.php:363
+msgid "Send Now"
+msgstr "Envoyer maintenant"
+
+#: admin/menus/class.Packages.php:374
+#, fuzzy
+#| msgid "Download Link"
+msgid "Genrate Download Link"
+msgstr "Lien de téléchargement"
+
+#: admin/menus/class.Packages.php:380
+#, fuzzy
+#| msgid "Download Link"
+msgid "Master Download Link:"
+msgstr "Lien de téléchargement"
+
+#: admin/menus/class.Settings.php:19
+msgid "Settings &lsaquo; Download Manager"
+msgstr "Réglages &lsaquo; Download Manager"
+
+#: admin/menus/class.Settings.php:19 tpls/author-dashboard.php:36
+#: tpls4/author-dashboard.php:28
+msgid "Settings"
+msgstr "Réglages"
+
+#: admin/menus/class.Settings.php:32 admin/tpls/settings.php:31
+msgid "Something is wrong!"
+msgstr "Quelque chose a mal tourné !"
+
+#: admin/menus/class.Settings.php:118
+msgid "Unauthorized Access!"
+msgstr "Accès non autorisé !"
+
+#: admin/menus/class.Settings.php:120 admin/menus/class.Settings.php:151
+#: admin/menus/class.Settings.php:171 admin/menus/class.Settings.php:227
+#: admin/menus/class.Settings.php:242 admin/menus/class.Settings.php:257
+#: admin/menus/class.Settings.php:283
+msgid "Security token is expired! Refresh the page and try again."
+msgstr "Le jeton de sécurité a expiré ! Rafraîchissez la page et réessayez."
+
+#: admin/menus/class.Settings.php:161
+#, fuzzy
+#| msgid "Privacy Settings Saved Successfully"
+msgid "Settings Saved Successfully"
+msgstr "Les réglages de confidentialité ont bien été sauvegardés"
+
+#: admin/menus/class.Settings.php:362
+msgid "Privacy Settings Saved Successfully"
+msgstr "Les réglages de confidentialité ont bien été sauvegardés"
+
+#: admin/menus/class.Stats.php:23
+#, fuzzy
+#| msgid "Settings &lsaquo; Download Manager"
+msgid "Stats &lsaquo; Download Manager"
+msgstr "Réglages &lsaquo; Download Manager"
+
+#: admin/menus/class.Subscribers.php:28
+#, fuzzy
+#| msgid "Settings &lsaquo; Download Manager"
+msgid "Subscribers &lsaquo; Download Manager"
+msgstr "Réglages &lsaquo; Download Manager"
+
+#: admin/menus/class.Subscribers.php:28 admin/tpls/emails-template.php:14
+#: admin/tpls/subscribers.php:19
+msgid "Subscribers"
+msgstr "Abonné·e·s"
+
+#: admin/menus/class.Templates.php:43
+msgid "Templates &lsaquo; Download Manager"
+msgstr "Modèles &lsaquo; Download Manager"
+
+#: admin/menus/class.Templates.php:43 admin/tpls/email-template-editor.php:8
+#: admin/tpls/template-editor.php:4 admin/tpls/templates.php:7
+msgid "Templates"
+msgstr "Modèles"
+
+#: admin/menus/class.Templates.php:158
+msgid ""
+"No package found! Please create at least 1 package to see template preview"
+msgstr ""
+"Aucun paquet trouvé ! Veuillez créer au moins un paquet pour voir l’aperçu "
+"du modèle"
+
+#: admin/tpls/addons-list.php:226
+msgid "WPDM Add-Ons"
+msgstr "Modules WPDM"
+
+#: admin/tpls/addons-list.php:307
+msgid "Failed to connect with server!"
+msgstr "Échec de connexion au serveur !"
+
+#: admin/tpls/dashboard-widget.php:74
+msgid "Summary"
+msgstr "Sommaire"
+
+#: admin/tpls/dashboard-widget.php:75
+msgid "Social"
+msgstr "Social"
+
+#: admin/tpls/dashboard-widget.php:76
+#, fuzzy
+#| msgid "Last Updated"
+msgid "News Updates"
+msgstr "Dernière mise à jour"
+
+#: admin/tpls/dashboard-widget.php:83
+#: admin/tpls/dashboard-widgets/overview.php:15
+#, fuzzy
+#| msgid "No Packages Found"
+msgid "Total Packages"
+msgstr "Aucun paquet trouvé"
+
+#: admin/tpls/dashboard-widget.php:87
+#: admin/tpls/dashboard-widgets/overview.php:20
+#: tpls/user-dashboard/profile.php:35 tpls4/user-dashboard/profile.php:34
+#: widgets/class.PackageInfo.php:20
+msgid "Total Downloads"
+msgstr "Nombre total de téléchargements"
+
+#: admin/tpls/dashboard-widget.php:91
+#: admin/tpls/dashboard-widgets/overview.php:24
+#, fuzzy
+#| msgid "All Categories"
+msgid "Total Categories"
+msgstr "Toutes les catégories"
+
+#: admin/tpls/dashboard-widget.php:95
+#: admin/tpls/dashboard-widgets/overview.php:28
+#, fuzzy
+#| msgid "Subscribers"
+msgid "Total Subscribers"
+msgstr "Abonné·e·s"
+
+#: admin/tpls/dashboard-widget.php:99
+#: admin/tpls/dashboard-widgets/overview.php:34
+#, fuzzy
+#| msgid "Subscribers"
+msgid "Subscribed Today"
+msgstr "Abonné·e·s"
+
+#: admin/tpls/dashboard-widget.php:109
+#, fuzzy
+#| msgid "Total Views"
+msgid "Total FB Likes"
+msgstr "Nombre total de vues"
+
+#: admin/tpls/dashboard-widget.php:113
+#, fuzzy
+#| msgid "Total Views"
+msgid "Total Tweets"
+msgstr "Nombre total de vues"
+
+#: admin/tpls/dashboard-widget.php:117
+msgid "Total Google +1"
+msgstr "Total Google +1"
+
+#: admin/tpls/dashboard-widget.php:121
+msgid "Total LinkedIn Shares"
+msgstr "Total de partage LinkedIn"
+
+#: admin/tpls/dashboard-widgets/social.php:14
+#, fuzzy
+#| msgid "Facebook Page URL"
+msgid "Facebook Likes"
+msgstr "URL de la page Facebook"
+
+#: admin/tpls/dashboard-widgets/social.php:18
+msgid "Tweets"
+msgstr ""
+
+#: admin/tpls/dashboard-widgets/social.php:22
+#, fuzzy
+#| msgid "Google Font"
+msgid "Google +1"
+msgstr "Google Font"
+
+#: admin/tpls/dashboard-widgets/social.php:26
+msgid "LinkedIn Shares"
+msgstr "Actions de LinkedIn"
+
+#: admin/tpls/edit-store-profile.php:87 tpls/wpdm-edit-user-profile.php:10
+#: tpls4/wpdm-edit-user-profile.php:10
+#, fuzzy
+#| msgid "Basic Profile"
+msgid "Public Profile Info"
+msgstr "Profil de base"
+
+#: admin/tpls/edit-store-profile.php:92
+#: admin/tpls/metaboxes/attached-files-datatable.php:48
+#: admin/tpls/metaboxes/lock-options.php:133
+#: admin/tpls/settings/social-connects.php:12 admin/tpls/template-editor.php:89
+#: libs/class.ShortCodes.php:360 tpls/list-packages-panel.php:65
+#: tpls/list-packages-panel.php:66 tpls/metaboxes/attached-files-front.php:19
+#: tpls/wpdm-all-downloads-bu.php:84 tpls/wpdm-edit-user-profile.php:15
+#: tpls4/list-packages-panel.php:65 tpls4/list-packages-panel.php:66
+#: tpls4/metaboxes/attached-files-front.php:19
+#: tpls4/wpdm-add-new-file-front.php:52 tpls4/wpdm-all-downloads-bu.php:84
+#: tpls4/wpdm-edit-user-profile.php:15 wpdm-functions.php:935
+msgid "Title"
+msgstr "Titre"
+
+#: admin/tpls/edit-store-profile.php:96 tpls/wpdm-edit-user-profile.php:19
+#: tpls4/wpdm-edit-user-profile.php:19
+msgid "Short Intro"
+msgstr "Courte introduction"
+
+#: admin/tpls/edit-store-profile.php:100 admin/tpls/templates.php:136
+#: admin/tpls/templates.php:137 tpls/wpdm-edit-user-profile.php:23
+#: tpls4/wpdm-edit-user-profile.php:23
+msgid "Logo URL"
+msgstr "URL du logo"
+
+#: admin/tpls/edit-store-profile.php:109 tpls/wpdm-edit-user-profile.php:32
+#: tpls4/wpdm-edit-user-profile.php:32
+#, fuzzy
+#| msgid "Image URL"
+msgid "Banner URL"
+msgstr "URL de l’image"
+
+#: admin/tpls/edit-store-profile.php:118 tpls/wpdm-edit-user-profile.php:41
+#: tpls4/wpdm-edit-user-profile.php:41
+msgid "Profile Header Text Color"
+msgstr "Couleur du texte du haut de page"
+
+#: admin/tpls/edit-store-profile.php:124 admin/tpls/edit-store-profile.php:125
+#: admin/tpls/settings/social-connects.php:16 modules/strings.php:16
+#: tpls/new-package-form.php:63 tpls/wpdm-add-new-file-front.php:52
+#: tpls/wpdm-edit-user-profile.php:47 tpls/wpdm-edit-user-profile.php:48
+#: tpls4/new-package-form.php:63 tpls4/wpdm-add-new-file-front.php:60
+#: tpls4/wpdm-edit-user-profile.php:47 tpls4/wpdm-edit-user-profile.php:48
+#, fuzzy
+#| msgid "Description:"
+msgid "Description"
+msgstr "Description :"
+
+#: admin/tpls/edit-store-profile.php:133 tpls/wpdm-edit-user-profile.php:56
+#: tpls4/wpdm-edit-user-profile.php:55
+#, fuzzy
+#| msgid "Save Settings"
+msgid "Payment Settings"
+msgstr "Enregistrer les réglages"
+
+#: admin/tpls/edit-store-profile.php:136 tpls/wpdm-edit-user-profile.php:59
+#: tpls4/wpdm-edit-user-profile.php:58
+#, fuzzy
+#| msgid "PayPal Email:"
+msgid "PayPal Email"
+msgstr "E-mail PayPal :"
+
+#: admin/tpls/email-template-editor.php:10 admin/tpls/template-editor.php:6
+#: admin/tpls/templates.php:9
+#, fuzzy
+#| msgid "Page Templates"
+msgid "Create Page Template"
+msgstr "Modèles de page"
+
+#: admin/tpls/email-template-editor.php:10 admin/tpls/template-editor.php:6
+#: admin/tpls/templates.php:9
+#, fuzzy
+#| msgid "Link Templates"
+msgid "Create Link Template"
+msgstr "Modèles de lien"
+
+#: admin/tpls/email-template-editor.php:15 admin/tpls/template-editor.php:11
+#: admin/tpls/templates.php:14
+msgid "Link Templates"
+msgstr "Modèles de lien"
+
+#: admin/tpls/email-template-editor.php:16 admin/tpls/template-editor.php:12
+#: admin/tpls/templates.php:15
+msgid "Page Templates"
+msgstr "Modèles de page"
+
+#: admin/tpls/email-template-editor.php:17 admin/tpls/template-editor.php:13
+#: admin/tpls/templates.php:16
+msgid "Email Templates"
+msgstr "Modèles d’e-mail"
+
+#: admin/tpls/email-template-editor.php:18
+msgid "Email Template Editor"
+msgstr "Éditeur de modèle d’e-mail"
+
+#: admin/tpls/email-template-editor.php:30
+#, php-format
+msgid "To: %s"
+msgstr "À : %s"
+
+#: admin/tpls/email-template-editor.php:32
+#, php-format
+msgid "Editing: %s"
+msgstr "Modification : %s"
+
+#: admin/tpls/email-template-editor.php:43
+msgid "Email Subject"
+msgstr "Sujet de l’e-mail"
+
+#: admin/tpls/email-template-editor.php:45
+msgid "Message"
+msgstr "Message"
+
+#: admin/tpls/email-template-editor.php:46 admin/tpls/template-editor.php:93
+msgid "Preview"
+msgstr "Aperçu"
+
+#: admin/tpls/email-template-editor.php:64
+#: admin/tpls/email-template-editor.php:65
+msgid "Recipient's Email"
+msgstr "E-mail du destinataire"
+
+#: admin/tpls/email-template-editor.php:76
+msgid "From Name"
+msgstr "Nom de l’expéditeur"
+
+#: admin/tpls/email-template-editor.php:83
+msgid "From Email"
+msgstr "E-mail de l’expéditeur"
+
+#: admin/tpls/email-template-editor.php:94 admin/tpls/templates.php:200
+#: admin/tpls/templates.php:360 tpls/user-dashboard/edit-profile.php:51
+#: tpls/wpdm-edit-user-profile.php:65 tpls4/user-dashboard/edit-profile.php:48
+#: tpls4/wpdm-edit-user-profile.php:64
+msgid "Save Changes"
+msgstr "Enregistrer les modifications"
+
+#: admin/tpls/email-template-editor.php:119 admin/tpls/template-editor.php:193
+msgid "Template Variables"
+msgstr "Variables de modèle"
+
+#: admin/tpls/email-template-editor.php:205
+#, fuzzy
+#| msgid "Email Template Editor"
+msgid "Eamil template not found."
+msgstr "Éditeur de modèle d’e-mail"
+
+#: admin/tpls/emails-template.php:15 admin/tpls/subscribers.php:20
+msgid "Export All"
+msgstr "Exporter tout"
+
+#: admin/tpls/emails-template.php:16 admin/tpls/subscribers.php:21
+msgid "Export Unique Emails"
+msgstr "Exporter les e-mails uniques"
+
+#: admin/tpls/emails-template.php:21
+msgid "Emails"
+msgstr "E-mails"
+
+#: admin/tpls/emails-template.php:22 admin/tpls/templates.php:119
+msgid "Email Template"
+msgstr "Modèle d’e-mail"
+
+#: admin/tpls/import.php:19
+msgid "Import form CSV File"
+msgstr "Importer le formulaire fichier CSV"
+
+#: admin/tpls/import.php:26
+#, fuzzy
+#| msgid "Select File"
+msgid "Select CSV File"
+msgstr "Sélectionner le fichier"
+
+#: admin/tpls/import.php:46 admin/tpls/metaboxes/attach-file-datatable.php:34
+#: admin/tpls/metaboxes/attach-file.php:46
+#: tpls/metaboxes/attach-file-front.php:37 tpls/metaboxes/attach-file.php:44
+#: tpls4/metaboxes/attach-file-front.php:37 tpls4/metaboxes/attach-file.php:44
+#: wpdm-functions.php:1305
+msgid "Allowed Files"
+msgstr "Fichiers autorisés"
+
+#: admin/tpls/import.php:74
+msgid "Import Completed"
+msgstr "Téléchargement effectué!"
+
+#: admin/tpls/import.php:135
+msgid "Importing: "
+msgstr "Importation :"
+
+#: admin/tpls/import.php:135
+#, fuzzy
+#| msgid "No Packages Found"
+msgid "Packages Found: "
+msgstr "Aucun paquet trouvé"
+
+#: admin/tpls/import.php:150
+#, fuzzy
+#| msgid "Warning:"
+msgid "Preparing: "
+msgstr "Avertissement :"
+
+#: admin/tpls/import.php:150
+#, fuzzy
+#| msgid "No Packages Found"
+msgid "Packages Found"
+msgstr "Aucun paquet trouvé"
+
+#: admin/tpls/import.php:169
+#, fuzzy
+#| msgid "Export History"
+msgid "Export file is ready"
+msgstr "Exporter l’historique"
+
+#: admin/tpls/import.php:192
+#, fuzzy
+#| msgid "No Packages Found"
+msgid "Export Packages"
+msgstr "Aucun paquet trouvé"
+
+#: admin/tpls/import.php:197
+#, fuzzy
+#| msgid "Create Date"
+msgid "Create Export File"
+msgstr "Date de création"
+
+#: admin/tpls/import.php:208
+#, fuzzy
+#| msgid "Select File"
+msgid "Select Dir"
+msgstr "Sélectionner le fichier"
+
+#: admin/tpls/import.php:327 admin/tpls/stats/pvupd.php:80
+#: admin/tpls/subscribers/email.php:78 admin/tpls/subscribers/google.php:71
+#: admin/tpls/subscribers/linkedin.php:67 tpls/list-packages-panel.php:117
+#: tpls/list-packages-table.php:117 tpls/media-tab.php:79
+#: tpls4/bu-list-packages-table.php:118 tpls4/list-packages-panel.php:117
+#: tpls4/list-packages-table.php:131 tpls4/media-tab.php:79
+msgid "&laquo;"
+msgstr ""
+
+#: admin/tpls/import.php:328 admin/tpls/stats/pvupd.php:81
+#: admin/tpls/subscribers/email.php:79 admin/tpls/subscribers/google.php:72
+#: admin/tpls/subscribers/linkedin.php:68 tpls/list-packages-panel.php:118
+#: tpls/list-packages-table.php:118 tpls/media-tab.php:80
+#: tpls4/bu-list-packages-table.php:119 tpls4/list-packages-panel.php:118
+#: tpls4/list-packages-table.php:132 tpls4/media-tab.php:80
+msgid "&raquo;"
+msgstr ""
+
+#: admin/tpls/import.php:341 admin/tpls/subscribers/email.php:97
+#: admin/tpls/subscribers/google.php:90 admin/tpls/subscribers/linkedin.php:86
+#: tpls/list-packages-panel.php:128 tpls/list-packages-table.php:130
+#: tpls4/bu-list-packages-table.php:131 tpls4/list-packages-panel.php:128
+#: tpls4/list-packages-table.php:144
+#, php-format
+msgid "Displaying %s&#8211;%s of %s"
+msgstr "Affichage %s&#8211;%s de %s"
+
+#: admin/tpls/metaboxes/attach-file-datatable.php:3
+#: admin/tpls/metaboxes/attach-file.php:13
+#: tpls/metaboxes/attach-file-front.php:3 tpls/metaboxes/attach-file.php:13
+#: tpls4/metaboxes/attach-file-front.php:3 tpls4/metaboxes/attach-file.php:13
+msgid "Upload"
+msgstr "Mettre en ligne"
+
+#: admin/tpls/metaboxes/attach-file-datatable.php:5
+#: admin/tpls/metaboxes/attach-file.php:15 libs/class.FileList.php:371
+#: tpls/metaboxes/attach-file.php:14 tpls4/metaboxes/attach-file.php:14
+#: wpdm-functions.php:1111
+msgid "Browse"
+msgstr "Parcourir"
+
+#: admin/tpls/metaboxes/attach-file-datatable.php:7
+#: admin/tpls/metaboxes/attach-file.php:17
+#: tpls/metaboxes/attach-file-front.php:5 tpls/metaboxes/attach-file.php:15
+#: tpls4/metaboxes/attach-file-front.php:5 tpls4/metaboxes/attach-file.php:15
+msgid "URL"
+msgstr "URL"
+
+#: admin/tpls/metaboxes/attach-file-datatable.php:14
+#: admin/tpls/metaboxes/attach-file.php:24
+#: tpls/metaboxes/attach-file-front.php:12 tpls/metaboxes/attach-file.php:22
+#: tpls4/metaboxes/attach-file-front.php:12 tpls4/metaboxes/attach-file.php:22
+#, fuzzy
+#| msgid "Drop file here"
+msgid "Drop files here"
+msgstr "Déposez le fichier ici"
+
+#: admin/tpls/metaboxes/attach-file.php:177
+#: admin/tpls/metaboxes/attached-files.php:52
+#: tpls/metaboxes/attach-file.php:175 tpls/metaboxes/attached-files.php:56
+#: tpls4/metaboxes/attach-file.php:175 tpls4/metaboxes/attached-files.php:56
+#, fuzzy
+#| msgid "File Size"
+msgid "File Title"
+msgstr "Taille du fichier"
+
+#: admin/tpls/metaboxes/attach-file.php:189
+#: admin/tpls/metaboxes/attached-files.php:67
+#: tpls/metaboxes/attach-file.php:177 tpls/metaboxes/attached-files.php:60
+#: tpls4/metaboxes/attach-file.php:177 tpls4/metaboxes/attached-files.php:60
+#, fuzzy
+#| msgid "New Password"
+msgid "File Password"
+msgstr "Nouveau mot de passe"
+
+#: admin/tpls/metaboxes/attach-file.php:226
+#: admin/tpls/metaboxes/attached-files.php:105
+#: tpls/metaboxes/attach-file.php:209 tpls/metaboxes/attached-files.php:93
+#: tpls4/metaboxes/attach-file.php:209 tpls4/metaboxes/attached-files.php:93
+#, fuzzy
+#| msgid "Price"
+msgid "Price:"
+msgstr "Prix"
+
+#: admin/tpls/metaboxes/attached-files-datatable.php:47
+#: tpls/metaboxes/attached-files-front.php:18
+#: tpls4/metaboxes/attached-files-front.php:18
+#, fuzzy
+#| msgid "File"
+msgid "Filename"
+msgstr "Fichier"
+
+#: admin/tpls/metaboxes/attached-files-datatable.php:49
+#: libs/class.FileList.php:124 libs/class.FileList.php:169
+#: libs/class.FileList.php:251 tpls/wpdm-be-member.php:75
+#: tpls/wpdm-login-form.php:78 tpls/wpdm-reg-form.php:78
+#: tpls4/wpdm-be-member.php:76 tpls4/wpdm-login-form.php:78
+#: tpls4/wpdm-reg-form.php:80 wpdm-functions.php:1032
+msgid "Password"
+msgstr "Mot de passe"
+
+#: admin/tpls/metaboxes/icons.php:112 tpls/metaboxes/icons.php:112
+#: tpls4/metaboxes/icons.php:112
+msgid "Icon URL"
+msgstr "URL de l’icône"
+
+#: admin/tpls/metaboxes/lock-options.php:2 tpls/metaboxes/lock-options.php:2
+#: tpls4/metaboxes/lock-options.php:2
+msgid ""
+"You can use one or more of following methods to lock your package download:"
+msgstr ""
+"Vous pouvez utiliser une ou plusieurs des méthodes suivantes pour protéger "
+"le téléchargement de votre paquet :"
+
+#: admin/tpls/metaboxes/lock-options.php:9 tpls/metaboxes/lock-options.php:8
+#: tpls4/metaboxes/lock-options.php:8
+msgid "Must Agree with Terms"
+msgstr "Doit accepter les conditions d’utilisation"
+
+#: admin/tpls/metaboxes/lock-options.php:12 tpls/metaboxes/lock-options.php:11
+#: tpls4/metaboxes/lock-options.php:11
+msgid "Terms Title:"
+msgstr "Titre des conditions :"
+
+#: admin/tpls/metaboxes/lock-options.php:14 tpls/metaboxes/lock-options.php:13
+#: tpls4/metaboxes/lock-options.php:13
+msgid "Terms and Conditions:"
+msgstr "Conditions d‘utilisation :"
+
+#: admin/tpls/metaboxes/lock-options.php:16 tpls/metaboxes/lock-options.php:15
+#: tpls4/metaboxes/lock-options.php:15
+msgid "Terms Checkbox Label:"
+msgstr "Libellé de la case à cocher confirmant l’acceptation des conditions :"
+
+#: admin/tpls/metaboxes/lock-options.php:25 tpls/metaboxes/lock-options.php:23
+#: tpls4/metaboxes/lock-options.php:23
+msgid "Enable Password Lock"
+msgstr "Activer la protection par mot de passe"
+
+#: admin/tpls/metaboxes/lock-options.php:29 tpls/metaboxes/lock-options.php:27
+#: tpls4/metaboxes/lock-options.php:27
+msgid "Password:"
+msgstr "Mot de passe :"
+
+#: admin/tpls/metaboxes/lock-options.php:40 tpls/metaboxes/lock-options.php:38
+#: tpls4/metaboxes/lock-options.php:38
+msgid "PW Usage Limit:"
+msgstr "Nombre limite de téléchargement :"
+
+#: admin/tpls/metaboxes/lock-options.php:41 tpls/metaboxes/lock-options.php:39
+#: tpls4/metaboxes/lock-options.php:39
+#, fuzzy
+#| msgid "Password"
+msgid "password"
+msgstr "Mot de passe"
+
+#: admin/tpls/metaboxes/lock-options.php:41 tpls/metaboxes/lock-options.php:39
+#: tpls4/metaboxes/lock-options.php:39
+msgid "Password will expire after it exceed this usage limit"
+msgstr ""
+"Le mot de passe expirera après qu’il ai dépassé cette limite d’utilisation"
+
+#: admin/tpls/metaboxes/lock-options.php:44 tpls/metaboxes/lock-options.php:42
+#: tpls4/metaboxes/lock-options.php:42
+#, fuzzy
+#| msgid "Reset Password"
+msgid "Reset Password Usage Count"
+msgstr "Réinitialiser le mot de passe"
+
+#: admin/tpls/metaboxes/lock-options.php:53 tpls/metaboxes/lock-options.php:49
+#: tpls4/metaboxes/lock-options.php:49
+msgid "LinkedIn Share Lock"
+msgstr "Verrou de partage LinkedIn"
+
+#: admin/tpls/metaboxes/lock-options.php:62 tpls/metaboxes/lock-options.php:58
+#: tpls4/metaboxes/lock-options.php:58
+msgid "URL to share (keep empty for current page url):"
+msgstr "URL à partager (garder vide pour l’url de la page courante) :"
+
+#: admin/tpls/metaboxes/lock-options.php:73 tpls/metaboxes/lock-options.php:67
+#: tpls4/metaboxes/lock-options.php:67
+msgid "Tweet Lock"
+msgstr "Verrou de Tweet"
+
+#: admin/tpls/metaboxes/lock-options.php:77 tpls/metaboxes/lock-options.php:71
+#: tpls4/metaboxes/lock-options.php:71
+msgid "Custom tweet message:"
+msgstr "Message de Tweet personnalisé:"
+
+#: admin/tpls/metaboxes/lock-options.php:86
+#, fuzzy
+#| msgid "Enable Captcha Lock"
+msgid "Enable Google Connect Lock"
+msgstr "Activer la protection par CAPTCHA"
+
+#: admin/tpls/metaboxes/lock-options.php:92
+msgid "Request Access To User's Contact List"
+msgstr "Demander l’accès à la liste de contacts de l’utilisateur"
+
+#: admin/tpls/metaboxes/lock-options.php:101 tpls/metaboxes/lock-options.php:89
+#: tpls4/metaboxes/lock-options.php:89
+#, fuzzy
+#| msgid "Enable Password Lock"
+msgid "Enable Twitter Follow Lock"
+msgstr "Activer la protection par mot de passe"
+
+#: admin/tpls/metaboxes/lock-options.php:105 tpls/metaboxes/lock-options.php:93
+#: tpls4/metaboxes/lock-options.php:93
+msgid "Twiiter Handle:"
+msgstr "Poignée de Twitter :"
+
+#: admin/tpls/metaboxes/lock-options.php:115
+#: tpls/metaboxes/lock-options.php:100 tpls4/metaboxes/lock-options.php:100
+#, fuzzy
+#| msgid "Enable Captcha Lock"
+msgid "Enable Facebook Like Lock"
+msgstr "Activer la protection par CAPTCHA"
+
+#: admin/tpls/metaboxes/lock-options.php:120
+#: tpls/metaboxes/lock-options.php:105 tpls4/metaboxes/lock-options.php:105
+msgid "URL to Like:"
+msgstr "URL à liker :"
+
+#: admin/tpls/metaboxes/lock-options.php:130
+#: tpls/metaboxes/lock-options.php:112 tpls4/metaboxes/lock-options.php:112
+#, fuzzy
+#| msgid "Enable Captcha Lock"
+msgid "Enable Email Lock"
+msgstr "Activer la protection par CAPTCHA"
+
+#: admin/tpls/metaboxes/lock-options.php:140
+#: tpls/metaboxes/lock-options.php:121 tpls4/metaboxes/lock-options.php:121
+msgid "Will ask for email (and checked custom data) before download"
+msgstr ""
+"Vous demandera votre courriel (en plus des options choisies) avant "
+"d’autoriser le téléchargement"
+
+#: admin/tpls/metaboxes/lock-options.php:144
+msgid "Message after submit:"
+msgstr "Message après soumission:"
+
+#: admin/tpls/metaboxes/lock-options.php:157
+#: tpls/metaboxes/lock-options.php:129
+msgid "Enable Captcha Lock"
+msgstr "Activer la protection par CAPTCHA"
+
+#: admin/tpls/metaboxes/lock-options.php:160
+#: tpls/metaboxes/lock-options.php:132
+msgid "Please configure reCAPTCHA"
+msgstr "Veuillez configurer reCAPTCHA"
+
+#: admin/tpls/metaboxes/lock-options.php:161
+#: tpls/metaboxes/lock-options.php:133
+msgid "Users will be asked for reCAPTCHA verification before download."
+msgstr "Les utilisateurs devront valider le reCAPTCHA avant de télécharger."
+
+#: admin/tpls/metaboxes/package-settings.php:7
+#: tpls/metaboxes/package-settings-front.php:4
+#: tpls4/metaboxes/package-settings-front.php:4
+msgid "Lock Options"
+msgstr "Options de protection"
+
+#: admin/tpls/metaboxes/package-settings.php:8
+#: tpls/metaboxes/package-settings-front.php:5
+#: tpls4/metaboxes/package-settings-front.php:5
+msgid "Icons"
+msgstr "Icônes"
+
+#: admin/tpls/metaboxes/package-settings.php:23
+#: tpls/metaboxes/package-settings-front.php:18
+#: tpls4/metaboxes/package-settings-front.php:18
+msgid "Version:"
+msgstr "Version :"
+
+#: admin/tpls/metaboxes/package-settings.php:28
+#: tpls/metaboxes/package-settings-front.php:22
+#: tpls4/metaboxes/package-settings-front.php:22
+msgid "Link Label:"
+msgstr "Libellé du lien :"
+
+#: admin/tpls/metaboxes/package-settings.php:33
+#: tpls/metaboxes/package-settings-front.php:26
+#: tpls4/metaboxes/package-settings-front.php:26
+msgid "Stock&nbsp;Limit:"
+msgstr "Nombre limite de téléchargement :"
+
+#: admin/tpls/metaboxes/package-settings.php:38
+#: tpls/metaboxes/package-settings-front.php:30
+#: tpls4/metaboxes/package-settings-front.php:30
+#, fuzzy
+#| msgid "Download&nbsp;Count:"
+msgid "Download&nbsp;Limit:"
+msgstr "Nombre de téléchargements :"
+
+#: admin/tpls/metaboxes/package-settings.php:39
+msgid "user"
+msgstr "utilisateur"
+
+#: admin/tpls/metaboxes/package-settings.php:39
+msgid "For non-registered members IP will be taken as ID"
+msgstr "Pour les membres non inscrits IP sera pris comme ID"
+
+#: admin/tpls/metaboxes/package-settings.php:40
+msgid "Reset Limit for All Users"
+msgstr "Réinitialiser la limite pour tous les utilisateurs"
+
+#: admin/tpls/metaboxes/package-settings.php:45
+msgid "View&nbsp;Count:"
+msgstr "Nombre de vues :"
+
+#: admin/tpls/metaboxes/package-settings.php:50
+#: tpls/metaboxes/package-settings-front.php:40
+#: tpls4/metaboxes/package-settings-front.php:40
+msgid "Download&nbsp;Count:"
+msgstr "Nombre de téléchargements :"
+
+#: admin/tpls/metaboxes/package-settings.php:55
+#: tpls/metaboxes/package-settings-front.php:45
+#: tpls4/metaboxes/package-settings-front.php:45
+#, fuzzy
+#| msgid "File&nbsp;Size:"
+msgid "Package&nbsp;Size:"
+msgstr "Taille du fichier :"
+
+#: admin/tpls/metaboxes/package-settings.php:60
+#: tpls/metaboxes/package-settings-front.php:50
+#: tpls4/metaboxes/package-settings-front.php:50
+msgid "Allow Access:"
+msgstr "Autoriser l’accès :"
+
+#: admin/tpls/metaboxes/package-settings.php:62
+msgid "Who should be able to download?"
+msgstr "Qui devrait pouvoir télécharger ?"
+
+#: admin/tpls/metaboxes/package-settings.php:91
+#: tpls/metaboxes/package-settings-front.php:82
+#, fuzzy
+#| msgid "File Download"
+msgid "Single File Download:"
+msgstr "Téléchargement de fichiers"
+
+#: admin/tpls/metaboxes/package-settings.php:96
+#: admin/tpls/metaboxes/package-settings.php:111
+#: tpls/metaboxes/package-settings-front.php:87
+#: tpls/metaboxes/package-settings-front.php:102
+#: tpls4/metaboxes/package-settings-front.php:87
+#: tpls4/metaboxes/package-settings-front.php:102
+msgid "Use Global"
+msgstr "Utiliser global"
+
+#: admin/tpls/metaboxes/package-settings.php:97
+#: admin/tpls/metaboxes/package-settings.php:112
+#: tpls/metaboxes/package-settings-front.php:88
+#: tpls/metaboxes/package-settings-front.php:103
+#: tpls4/metaboxes/package-settings-front.php:88
+#: tpls4/metaboxes/package-settings-front.php:103
+#, fuzzy
+#| msgid "Enabled"
+msgid "Enable"
+msgstr "Activé"
+
+#: admin/tpls/metaboxes/package-settings.php:98
+#: admin/tpls/metaboxes/package-settings.php:113
+#: tpls/metaboxes/package-settings-front.php:89
+#: tpls/metaboxes/package-settings-front.php:104
+#: tpls4/metaboxes/package-settings-front.php:89
+#: tpls4/metaboxes/package-settings-front.php:104
+#, fuzzy
+#| msgid "Disabled"
+msgid "Disable"
+msgstr "Désactivé"
+
+#: admin/tpls/metaboxes/package-settings.php:99
+#: tpls/metaboxes/package-settings-front.php:90
+#: tpls4/metaboxes/package-settings-front.php:90
+msgid "Enable/Disable single file download from multi-file package"
+msgstr ""
+"Activer/désactiver le téléchargement d’un seul fichier à partir d’un package "
+"multi-fichiers"
+
+#: admin/tpls/metaboxes/package-settings.php:106
+#: tpls/metaboxes/package-settings-front.php:97
+#: tpls4/metaboxes/package-settings-front.php:97
+#, fuzzy
+#| msgid "Attach File"
+msgid "Cache Zip File:"
+msgstr "Joindre un fichier"
+
+#: admin/tpls/metaboxes/package-settings.php:114
+#: tpls/metaboxes/package-settings-front.php:105
+#: tpls4/metaboxes/package-settings-front.php:105
+msgid "Do you want to cache the zip file created from attached files"
+msgstr ""
+"Voulez-vous mettre en cache le fichier zip créé à partir de fichiers attachés"
+
+#: admin/tpls/metaboxes/package-settings.php:121
+#: tpls/metaboxes/package-settings-front.php:113
+#: tpls4/metaboxes/package-settings-front.php:113
+#: widgets/class.CatPackages.php:91 widgets/class.ListPackages.php:126
+#: widgets/class.NewDownloads.php:60 widgets/class.TopDownloads.php:59
+msgid "Link Template:"
+msgstr "Modèle de lien :"
+
+#: admin/tpls/metaboxes/package-settings.php:133
+#: tpls/metaboxes/package-settings-front.php:125
+#: tpls4/metaboxes/package-settings-front.php:125
+msgid "Page Template:"
+msgstr "Modèle de page :"
+
+#: admin/tpls/metaboxes/package-settings.php:142
+msgid "Master Key"
+msgstr "Clé passe-partout"
+
+#: admin/tpls/metaboxes/package-settings.php:143
+msgid "Regenerate Master Key for Download"
+msgstr "Générer une nouvelle clé passe-partout pour le téléchargement"
+
+#: admin/tpls/metaboxes/package-settings.php:143
+msgid "This key can be used for direct download"
+msgstr "Cette clé peut être utilisée pour un téléchargement direct"
+
+#: admin/tpls/settings.php:10 admin/tpls/settings.php:36
+#: tpls/author-settings.php:15 tpls4/author-settings.php:15
+msgid "Save Settings"
+msgstr "Enregistrer les réglages"
+
+#: admin/tpls/settings.php:10
+msgid "Download Manager Settings"
+msgstr "Réglages de Download Manager"
+
+#: admin/tpls/settings/addon-update.php:3
+msgid "Check For Updates"
+msgstr "Vérifier les mises à jour"
+
+#: admin/tpls/settings/addon-update.php:3 tpls/already-logged-in.php:20
+#: tpls/author-dashboard.php:37 tpls/wpdm-be-member.php:49
+#: tpls/wpdm-dashboard.php:32 tpls4/author-dashboard.php:29
+#: tpls4/wpdm-be-member.php:50 tpls4/wpdm-dashboard.php:30
+msgid "Logout"
+msgstr "Se déconnecter"
+
+#: admin/tpls/settings/addon-update.php:4
+msgid "Add-on Update"
+msgstr "Mise à jour de l’extension"
+
+#: admin/tpls/settings/addon-update.php:14
+#, php-format
+msgid "Enter your %s login info"
+msgstr "Saisissez les informations de connexion de votre compte %s"
+
+#: admin/tpls/settings/addon-update.php:33
+msgid "Click Save Settings Button To Login"
+msgstr "Cliquez sur le bouton « Enregistrer les réglages » pour vous connecter"
+
+#: admin/tpls/settings/addon-update.php:50
+msgid "Purchased Add-ons"
+msgstr "Modules achetés"
+
+#: admin/tpls/settings/addon-update.php:51
+msgid "Free Add-ons"
+msgstr "Modules gratuits"
+
+#: admin/tpls/settings/addon-update.php:58
+#: admin/tpls/settings/addon-update.php:103
+msgid "Product Name"
+msgstr "Nom du produit"
+
+#: admin/tpls/settings/addon-update.php:59
+#: admin/tpls/settings/addon-update.php:104
+msgid "Active(v)"
+msgstr "Version active"
+
+#: admin/tpls/settings/addon-update.php:60
+#: admin/tpls/settings/addon-update.php:105
+msgid "Latest(v)"
+msgstr "Dernière version"
+
+#: admin/tpls/settings/addon-update.php:85
+#: admin/tpls/settings/addon-update.php:126
+msgid "Install"
+msgstr "Installer"
+
+#: admin/tpls/settings/addon-update.php:87
+#: admin/tpls/settings/addon-update.php:128
+msgid "Update"
+msgstr "Mettre à jour"
+
+#: admin/tpls/settings/addon-update.php:88
+#: admin/tpls/settings/addon-update.php:129
+msgid "Updated"
+msgstr "Mis à jour"
+
+#: admin/tpls/settings/addon-update.php:90
+msgid "Expired"
+msgstr "Expiré"
+
+#: admin/tpls/settings/addon-update.php:144 tpls/wpdm-login-form.php:182
+#: tpls/wpdm-login-form.php:244 tpls/wpdm-reg-form.php:167
+#: tpls4/wpdm-login-form.php:182 tpls4/wpdm-login-form.php:244
+#: tpls4/wpdm-reg-form.php:169
+msgid "Please Wait..."
+msgstr "Veuillez patienter…"
+
+#: admin/tpls/settings/addon-update.php:146
+msgid "Success!"
+msgstr "Réussi !"
+
+#: admin/tpls/settings/basic.php:61
+msgid "URL Structure"
+msgstr "URL de l’image"
+
+#: admin/tpls/settings/basic.php:63
+msgid ""
+"If you like, you may enter custom structures for your wpdm category and "
+"package URLs here. For example, using \"<b>packages</b>\" as your category "
+"base would make your category links like http://example.org/<b>packages</b>/"
+"category-slug/. If you leave these blank the defaults will be used."
+msgstr ""
+
+#: admin/tpls/settings/basic.php:64
+msgid ""
+"Caution: Use unique word for each url base. Also, don't create any page or "
+"post with same slug you used for WPDM URL Bases below."
+msgstr ""
+
+#: admin/tpls/settings/basic.php:67
+#, fuzzy
+#| msgid "New Category Name"
+msgid "WPDM Category URL Base"
+msgstr "Nom de la nouvelle catégorie"
+
+#: admin/tpls/settings/basic.php:71
+#, fuzzy
+#| msgid "Package Name"
+msgid "WPDM Package URL Base"
+msgstr "Nom du paquet"
+
+#: admin/tpls/settings/basic.php:75
+msgid "WPDM Archive Page"
+msgstr "ID d‘affilié WPDM :"
+
+#: admin/tpls/settings/basic.php:77 admin/tpls/settings/basic.php:252
+#: admin/tpls/settings/basic.php:332 admin/tpls/settings/basic.php:339
+msgid "Disabled"
+msgstr "Désactivé"
+
+#: admin/tpls/settings/basic.php:78 admin/tpls/settings/basic.php:251
+#: admin/tpls/settings/basic.php:331 admin/tpls/settings/basic.php:338
+msgid "Enabled"
+msgstr "Activé"
+
+#: admin/tpls/settings/basic.php:83
+msgid "Archive Page Slug"
+msgstr "Modèles de page"
+
+#: admin/tpls/settings/basic.php:95
+#, fuzzy
+#| msgid "Save Settings"
+msgid "Access Settings"
+msgstr "Enregistrer les réglages"
+
+#: admin/tpls/settings/basic.php:99
+#, fuzzy
+#| msgid "Who should be able to download?"
+msgid "When user is not allowed to download:"
+msgstr "Qui devrait pouvoir télécharger ?"
+
+#: admin/tpls/settings/basic.php:101
+#, fuzzy
+#| msgid "Download Link"
+msgid "Only Block Download Link"
+msgstr "Lien de téléchargement"
+
+#: admin/tpls/settings/basic.php:102
+msgid "Hide Everything"
+msgstr ""
+
+#: admin/tpls/settings/basic.php:107
+#, fuzzy
+#| msgid "File Browser Access:"
+msgid "File Browser Root:"
+msgstr "Accès au navigateur de fichiers :"
+
+#: admin/tpls/settings/basic.php:107
+msgid ""
+"Root dir for server file browser.<br/><b>*Don't add tailing slash (/)</b>"
+msgstr ""
+
+#: admin/tpls/settings/basic.php:111
+msgid "Reset Base Dir"
+msgstr "Restaurer la valeur par défaut"
+
+#: admin/tpls/settings/basic.php:117
+msgid "File Browser Access:"
+msgstr "Accès au navigateur de fichiers :"
+
+#: admin/tpls/settings/basic.php:118
+msgid "Who will have access to server file browser"
+msgstr "Qui aura accès au navigateur de fichiers serveur ?"
+
+#: admin/tpls/settings/basic.php:146
+msgid "reCAPTCHA Lock Settings"
+msgstr "Réglages de la protection par reCAPTCHA"
+
+#: admin/tpls/settings/basic.php:148
+msgid "reCAPTCHA Site Key"
+msgstr "Clé du site reCAPTCHA"
+
+#: admin/tpls/settings/basic.php:153
+msgid "reCAPTCHA Secret Key"
+msgstr "Clé secrète reCAPTCHA"
+
+#: admin/tpls/settings/basic.php:163
+#, fuzzy
+#| msgid "Privacy Settings"
+msgid "Verification Settings"
+msgstr "Réglages de confidentialité"
+
+#: admin/tpls/settings/basic.php:167
+msgid "Blocked IPs"
+msgstr "Adresses IP bloquées"
+
+#: admin/tpls/settings/basic.php:169
+msgid "One IP per line"
+msgstr "Une adresse IP par ligne"
+
+#: admin/tpls/settings/basic.php:170
+msgid ""
+"List IP Addresses to blacklist. One IP per line ( Ex: IPv4 - 192.168.23.12 "
+"or 192.168.23.1/24 or 192.168.23.* , IPv6 - 2a01:8760:2:3001::1 or "
+"2620:112:3000::/44 )"
+msgstr ""
+"Liste des adresses IP à bannir. Une adresse par ligne (Ex : IPv4 - "
+"192.168.23.12 ou 192.168.23.1/24 ou 192.168.23.*, IPv6 - 2a01:8760:2:3001::1 "
+"ou 2620:112:3000::/44)"
+
+#: admin/tpls/settings/basic.php:173
+msgid "Write a Message for Blocked IPs"
+msgstr "Écrivez un message pour les adresses IP bloquées"
+
+#: admin/tpls/settings/basic.php:174
+msgid "Message for Blocked IPs"
+msgstr "Message pour les adresses IP bloquées"
+
+#: admin/tpls/settings/basic.php:180
+#, fuzzy
+#| msgid "Emails"
+msgid "Block Emails"
+msgstr "E-mails"
+
+#: admin/tpls/settings/basic.php:182
+#, fuzzy
+#| msgid "Blocked IPs"
+msgid "Blocked Domains:"
+msgstr "Adresses IP bloquées"
+
+#: admin/tpls/settings/basic.php:188
+#, fuzzy
+#| msgid "Blocked IPs"
+msgid "Blocked Emails:"
+msgstr "Adresses IP bloquées"
+
+#: admin/tpls/settings/basic.php:201
+msgid "Upload Settings"
+msgstr "Réglages pour la mise en ligne"
+
+#: admin/tpls/settings/basic.php:205 admin/tpls/settings/frontend.php:83
+#, fuzzy
+#| msgid "Username already exists."
+msgid "When File Already Exists:"
+msgstr "Cet identifiant existe déjà."
+
+#: admin/tpls/settings/basic.php:207 admin/tpls/settings/frontend.php:85
+#, fuzzy
+#| msgid "New File"
+msgid "Rename New File"
+msgstr "Nouveau fichier"
+
+#: admin/tpls/settings/basic.php:208 admin/tpls/settings/frontend.php:86
+msgid "Overwrite"
+msgstr ""
+
+#: admin/tpls/settings/basic.php:215
+msgid "Sanitize Filename"
+msgstr "Nettoyer le nom des fichiers"
+
+#: admin/tpls/settings/basic.php:216
+msgid ""
+"Check the option if you want to sanitize uploaded file names to remove "
+"illegal chars"
+msgstr ""
+"Cochez la case si vous souhaitez nettoyer les noms des fichiers téléchargés "
+"afin de supprimer les caractères non autorisés."
+
+#: admin/tpls/settings/basic.php:224
+msgid "Chunk Upload"
+msgstr "Téléversement par fragments"
+
+#: admin/tpls/settings/basic.php:225
+msgid ""
+"Check the option if you want to enable chunk upload to override http upload "
+"limits"
+msgstr ""
+"Cocher l’option si vous souhaitez activer le téléversement par fragments "
+"afin d’outrepasser les limites de téléversement HTTP"
+
+#: admin/tpls/settings/basic.php:230
+msgid "Chunk Size"
+msgstr "Taille des fragments"
+
+#: admin/tpls/settings/basic.php:245
+msgid "Messages"
+msgstr "Messages"
+
+#: admin/tpls/settings/basic.php:249
+msgid "Plugin Update Notice:"
+msgstr "Mise à jour de l’extension"
+
+#: admin/tpls/settings/basic.php:257
+msgid "Permission Denied Message for Packages:"
+msgstr "Message quand la permission est refusée pour les paquets :"
+
+#: admin/tpls/settings/basic.php:262
+#, fuzzy
+#| msgid "Download Limit Exceeded"
+msgid "Download Limit Message:"
+msgstr "Limite de téléchargement dépassée"
+
+#: admin/tpls/settings/basic.php:263
+#, fuzzy
+#| msgid "Download Limit Exceeded"
+msgid "Download Limit Exceeded!"
+msgstr "Limite de téléchargement dépassée"
+
+#: admin/tpls/settings/basic.php:268
+msgid "Login Required Message:"
+msgstr "Message quand la connexion est requise :"
+
+#: admin/tpls/settings/basic.php:270
+msgid "Show Only Login Form Instead of Login Required Message"
+msgstr ""
+
+#: admin/tpls/settings/basic.php:278
+msgid "File Download"
+msgstr "Téléchargement de fichiers"
+
+#: admin/tpls/settings/basic.php:282
+#, fuzzy
+#| msgid "Resumable Downloads"
+msgid "Enable Parallel Download"
+msgstr "Reprise des téléchargements"
+
+#: admin/tpls/settings/basic.php:283
+#, fuzzy
+#| msgid "Direct Download"
+msgid "Disable Parallel Download"
+msgstr "Télécharger"
+
+#: admin/tpls/settings/basic.php:284
+msgid "Enable/Disable multiple simultaneous downloads from same IP address"
+msgstr ""
+
+#: admin/tpls/settings/basic.php:288
+msgid "Message to show when a download is blocked"
+msgstr ""
+
+#: admin/tpls/settings/basic.php:294
+msgid "Private Download Links Usage Limit"
+msgstr ""
+
+#: admin/tpls/settings/basic.php:296
+msgid ""
+"Private download links ( package with any lock option active ) will expire "
+"after it exceeds the limit"
+msgstr ""
+
+#: admin/tpls/settings/basic.php:300
+msgid "Increase download count on individual file download"
+msgstr ""
+
+#: admin/tpls/settings/basic.php:301
+msgid ""
+"Increase download count for the multi-file package when someone downloads "
+"even a file from list"
+msgstr ""
+
+#: admin/tpls/settings/basic.php:304
+#, fuzzy
+#| msgid "Download Link"
+msgid "Mask Download Link"
+msgstr "Lien de téléchargement"
+
+#: admin/tpls/settings/basic.php:305
+#, fuzzy
+#| msgid "Download Link"
+msgid "Unmask Download Link"
+msgstr "Lien de téléchargement"
+
+#: admin/tpls/settings/basic.php:306
+msgid ""
+"Check this option if you want to mask/unmask file download link. If you "
+"unmask download link, bots will be able the find any public download link "
+"easily."
+msgstr ""
+
+#: admin/tpls/settings/basic.php:309
+#, fuzzy
+#| msgid "File Download"
+msgid "Enable Single File Download"
+msgstr "Téléchargement de fichiers"
+
+#: admin/tpls/settings/basic.php:310
+#, fuzzy
+#| msgid "File Download"
+msgid "Disable Single File Download"
+msgstr "Téléchargement de fichiers"
+
+#: admin/tpls/settings/basic.php:311
+#, fuzzy
+#| msgid ""
+#| "Check the option if you want to sanitize uploaded file names to remove "
+#| "illegal chars"
+msgid ""
+"Check this option if you want to enable/disable single file download from "
+"multi-file package"
+msgstr ""
+"Cochez la case si vous souhaitez nettoyer les noms des fichiers téléchargés "
+"afin de supprimer les caractères non autorisés."
+
+#: admin/tpls/settings/basic.php:314
+msgid "Cache created zip file from multi-file package"
+msgstr ""
+
+#: admin/tpls/settings/basic.php:315
+msgid ""
+"Check this option if you want to cache the zip file created from multi-file "
+"package when someone tries to download"
+msgstr ""
+
+#: admin/tpls/settings/basic.php:319
+msgid "Download Speed:"
+msgstr "Vitesse de téléchargement :"
+
+#: admin/tpls/settings/basic.php:326
+msgid ""
+"If you get broken download, then try enabling/disabling following options, "
+"as sometimes server may not support output buffering or partial downloads"
+msgstr ""
+"Si le téléchargement échoue, alors essayez d’activer/désactiver les options "
+"suivantes, car parfois le serveur ne supporte pas la temporisation de sortie "
+"(output buffering) ou les téléchargements partiels"
+
+#: admin/tpls/settings/basic.php:329
+msgid "Resumable Downloads"
+msgstr "Reprise des téléchargements"
+
+#: admin/tpls/settings/basic.php:336
+msgid "Output Buffering"
+msgstr "Temporisation de sortie (output buffering)"
+
+#: admin/tpls/settings/basic.php:345
+msgid "Open in Browser"
+msgstr "Ouvrir dans le navigateur"
+
+#: admin/tpls/settings/basic.php:346
+msgid ""
+"Try to Open in Browser instead of download when someone clicks on download "
+"link"
+msgstr ""
+"Essayer d‘ouvrir dans le navigateur au lieu de télécharger lorsqu‘un "
+"visiteur clique sur le lien de téléchargement"
+
+#: admin/tpls/settings/basic.php:352
+msgid "Skip Lock for Loggedin User:"
+msgstr ""
+
+#: admin/tpls/settings/basic.php:353
+#, fuzzy
+#| msgid "Select File"
+msgid "Select..."
+msgstr "Sélectionner le fichier"
+
+#: admin/tpls/settings/basic.php:372
+msgid "Misc Settings"
+msgstr "Réglages divers"
+
+#: admin/tpls/settings/frontend.php:4
+#, fuzzy
+#| msgid "Upload Settings"
+msgid "Front-end Settings"
+msgstr "Réglages pour la mise en ligne"
+
+#: admin/tpls/settings/frontend.php:9
+msgid "Login Page"
+msgstr "Page de connexion"
+
+#: admin/tpls/settings/frontend.php:10 admin/tpls/settings/frontend.php:22
+#: admin/tpls/settings/frontend.php:29 admin/tpls/settings/frontend.php:35
+#: admin/tpls/settings/profile-dashboard.php:7
+msgid "None Selected"
+msgstr "Aucune sélection"
+
+#: admin/tpls/settings/frontend.php:11
+#, fuzzy
+#| msgid "Login Page"
+msgid "Clean login page"
+msgstr "Page de connexion"
+
+#: admin/tpls/settings/frontend.php:12 admin/tpls/settings/frontend.php:24
+#: admin/tpls/settings/frontend.php:30 admin/tpls/settings/frontend.php:36
+#: admin/tpls/settings/profile-dashboard.php:8
+#, php-format
+msgid "The page where you used short-code %s"
+msgstr "La page où vous avez utilisé le code court %s"
+
+#: admin/tpls/settings/frontend.php:17
+#, fuzzy
+#| msgid "Enable Password Lock"
+msgid "Enable Modal Login"
+msgstr "Activer la protection par mot de passe"
+
+#: admin/tpls/settings/frontend.php:21
+msgid "Register Page"
+msgstr "Page d’inscription"
+
+#: admin/tpls/settings/frontend.php:23
+msgid "Clean signup page"
+msgstr ""
+
+#: admin/tpls/settings/frontend.php:28
+msgid "Frontend Uploader Page"
+msgstr ""
+
+#: admin/tpls/settings/frontend.php:34
+#, fuzzy
+#| msgid "Basic Profile"
+msgid "Public Profile Page"
+msgstr "Profil de base"
+
+#: admin/tpls/settings/frontend.php:41
+msgid "Allowed User Roles to Create Package From Front-end"
+msgstr ""
+
+#: admin/tpls/settings/frontend.php:69
+#, fuzzy
+#| msgid "Message for Blocked IPs"
+msgid "Message For Blocked Users:"
+msgstr "Message pour les adresses IP bloquées"
+
+#: admin/tpls/settings/frontend.php:75
+msgid "When Someone Create a Package:"
+msgstr ""
+
+#: admin/tpls/settings/frontend.php:77
+#, fuzzy
+#| msgid "Publish Date"
+msgid "Publish Instantly"
+msgstr "Date de publication"
+
+#: admin/tpls/settings/frontend.php:78
+msgid "Pending for Review"
+msgstr ""
+
+#: admin/tpls/settings/frontend.php:91
+msgid "Allowed File Types From Front-end:"
+msgstr ""
+
+#: admin/tpls/settings/frontend.php:96
+msgid "Max Upload Size From Front-end"
+msgstr ""
+
+#: admin/tpls/settings/frontend.php:102
+#, fuzzy
+#| msgid "New Package Notification"
+msgid "Disable New Package Notification Email"
+msgstr "Notification pour un nouveau paquet"
+
+#: admin/tpls/settings/frontend.php:103
+msgid ""
+"Check if you do not want to receive email notification when someone creates "
+"new package from frontend"
+msgstr ""
+
+#: admin/tpls/settings/frontend.php:109
+#, fuzzy
+#| msgid "Search Files"
+msgid "Enable Search in File List"
+msgstr "Rechercher des fichiers"
+
+#: admin/tpls/settings/frontend.php:110
+msgid ""
+"Check this option if you want to enable pagination & search in file list "
+"where there are more than 30 files attached with a package"
+msgstr ""
+
+#: admin/tpls/settings/frontend.php:117
+#, fuzzy
+#| msgid "Lock Options"
+msgid "Load Lock Options Using Ajax"
+msgstr "Options de protection"
+
+#: admin/tpls/settings/frontend.php:118
+#, fuzzy
+#| msgid "Check this option if you do not want to store visitors IPs"
+msgid ""
+"Check this option if you want to load lock options in popover using ajax"
+msgstr ""
+"Cochez cette option si vous ne souhaitez pas stocker les adresses IP des "
+"internautes"
+
+#: admin/tpls/settings/frontend.php:125
+msgid "Include Packages in Main RSS Feed"
+msgstr "Inclure wpdm à votre flux RSS principal"
+
+#: admin/tpls/settings/frontend.php:126
+#, php-format
+msgid ""
+"Check this option if you want to show wpdm packages in your main <a target="
+"\"_blank\" href=\"%s\">RSS Feed</a>"
+msgstr ""
+"Cochez cette option si vous souhaitez afficher les paquets wpdm dans votre "
+"principal  <a target=\"_blank\" href=\"%s\">flux RSS</a>"
+
+#: admin/tpls/settings/frontend.php:142
+#, fuzzy
+#| msgid "Category Image:"
+msgid "Category Page Options"
+msgstr "Image de catégorie :"
+
+#: admin/tpls/settings/frontend.php:152
+msgid "Select Package Info To Show in Category Page:"
+msgstr ""
+
+#: admin/tpls/settings/frontend.php:153
+#, fuzzy
+#| msgid "Version:"
+msgid "Show Version"
+msgstr "Version :"
+
+#: admin/tpls/settings/frontend.php:154
+#, fuzzy
+#| msgid "View Count"
+msgid "Show View Count"
+msgstr "Nombre de vues"
+
+#: admin/tpls/settings/frontend.php:155
+#, fuzzy
+#| msgid "Download Count"
+msgid "Show Download Count"
+msgstr "Nombre de téléchargements"
+
+#: admin/tpls/settings/frontend.php:156
+#, fuzzy
+#| msgid "Search Package"
+msgid "Show Package Size"
+msgstr "Rechercher un paquet"
+
+#: admin/tpls/settings/frontend.php:157
+#, fuzzy
+#| msgid "Download Link"
+msgid "Show Download Link"
+msgstr "Lien de téléchargement"
+
+#: admin/tpls/settings/frontend.php:162
+#, fuzzy
+#| msgid "No Packages Found"
+msgid "Show Package Info:"
+msgstr "Aucun paquet trouvé"
+
+#: admin/tpls/settings/frontend.php:164
+msgid "After Excerpt"
+msgstr "Message après soumission:"
+
+#: admin/tpls/settings/frontend.php:165
+msgid "Before Excerpt"
+msgstr ""
+
+#: admin/tpls/settings/frontend.php:176
+#, fuzzy
+#| msgid "Link Template:"
+msgid "Select Link Template:"
+msgstr "Modèle de lien :"
+
+#: admin/tpls/settings/frontend.php:182
+msgid "Selected link template will replace the excerpt"
+msgstr ""
+
+#: admin/tpls/settings/privacy.php:9
+msgid "Privacy Settings"
+msgstr "Réglages de confidentialité"
+
+#: admin/tpls/settings/privacy.php:13
+msgid "Do not store visitor's IP"
+msgstr "Ne pas stocker l’adresse IP des internautes"
+
+#: admin/tpls/settings/privacy.php:14
+msgid "Check this option if you do not want to store visitors IPs"
+msgstr ""
+"Cochez cette option si vous ne souhaitez pas stocker les adresses IP des "
+"internautes"
+
+#: admin/tpls/settings/privacy.php:19
+msgid "Delete download history when users close accounts"
+msgstr ""
+"Supprimer l’historique de téléchargement quand les utilisateur·rice ferment "
+"leurs comptes"
+
+#: admin/tpls/settings/privacy.php:20
+msgid ""
+"If any user is deleted or close his/her own account, delete their download "
+"history too"
+msgstr ""
+"Si un·e utilisateur·rice est supprimé·e ou si la personne ferme son compte, "
+"supprimer également son historique de téléchargement"
+
+#: admin/tpls/settings/privacy.php:35
+msgid "Cache & Stats"
+msgstr "Cache & Statistiques"
+
+#: admin/tpls/settings/privacy.php:40
+msgid "Empty Cache Dir"
+msgstr "Vider le répertoire de cache"
+
+#: admin/tpls/settings/privacy.php:41
+msgid "Delete All Stats Data"
+msgstr "Supprimer toutes les données statistiques"
+
+#: admin/tpls/settings/profile-dashboard.php:2
+#, fuzzy
+#| msgid "Dashboard"
+msgid "User Dashboard"
+msgstr "Tableau de bord"
+
+#: admin/tpls/settings/profile-dashboard.php:6
+msgid "Dashboard Page"
+msgstr "Page du tableau de bord"
+
+#: admin/tpls/settings/social-connects.php:9
+msgid "Social Lock Panel"
+msgstr "Social Lock Panel"
+
+#: admin/tpls/settings/social-connects.php:22
+#, fuzzy
+#| msgid "Package Settings"
+msgid "Facebook App Settings"
+msgstr "Réglages du paquet"
+
+#: admin/tpls/settings/social-connects.php:25
+#, fuzzy
+#| msgid "Facebook Page URL"
+msgid "Facebook APP ID"
+msgstr "URL de la page Facebook"
+
+#: admin/tpls/settings/social-connects.php:30
+#, fuzzy
+#| msgid "Facebook Page URL"
+msgid "Facebook APP Secret"
+msgstr "URL de la page Facebook"
+
+#: admin/tpls/settings/social-connects.php:40
+msgid "Google Developer Console"
+msgstr ""
+
+#: admin/tpls/settings/social-connects.php:42
+msgid "Google API Credentials"
+msgstr ""
+
+#: admin/tpls/settings/social-connects.php:47
+msgid ""
+"You need to create an app from Google developer console, them from "
+"Credentials tab, create an API key and OAuth client ID and use those info in "
+"the following fields."
+msgstr ""
+
+#: admin/tpls/settings/social-connects.php:78
+msgid "LinkedIn App Settings"
+msgstr ""
+
+#: admin/tpls/settings/social-connects.php:81
+msgid "LinkedIn Client ID"
+msgstr ""
+
+#: admin/tpls/settings/social-connects.php:86
+msgid "LinkedIn Client Secret"
+msgstr ""
+
+#: admin/tpls/settings/social-connects.php:94
+#, fuzzy
+#| msgid "Save Settings"
+msgid "Twitter App Settings"
+msgstr "Enregistrer les réglages"
+
+#: admin/tpls/settings/social-connects.php:97
+#, fuzzy
+#| msgid "Access:"
+msgid "Access Token"
+msgstr "Accès :"
+
+#: admin/tpls/settings/social-connects.php:101
+msgid "Access Token Secret"
+msgstr ""
+
+#: admin/tpls/settings/social-connects.php:105
+msgid "Consumer Key (API Key)"
+msgstr ""
+
+#: admin/tpls/settings/social-connects.php:109
+msgid "Consumer Secret (API Secret)"
+msgstr ""
+
+#: admin/tpls/settings/social-connects.php:116
+#, fuzzy
+#| msgid "Enable Captcha Lock"
+msgid "Enable Social Logins"
+msgstr "Activer la protection par CAPTCHA"
+
+#: admin/tpls/settings/social-connects.php:120 admin/tpls/subscribers.php:26
+#, fuzzy
+#| msgid "Google Font"
+msgid "Google"
+msgstr "Google Font"
+
+#: admin/tpls/settings/social-connects.php:121
+#, fuzzy
+#| msgid "Facebook Page URL"
+msgid "Facebook"
+msgstr "URL de la page Facebook"
+
+#: admin/tpls/settings/social-connects.php:122
+msgid "Twitter"
+msgstr ""
+
+#: admin/tpls/settings/social-connects.php:123 admin/tpls/subscribers.php:27
+msgid "LinkedIn"
+msgstr ""
+
+#: admin/tpls/settings/user-interface.php:14
+msgid "Disable Style & Script"
+msgstr "Désactiver les styles et les scripts"
+
+#: admin/tpls/settings/user-interface.php:22
+#, fuzzy
+#| msgid "Bootstrap JS"
+msgid "Bootstrap 3"
+msgstr "JS Bootstrap"
+
+#: admin/tpls/settings/user-interface.php:22
+#, fuzzy
+#| msgid "Bootstrap JS"
+msgid "Bootstrap 4"
+msgstr "JS Bootstrap"
+
+#: admin/tpls/settings/user-interface.php:26
+#, fuzzy
+#| msgid "Bootstrap JS"
+msgid "Disable Bootstrap JS"
+msgstr "JS Bootstrap"
+
+#: admin/tpls/settings/user-interface.php:27
+#, fuzzy
+#| msgid "Bootstrap CSS"
+msgid "Disable Bootstrap CSS"
+msgstr "CSS Bootstrap"
+
+#: admin/tpls/settings/user-interface.php:28
+#, fuzzy
+#| msgid "Font Awesome"
+msgid "Disable Font Awesome"
+msgstr "Font Awesome"
+
+#: admin/tpls/settings/user-interface.php:29
+#, fuzzy
+#| msgid "Front CSS"
+msgid "Disable Front CSS"
+msgstr "CSS sur l’interface publique"
+
+#: admin/tpls/settings/user-interface.php:30
+msgid "Google Font"
+msgstr "Google Font"
+
+#: admin/tpls/settings/user-interface.php:32
+msgid ""
+"Because, sometimes your theme may have those scripts/styles enqueued already"
+msgstr "Parce que parfois, votre thème a déjà ajouté ces scripts/styles."
+
+#: admin/tpls/settings/user-interface.php:34
+#, fuzzy
+#| msgid "Google Font"
+msgid "Google Font:"
+msgstr "Google Font"
+
+#: admin/tpls/settings/user-interface.php:41
+msgid "Colors"
+msgstr "Couleurs"
+
+#: admin/tpls/settings/user-interface.php:57
+msgid "Primary:"
+msgstr "Primaire :"
+
+#: admin/tpls/settings/user-interface.php:63
+msgid "Secondary:"
+msgstr "Secondaire :"
+
+#: admin/tpls/settings/user-interface.php:69
+msgid "Info:"
+msgstr "Info :"
+
+#: admin/tpls/settings/user-interface.php:75
+msgid "Success:"
+msgstr "Succès :"
+
+#: admin/tpls/settings/user-interface.php:81
+msgid "Warning:"
+msgstr "Avertissement :"
+
+#: admin/tpls/settings/user-interface.php:87
+msgid "Danger:"
+msgstr "Danger :"
+
+#: admin/tpls/settings/user-interface.php:99
+msgid "Download Button"
+msgstr "Bouton de téléchargement"
+
+#: admin/tpls/settings/user-interface.php:103
+msgid "Details Page"
+msgstr "Page des détails"
+
+#: admin/tpls/settings/user-interface.php:127
+#: admin/tpls/settings/user-interface.php:156
+msgid "Border Radius"
+msgstr "Rayon de bordure"
+
+#: admin/tpls/settings/user-interface.php:132
+msgid "Shortcode Page"
+msgstr "Page de code court"
+
+#: admin/tpls/stats.php:6
+msgid "Export History"
+msgstr "Exporter l’historique"
+
+#: admin/tpls/stats.php:7
+#, fuzzy
+#| msgid "Download History"
+msgid "Download Statistics"
+msgstr "Historique des téléchargements"
+
+#: admin/tpls/stats.php:11
+msgid "Monthly Stats"
+msgstr ""
+
+#: admin/tpls/stats.php:12 libs/class.UserDashboard.php:18
+#: tpls/already-logged-in.php:19
+msgid "Download History"
+msgstr "Historique des téléchargements"
+
+#: admin/tpls/stats.php:13
+#, fuzzy
+#| msgid "Package Name"
+msgid "Package vs Date"
+msgstr "Nom du paquet"
+
+#: admin/tpls/stats.php:14
+#, fuzzy
+#| msgid "Package Name"
+msgid "Package vs User"
+msgstr "Nom du paquet"
+
+#: admin/tpls/stats/current-month.php:70
+#, fuzzy
+#| msgid "Search Package"
+msgid "Select Package"
+msgstr "Rechercher un paquet"
+
+#: admin/tpls/stats/history.php:6 admin/tpls/subscribers/email.php:23
+#: admin/tpls/subscribers/email.php:35 admin/tpls/subscribers/google.php:22
+#: admin/tpls/subscribers/google.php:33 admin/tpls/subscribers/linkedin.php:22
+#: admin/tpls/subscribers/linkedin.php:33
+#: tpls/user-dashboard/download-history.php:7
+#: tpls/user-dashboard/profile.php:116 tpls/user-dashboard/profile.php:146
+#: tpls4/user-dashboard/download-history.php:7
+#: tpls4/user-dashboard/profile.php:116 tpls4/user-dashboard/profile.php:146
+msgid "Package Name"
+msgstr "Nom du paquet"
+
+#: admin/tpls/stats/history.php:7 tpls/user-dashboard/download-history.php:8
+#: tpls/user-dashboard/profile.php:147
+#: tpls4/user-dashboard/download-history.php:8
+#: tpls4/user-dashboard/profile.php:147
+msgid "Download Time"
+msgstr "Heure de téléchargement"
+
+#: admin/tpls/stats/history.php:8
+msgid "User/IP"
+msgstr "Utilisateur/IP"
+
+#: admin/tpls/stats/pvupd.php:89
+#, php-format
+msgid "Displaying %s&#8211;%s of %s users"
+msgstr ""
+
+#: admin/tpls/subscribers.php:25
+#, fuzzy
+#| msgid "Email:"
+msgid "Email Lock"
+msgstr "E-mail :"
+
+#: admin/tpls/subscribers/email.php:20 admin/tpls/subscribers/email.php:32
+msgid "ID"
+msgstr ""
+
+#: admin/tpls/subscribers/email.php:21 admin/tpls/subscribers/email.php:33
+#: admin/tpls/subscribers/google.php:20 admin/tpls/subscribers/google.php:31
+#: admin/tpls/subscribers/linkedin.php:20
+#: admin/tpls/subscribers/linkedin.php:31
+#: tpls/lock-options/email-lock-form.php:35
+#: tpls4/lock-options/email-lock-form.php:35
+#, fuzzy
+#| msgid "Email:"
+msgid "Email"
+msgstr "E-mail :"
+
+#: admin/tpls/subscribers/email.php:22 admin/tpls/subscribers/email.php:34
+#: admin/tpls/subscribers/google.php:21 admin/tpls/subscribers/google.php:32
+#: admin/tpls/subscribers/linkedin.php:21
+#: admin/tpls/subscribers/linkedin.php:32
+#, fuzzy
+#| msgid "Last Name"
+msgid "Name"
+msgstr "Nom"
+
+#: admin/tpls/subscribers/email.php:24 admin/tpls/subscribers/email.php:36
+#: admin/tpls/subscribers/google.php:23 admin/tpls/subscribers/google.php:34
+#: admin/tpls/subscribers/linkedin.php:23
+#: admin/tpls/subscribers/linkedin.php:34
+msgid "Date"
+msgstr ""
+
+#: admin/tpls/subscribers/email.php:25 admin/tpls/subscribers/email.php:37
+#: admin/tpls/subscribers/google.php:24 admin/tpls/subscribers/google.php:35
+#: admin/tpls/subscribers/linkedin.php:24
+#: admin/tpls/subscribers/linkedin.php:35 libs/class.FileList.php:80
+msgid "Action"
+msgstr "Action"
+
+#: admin/tpls/subscribers/email.php:89 admin/tpls/subscribers/google.php:82
+#: admin/tpls/subscribers/linkedin.php:78
+#, fuzzy
+#| msgid "None Selected"
+msgid "Delete Selected"
+msgstr "Aucune sélection"
+
+#: admin/tpls/subscribers/email.php:91 admin/tpls/subscribers/google.php:84
+#: admin/tpls/subscribers/linkedin.php:80
+#, fuzzy
+#| msgid "Search"
+msgid "Reset Search"
+msgstr "Rechercher"
+
+#: admin/tpls/template-editor.php:14
+#, fuzzy
+#| msgid "Email Template Editor"
+msgid "Template Editor"
+msgstr "Éditeur de modèle d’e-mail"
+
+#: admin/tpls/template-editor.php:26
+msgid "Page"
+msgstr ""
+
+#: admin/tpls/template-editor.php:26
+msgid "Link"
+msgstr ""
+
+#: admin/tpls/template-editor.php:26
+#, fuzzy
+#| msgid "Templates"
+msgid "Template"
+msgstr "Modèles"
+
+#: admin/tpls/template-editor.php:92
+msgid "Code"
+msgstr ""
+
+#: admin/tpls/template-editor.php:147
+msgid "HTML"
+msgstr ""
+
+#: admin/tpls/template-editor.php:149
+msgid "CSS"
+msgstr ""
+
+#: admin/tpls/template-editor.php:167
+#, fuzzy
+#| msgid "Page Templates"
+msgid "Save Template"
+msgstr "Modèles de page"
+
+#: admin/tpls/template-editor.php:197
+msgid "download link open as popup"
+msgstr ""
+
+#: admin/tpls/template-editor.php:198
+msgid "download link open as page"
+msgstr ""
+
+#: admin/tpls/template-editor.php:200
+#, fuzzy
+#| msgid "Package Settings"
+msgid "Package details page url"
+msgstr "Réglages du paquet"
+
+#: admin/tpls/template-editor.php:201
+msgid "show package title"
+msgstr ""
+
+#: admin/tpls/template-editor.php:202
+#, fuzzy
+#| msgid "Categories"
+msgid "show categories"
+msgstr "Catégories"
+
+#: admin/tpls/template-editor.php:203
+msgid "show tags"
+msgstr ""
+
+#: admin/tpls/template-editor.php:204
+#, fuzzy
+#| msgid "No downloads available"
+msgid "show icon if available"
+msgstr "Aucun téléchargement disponible"
+
+#: admin/tpls/template-editor.php:205
+msgid ""
+"show preview thumbnail with specified width and height if available,l eg: "
+"[thumb_700x400] will show 700px &times; 400px image preview "
+msgstr ""
+
+#: admin/tpls/template-editor.php:206
+msgid ""
+"returns preview thumbnail url with specified width and height if available,l "
+"eg: [thumb_url_700x400] will return 700px &times; 400px image preview url"
+msgstr ""
+
+#: admin/tpls/template-editor.php:208
+msgid ""
+"show additional preview thumbnails in gallery format, each image height and "
+"with will be same as specified, eg: [gallery_50x30] will show image gallery "
+"of additional previews and each image size will be 50px &timesx40px"
+msgstr ""
+
+#: admin/tpls/template-editor.php:209
+msgid "show previews in a slider type gallery"
+msgstr ""
+
+#: admin/tpls/template-editor.php:211
+msgid ""
+"show a short description of package from description, eg: [excerpt_200] will "
+"show short description with first 200 chars of description"
+msgstr ""
+
+#: admin/tpls/template-editor.php:212
+#, fuzzy
+#| msgid "Description:"
+msgid "package description"
+msgstr "Description :"
+
+#: admin/tpls/template-editor.php:213
+#, fuzzy
+#| msgid "Download Count"
+msgid "download counter"
+msgstr "Nombre de téléchargements"
+
+#: admin/tpls/template-editor.php:214
+#, fuzzy
+#| msgid "download"
+msgid "download url"
+msgstr "téléchargement"
+
+#: admin/tpls/template-editor.php:215
+msgid "direct link to download using download link label"
+msgstr ""
+
+#: admin/tpls/template-editor.php:216
+msgid "number of downloads to expire download quota"
+msgstr ""
+
+#: admin/tpls/template-editor.php:217
+msgid "show list of all files in a package"
+msgstr ""
+
+#: admin/tpls/template-editor.php:218
+msgid "show package version"
+msgstr ""
+
+#: admin/tpls/template-editor.php:219
+msgid "show package create date"
+msgstr ""
+
+#: admin/tpls/template-editor.php:220
+msgid "show package update date"
+msgstr ""
+
+#: admin/tpls/template-editor.php:221
+msgid "Show mp3 player with your page or link template."
+msgstr ""
+
+#: admin/tpls/templates.php:21
+msgid ""
+"Pre-designed templates can't be deleted or edited from this section. But you "
+"can clone any of them and edit as your own. If you seriously want to edit "
+"any pre-designed template you have to edit those directly edting php files "
+"at /download-manager/templates/ dir"
+msgstr ""
+
+#: admin/tpls/templates.php:29
+msgid "Template Name"
+msgstr "Nom du modèle"
+
+#: admin/tpls/templates.php:30
+msgid "Template ID"
+msgstr "ID du modèle"
+
+#: admin/tpls/templates.php:32 tpls/list-packages-table.php:69
+#: tpls4/bu-list-packages-table.php:69 tpls4/list-packages-table.php:70
+msgid "Status"
+msgstr ""
+
+#: admin/tpls/templates.php:34 tpls/list-packages-table.php:70
+#: tpls/wpdm-add-new-file-front.php:219 tpls4/bu-list-packages-table.php:70
+#: tpls4/list-packages-table.php:71
+msgid "Actions"
+msgstr "Actions"
+
+#: admin/tpls/templates.php:72
+msgid "Clone"
+msgstr ""
+
+#: admin/tpls/templates.php:74 admin/tpls/templates.php:96
+#: tpls/list-packages-panel.php:102 tpls4/list-packages-panel.php:102
+msgid "Edit"
+msgstr "Modifier"
+
+#: admin/tpls/templates.php:75 tpls/list-packages-panel.php:102
+#: tpls4/list-packages-panel.php:102
+msgid "Delete"
+msgstr ""
+
+#: admin/tpls/templates.php:88
+msgid "To:"
+msgstr "À :"
+
+#: admin/tpls/templates.php:140 admin/tpls/templates.php:141
+msgid "Banner/Background Image URL"
+msgstr "URL de l’image de bannière/arrière-plan"
+
+#: admin/tpls/templates.php:152
+msgid "Footer Text"
+msgstr "Texte du pied de page"
+
+#: admin/tpls/templates.php:156
+msgid "Facebook Page URL"
+msgstr "URL de la page Facebook"
+
+#: admin/tpls/templates.php:160
+msgid "Twitter Profile URL"
+msgstr "URL du profil Twitter"
+
+#: admin/tpls/templates.php:164
+msgid "Youtube Profile URL"
+msgstr "URL du profil Youtube"
+
+#: admin/tpls/templates.php:215
+msgid "Template Preview"
+msgstr "Aperçu du modèle"
+
+#: admin/tpls/templates.php:221
+msgid ""
+"This is a preview, original template color scheme may look little different, "
+"but structure will be same"
+msgstr ""
+"Ceci est un aperçu, le jeu de couleurs du modèle original peut sembler "
+"légèrement différent mais la structure sera la même"
+
+#: admin/tpls/templates.php:356 tpls/author-settings.php:23
+#: tpls4/author-settings.php:23
+msgid "Saving..."
+msgstr "Enregistrement…"
+
+#: admin/tpls/templates.php:382
+msgid "Are you sure?"
+msgstr "Confirmez-vous ?"
+
+#: download-manager.php:201 download-manager.php:213
+#: libs/class.ShortCodes.php:361 tpls/list-packages-table.php:67
+#: tpls/user-profile/profile.php:43 tpls4/bu-list-packages-table.php:67
+#: tpls4/list-packages-table.php:68 tpls4/user-profile/profile.php:43
+#: wpdm-functions.php:918 wpdm-functions.php:936
+msgid "Downloads"
+msgstr "Téléchargements"
+
+#: download-manager.php:202
+#, fuzzy
+#| msgid "Package Name"
+msgid "Package"
+msgstr "Nom du paquet"
+
+#: download-manager.php:203 libs/class.AuthorDashboard.php:64
+msgid "Add New"
+msgstr "Ajouter"
+
+#: download-manager.php:204
+#, fuzzy
+#| msgid "Add New File"
+msgid "Add New Package"
+msgstr "Ajouter un nouveau fichier"
+
+#: download-manager.php:205
+#, fuzzy
+#| msgid "Search Package"
+msgid "Edit Package"
+msgstr "Rechercher un paquet"
+
+#: download-manager.php:206
+#, fuzzy
+#| msgid "Search Package"
+msgid "New Package"
+msgstr "Rechercher un paquet"
+
+#: download-manager.php:207
+#, fuzzy
+#| msgid "No Packages Found"
+msgid "All Packages"
+msgstr "Aucun paquet trouvé"
+
+#: download-manager.php:208
+#, fuzzy
+#| msgid "Search Package"
+msgid "View Package"
+msgstr "Rechercher un paquet"
+
+#: download-manager.php:209
+#, fuzzy
+#| msgid "Search Package"
+msgid "Search Packages"
+msgstr "Rechercher un paquet"
+
+#: download-manager.php:210
+#, fuzzy
+#| msgid "No Packages Found"
+msgid "No Package Found"
+msgstr "Aucun paquet trouvé"
+
+#: download-manager.php:211
+#, fuzzy
+#| msgid "No Files found in Trash"
+msgid "No Packages found in Trash"
+msgstr "Aucun fichier trouvé dans la corbeille"
+
+#: download-manager.php:246 download-manager.php:256
+#: tpls/new-package-form.php:115 tpls/wpdm-add-new-file-front.php:95
+#: tpls/wpdm-all-downloads-bu.php:85 tpls/wpdm-all-downloads.php:194
+#: tpls4/new-package-form.php:115 tpls4/wpdm-add-new-file-front.php:105
+#: tpls4/wpdm-all-downloads-bu.php:85 tpls4/wpdm-all-downloads.php:177
+msgid "Categories"
+msgstr "Catégories"
+
+#: download-manager.php:247
+msgid "Category"
+msgstr "Catégorie"
+
+#: download-manager.php:248
+msgid "Search Categories"
+msgstr "Rechercher dans les catégories"
+
+#: download-manager.php:249
+msgid "All Categories"
+msgstr "Toutes les catégories"
+
+#: download-manager.php:250
+msgid "Parent Category"
+msgstr "Catégorie parente"
+
+#: download-manager.php:251
+msgid "Parent Category:"
+msgstr "Catégorie parente :"
+
+#: download-manager.php:252
+msgid "Edit Category"
+msgstr "Modifier la catégorie"
+
+#: download-manager.php:253
+msgid "Update Category"
+msgstr "Mettre à jour la catégorie"
+
+#: download-manager.php:254
+msgid "Add New Category"
+msgstr "Ajouter une nouvelle catégorie"
+
+#: download-manager.php:255
+msgid "New Category Name"
+msgstr "Nom de la nouvelle catégorie"
+
+#: libs/class.Apply.php:226
+#, fuzzy
+#| msgid "Security token is expired! Refresh the page and try again."
+msgid "Invalid Request! Refresh the page and try again"
+msgstr "Le jeton de sécurité a expiré ! Rafraîchissez la page et réessayez."
+
+#: libs/class.Apply.php:380
+msgid "Something is Wrong! Please refresh the page and try again"
+msgstr "Quelque chose ne va pas ! Veuillez rafraîchir la page et réessayer."
+
+#: libs/class.Apply.php:387 libs/class.Apply.php:388
+msgid "Error: User registration is disabled!"
+msgstr "Erreur : l’inscription d’utilisateurs est désactivée !"
+
+#: libs/class.Apply.php:403
+msgid "Username is Empty!"
+msgstr "L’identifiant est vide !"
+
+#: libs/class.Apply.php:412 wpdm-functions.php:419
+msgid "Invalid Email Address!"
+msgstr "Adresse de messagerie non valide."
+
+#: libs/class.Apply.php:429
+msgid "Password: "
+msgstr "Mot de passe : "
+
+#: libs/class.Apply.php:462
+msgid "Edit User"
+msgstr "Modifier l’utilisateur·rice"
+
+#: libs/class.Apply.php:463
+msgid "New user registration on your site WordPress Download Manager:"
+msgstr ""
+"Inscription d’une nouvelle utilisatrice ou utilisateur sur votre site "
+"WordPress Download Manager :"
+
+#: libs/class.Apply.php:464
+#, php-format
+msgid "[%s] New User Registration"
+msgstr "[%s] Inscription d’un·e nouvel·le utilisateur·rice"
+
+#: libs/class.Apply.php:474
+msgid ""
+"Your account has been created successfully and login info sent to your mail "
+"address."
+msgstr ""
+"Votre compte a bien été crée et les informations de connexion ont été "
+"envoyées à votre adresse e-mail."
+
+#: libs/class.Apply.php:477
+msgid "Your account has been created successfully"
+msgstr "Votre compte a bien été crée"
+
+#: libs/class.Apply.php:490
+msgid "Email already exists."
+msgstr "L’e-mail existe déjà."
+
+#: libs/class.Apply.php:499
+msgid "Username already exists."
+msgstr "Cet identifiant existe déjà."
+
+#: libs/class.Apply.php:617
+#, fuzzy
+#| msgid "Download was expired on"
+msgid "Download ID not found or expired"
+msgstr "Le téléchargement a expiré le"
+
+#: libs/class.Apply.php:619
+msgid "The file is already removed from the server!"
+msgstr ""
+
+#: libs/class.Apply.php:692
+msgid "You don't have permission to download this file"
+msgstr "Vous n‘avez pas le droit de télécharger ce fichier."
+
+#: libs/class.Apply.php:700
+msgid "Download link is expired. Please get new download link."
+msgstr ""
+"Le lien de téléchargement a expiré. Veuillez récupérer un nouveau lien de "
+"téléchargement."
+
+#: libs/class.Apply.php:704
+msgid "Download link is expired or not valid. Please get new download link."
+msgstr ""
+"Le lien de téléchargement a expiré ou n’est pas valide. Veuillez récupérer "
+"un nouveau lien de téléchargement."
+
+#: libs/class.Apply.php:715
+msgid "Stock Limit Reached"
+msgstr "Nombre limite de téléchargement atteint"
+
+#: libs/class.Apply.php:721
+msgid "Invalid download link."
+msgstr "Lien de téléchargement invalide."
+
+#: libs/class.Apply.php:785 wpdm-functions.php:493
+msgid "Password usages limit exceeded"
+msgstr "Limite d‘utilisation du mot de passe dépassée !"
+
+#: libs/class.Apply.php:991 libs/class.Apply.php:994
+msgid "Session Expired! Please try again."
+msgstr "La session a expirée ! Veuillez réessayer."
+
+#: libs/class.Apply.php:1010
+#, fuzzy
+#| msgid "Your IP address is blocked!"
+msgid "The email address is blocked."
+msgstr "Votre adresse IP est bloquée !"
+
+#: libs/class.AuthorDashboard.php:37 libs/class.AuthorDashboard.php:38
+#: libs/class.AuthorDashboard.php:194 libs/class.AuthorDashboard.php:195
+#: libs/class.AuthorDashboard.php:218 libs/class.AuthorDashboard.php:219
+#, fuzzy
+#| msgid "Not Allowed!"
+msgid "Sorry, Your Are Not Allowed!"
+msgstr "Non autorisé !"
+
+#: libs/class.AuthorDashboard.php:52
+#, fuzzy
+#| msgid "No Packages Found"
+msgid "Package Not Found"
+msgstr "Aucun paquet trouvé"
+
+#: libs/class.AuthorDashboard.php:52 tpls/wpdm-login-form.php:188
+#: tpls/wpdm-login-form.php:250 tpls/wpdm-login-form.php:268
+#: tpls4/wpdm-login-form.php:188 tpls4/wpdm-login-form.php:250
+#: tpls4/wpdm-login-form.php:268
+msgid "ERROR!"
+msgstr "ERREUR !"
+
+#: libs/class.AuthorDashboard.php:63
+#, fuzzy
+#| msgid "All Files"
+msgid "All Items"
+msgstr "Tous les fichiers"
+
+#: libs/class.AuthorDashboard.php:113
+msgid "Error! You are not allowed to upload files."
+msgstr ""
+
+#: libs/class.DashboardWidgets.php:36
+#, fuzzy
+#| msgid "Download Manager"
+msgid "Download Manager Overview"
+msgstr "Download Manager"
+
+#: libs/class.DashboardWidgets.php:37
+msgid "Social Overview"
+msgstr ""
+
+#: libs/class.DashboardWidgets.php:38
+msgid "Special Offer"
+msgstr ""
+
+#: libs/class.Email.php:20
+msgid "General Email Template"
+msgstr "Modèle général d’e-mail"
+
+#: libs/class.Email.php:29
+msgid "User Signup Notification"
+msgstr "Notification pour l’inscription d’un utilisateur"
+
+#: libs/class.Email.php:32
+#, php-format
+msgid "Welcome to %s"
+msgstr "Bienvenue sur %s"
+
+#: libs/class.Email.php:39
+msgid "Password Reset Notification"
+msgstr "Notification pour la réinitialisation du mot de passe"
+
+#: libs/class.Email.php:42
+#, php-format
+msgid "Request to reset your %s password"
+msgstr "Demande de réinitialisation de votre mot de passe pour le site %s"
+
+#: libs/class.Email.php:49
+msgid "Email Lock Notification"
+msgstr "Notification pour un verrouillage par e-mail"
+
+#: libs/class.Email.php:52
+msgid "Download [#package_name#]"
+msgstr "Téléchargement de [#package_name#]"
+
+#: libs/class.Email.php:59
+msgid "New Package Notification"
+msgstr "Notification pour un nouveau paquet"
+
+#: libs/class.Email.php:62
+msgid "New Package is Added By [#name#]"
+msgstr ""
+
+#: libs/class.Email.php:211
+msgid "Sample Package Name"
+msgstr "Exemple de nom de paquet"
+
+#: libs/class.FileList.php:95
+msgid "File"
+msgstr "Fichier"
+
+#: libs/class.MediaHandler.php:17
+msgid "Download Manager"
+msgstr "Download Manager"
+
+#: libs/class.Package.php:26
+msgid "ID missing!"
+msgstr "ID manquant !"
+
+#: libs/class.Package.php:34
+#, fuzzy
+#| msgid "Invalid template ID!"
+msgid "Invalid Package ID!"
+msgstr "ID de modèle non valide !"
+
+#: libs/class.Package.php:180 libs/class.Package.php:186
+#: libs/class.Package.php:188
+msgid "Icon"
+msgstr "Icône"
+
+#: libs/class.Package.php:207 libs/class.Package.php:742
+#: libs/class.Package.php:894 libs/class.Package.php:1039
+#: wpdm-functions.php:284 wpdm-start-download.php:35
+msgid "Download limit exceeded!"
+msgstr "Limite de téléchargement dépassée !"
+
+#: libs/class.Package.php:217 libs/class.Package.php:748
+#: libs/class.Package.php:1046 wpdm-functions.php:112
+msgid "Download was expired on"
+msgstr "Le téléchargement a expiré le"
+
+#: libs/class.Package.php:220 libs/class.Package.php:228
+#: libs/class.Package.php:237 libs/class.Package.php:1049
+#: libs/class.Package.php:1057 libs/class.Package.php:1067
+msgid "DOWNLOAD ERROR:"
+msgstr "ERREUR DE TÉLÉCHARGEMENT :"
+
+#: libs/class.Package.php:225 libs/class.Package.php:755
+#: libs/class.Package.php:1054 wpdm-functions.php:119
+msgid "Download will be available from "
+msgstr "Ce téléchargement sera disponible à partir du "
+
+#: libs/class.Package.php:234
+#, fuzzy
+#| msgid "Who should be able to download?"
+msgid "You are not allowed to download."
+msgstr "Qui devrait pouvoir télécharger ?"
+
+#: libs/class.Package.php:261 wpdm-functions.php:253
+msgid "Terms and Conditions"
+msgstr "Conditions générales d’utilisation"
+
+#: libs/class.Package.php:262
+#, fuzzy
+#| msgid "Terms and Conditions"
+msgid "I Agree With Terms and Conditions"
+msgstr "Conditions générales d’utilisation"
+
+#: libs/class.Package.php:521
+msgid "No File Attached!"
+msgstr "Aucun fichier joint !"
+
+#: libs/class.Package.php:750 libs/class.Package.php:757
+#: libs/class.Package.php:767 wpdm-functions.php:114 wpdm-functions.php:121
+#: wpdm-functions.php:131
+msgid "Download:"
+msgstr "Téléchargement :"
+
+#: libs/class.Package.php:980
+msgid "Verify CAPTCHA to Download"
+msgstr "Validez le CAPTCHA pour télécharger"
+
+#: libs/class.Package.php:1088 tpls/modal-login-form.php:23
+#: tpls/wpdm-be-member.php:27 tpls/wpdm-be-member.php:84
+#: tpls/wpdm-login-form.php:94 tpls/wpdm-login-form.php:172
+#: tpls/wpdm-reg-form.php:145 tpls4/wpdm-be-member.php:28
+#: tpls4/wpdm-be-member.php:85 tpls4/wpdm-login-form.php:94
+#: tpls4/wpdm-login-form.php:172 tpls4/wpdm-reg-form.php:147
+msgid "Login"
+msgstr "Se connecter"
+
+#: libs/class.Package.php:1130
+msgid "Limit Over!"
+msgstr "Limite atteinte !"
+
+#: libs/class.Package.php:1211
+#, fuzzy
+#| msgid "You don't have permission to download this file"
+msgid "You are not allowed to download this item!"
+msgstr "Vous n‘avez pas le droit de télécharger ce fichier."
+
+#: libs/class.Package.php:1362 libs/class.Package.php:1636
+msgid "Add to favourite"
+msgstr ""
+
+#: libs/class.Package.php:1362 libs/class.Package.php:1636
+msgid "Remove from favourite"
+msgstr ""
+
+#: libs/class.Package.php:1762
+#, fuzzy
+#| msgid "Sample Package Name"
+msgid "Sample Package"
+msgstr "Exemple de nom de paquet"
+
+#: libs/class.PackageLocks.php:157
+#, fuzzy
+#| msgid "File Download"
+msgid "Subscribe To Download"
+msgstr "Téléchargement de fichiers"
+
+#: libs/class.PackageLocks.php:186
+#, fuzzy
+#| msgid "Direct Download"
+msgid "Like on FB to Download"
+msgstr "Télécharger"
+
+#: libs/class.Pagination.php:55 tpls/wpdm-all-downloads-bu.php:65
+#: tpls/wpdm-all-downloads.php:57 tpls/wpdm-all-downloads.php:410
+#: tpls4/wpdm-all-downloads-bu.php:65 tpls4/wpdm-all-downloads.php:52
+#: tpls4/wpdm-all-downloads.php:366 wpdm-functions.php:2427
+msgid "Previous"
+msgstr "Précédent"
+
+#: libs/class.Pagination.php:56 tpls/wpdm-all-downloads-bu.php:64
+#: tpls/wpdm-all-downloads.php:56 tpls/wpdm-all-downloads.php:411
+#: tpls4/wpdm-all-downloads-bu.php:64 tpls4/wpdm-all-downloads.php:51
+#: tpls4/wpdm-all-downloads.php:367 wpdm-functions.php:2428
+msgid "Next"
+msgstr "Suivant"
+
+#: libs/class.ShortCodes.php:141
+msgid "User registration is disabled"
+msgstr "Les inscriptions sont désactivées."
+
+#: libs/class.ShortCodes.php:362 tpls/list-packages-panel.php:69
+#: tpls/list-packages-panel.php:70 tpls/list-packages-table.php:68
+#: tpls/wpdm-add-new-file-front.php:223 tpls4/bu-list-packages-table.php:68
+#: tpls4/list-packages-panel.php:69 tpls4/list-packages-panel.php:70
+#: tpls4/list-packages-table.php:69 widgets/class.PackageInfo.php:22
+#: widgets/class.PackageInfo.php:117 wpdm-functions.php:937
+msgid "Publish Date"
+msgstr "Date de publication"
+
+#: libs/class.ShortCodes.php:363 widgets/class.PackageInfo.php:118
+#: wpdm-functions.php:938
+msgid "Update Date"
+msgstr "Date de mise à jour"
+
+#: libs/class.ShortCodes.php:364 wpdm-functions.php:939
+msgid "Asc"
+msgstr "Asc."
+
+#: libs/class.ShortCodes.php:365 wpdm-functions.php:940
+msgid "Desc"
+msgstr "Desc."
+
+#: libs/class.ShortCodes.php:366 widgets/class.Search.php:19
+#: wpdm-functions.php:941
+msgid "Search"
+msgstr "Rechercher"
+
+#: libs/class.ShortCodes.php:367 wpdm-functions.php:942
+msgid "Order"
+msgstr "Tri"
+
+#: libs/class.ShortCodes.php:368 wpdm-functions.php:943
+msgid "Order By"
+msgstr "Trier par"
+
+#: libs/class.StreamMedia.php:34
+msgid "Failed To Open File!"
+msgstr "L’ouverture du fichier a échouée !"
+
+#: libs/class.UserDashboard.php:17 libs/class.UserProfile.php:16
+msgid "Profile"
+msgstr "Profil"
+
+#: libs/class.UserDashboard.php:19 tpls/author-dashboard.php:34
+#: tpls4/author-dashboard.php:26
+msgid "Edit Profile"
+msgstr "Modifier votre profil."
+
+#: libs/class.UserDashboard.php:27
+msgid "Account"
+msgstr "Compte"
+
+#: modules/server-dir-browser.php:4 modules/server-dir-browser.php:26
+#: modules/server-dir-browser.php:49 modules/server-dir-browser.php:175
+#: modules/server-file-browser.php:13 modules/server-file-browser.php:49
+msgid "Not Allowed!"
+msgstr "Non autorisé !"
+
+#: modules/server-file-browser.php:134
+msgid "Add file(s) from server"
+msgstr "Ajouter des fichiers depuis le serveur"
+
+#: modules/strings.php:10 tpls/list-packages-panel.php:67
+#: tpls/list-packages-panel.php:68 tpls/list-packages-panel.php:90
+#: tpls4/list-packages-panel.php:67 tpls4/list-packages-panel.php:68
+#: tpls4/list-packages-panel.php:90 widgets/class.PackageInfo.php:115
+msgid "Download Count"
+msgstr "Nombre de téléchargements"
+
+#: modules/strings.php:11 wpdm-functions.php:1970
+#, fuzzy
+#| msgid "Version:"
+msgid "Version"
+msgstr "Version :"
+
+#: modules/strings.php:12
+msgid "File Size"
+msgstr "Taille du fichier"
+
+#: modules/strings.php:13
+#, fuzzy
+#| msgid "View Count"
+msgid "File Count"
+msgstr "Nombre de vues"
+
+#: modules/strings.php:14 tpls/wpdm-all-downloads-bu.php:86
+#: tpls/wpdm-all-downloads.php:195 tpls4/wpdm-all-downloads-bu.php:86
+#: tpls4/wpdm-all-downloads.php:178
+msgid "Create Date"
+msgstr "Date de création"
+
+#: modules/strings.php:15 widgets/class.PackageInfo.php:23
+msgid "Last Updated"
+msgstr "Dernière mise à jour"
+
+#: modules/strings.php:17
+#, fuzzy
+#| msgid "Package Name"
+msgid "Package Info"
+msgstr "Nom du paquet"
+
+#: modules/strings.php:19
+#, fuzzy
+#| msgid "Total Views"
+msgid "Total Files"
+msgstr "Nombre total de vues"
+
+#: modules/strings.php:20
+msgid "Stock"
+msgstr ""
+
+#: tpls/already-logged-in.php:12
+msgid "Welcome"
+msgstr "Bienvenue"
+
+#: tpls/already-logged-in.php:14 tpls/wpdm-be-member.php:49
+#: tpls4/wpdm-be-member.php:50
+msgid "You are already logged in."
+msgstr "Vous êtes déjà connecté."
+
+#: tpls/already-logged-in.php:18
+msgid "Dashboard"
+msgstr "Tableau de bord"
+
+#: tpls/list-packages-panel.php:73 tpls/list-packages-table.php:57
+#: tpls4/bu-list-packages-table.php:57 tpls4/list-packages-panel.php:73
+#: tpls4/list-packages-table.php:57
+#, fuzzy
+#| msgid "Search"
+msgid "Search..."
+msgstr "Rechercher"
+
+#: tpls/list-packages-panel.php:91 tpls4/list-packages-panel.php:91
+#: widgets/class.PackageInfo.php:116
+msgid "View Count"
+msgstr "Nombre de vues"
+
+#: tpls/list-packages-panel.php:93 tpls4/list-packages-panel.php:93
+#, fuzzy
+#| msgid "Product Name"
+msgid "Product Price"
+msgstr "Nom du produit"
+
+#: tpls/list-packages-panel.php:94 tpls4/list-packages-panel.php:94
+#, fuzzy
+#| msgid "View Count"
+msgid "Sales Count"
+msgstr "Nombre de vues"
+
+#: tpls/list-packages-panel.php:101 tpls4/list-packages-panel.php:101
+#, php-format
+msgid "Published On %s"
+msgstr ""
+
+#: tpls/list-packages-panel.php:101 tpls4/list-packages-panel.php:101
+msgid "Pending Review"
+msgstr ""
+
+#: tpls/list-packages-panel.php:102 tpls4/list-packages-panel.php:102
+#, fuzzy
+#| msgid "View File"
+msgid "View"
+msgstr "Voir le fichier"
+
+#: tpls/list-packages-table.php:66 tpls4/bu-list-packages-table.php:66
+#: tpls4/list-packages-table.php:66
+#, fuzzy
+#| msgid "Package Name"
+msgid "Package Title"
+msgstr "Nom du paquet"
+
+#: tpls/lock-options-iframe.php:315 tpls/wpdm-all-downloads.php:286
+#: tpls4/lock-options-iframe.php:315 tpls4/wpdm-all-downloads.php:251
+msgid "Buy"
+msgstr "Acheter"
+
+#: tpls/lock-options/email-lock-form.php:36
+#: tpls4/lock-options/email-lock-form.php:36
+#, fuzzy
+#| msgid "Invalid Email Address!"
+msgid "Email Address"
+msgstr "Adresse de messagerie non valide."
+
+#: tpls/lock-options/password-lock.php:11
+#: tpls4/lock-options/password-lock.php:11
+msgid "Enter Correct Password to Download"
+msgstr "Saisissez le bon mot de passe pour pouvoir télécharger"
+
+#: tpls/lock-options/password-lock.php:14
+#: tpls/lock-options/password-lock.php:30 tpls/wpdm-all-downloads-bu.php:59
+#: tpls/wpdm-all-downloads.php:51 tpls4/lock-options/password-lock.php:14
+#: tpls4/lock-options/password-lock.php:30 tpls4/wpdm-all-downloads-bu.php:59
+#: tpls4/wpdm-all-downloads.php:46
+msgid "Processing..."
+msgstr "En cours de traitement…"
+
+#: tpls/lock-options/password-lock.php:21
+#: tpls4/lock-options/password-lock.php:21
+msgid "Enter Password"
+msgstr "Saisissez le mot de passe"
+
+#: tpls/lock-options/password-lock.php:22
+#: tpls4/lock-options/password-lock.php:22
+msgid "Submit"
+msgstr "Valider"
+
+#: tpls/media-tab.php:31 tpls/media-tab.php:33 tpls4/media-tab.php:31
+#: tpls4/media-tab.php:33
+#, fuzzy
+#| msgid "Search Files"
+msgid "Search Media"
+msgstr "Rechercher des fichiers"
+
+#: tpls/media-tab.php:56 tpls4/media-tab.php:56
+#, fuzzy
+#| msgid "All Files"
+msgid "All Types"
+msgstr "Tous les fichiers"
+
+#: tpls/media-tab.php:100 tpls4/media-tab.php:100
+msgid "Show all dates"
+msgstr ""
+
+#: tpls/media-tab.php:120 tpls4/media-tab.php:120
+msgid "Filter »"
+msgstr ""
+
+#: tpls/media-tab.php:150 tpls4/media-tab.php:150
+#, fuzzy
+#| msgid "Save Changes"
+msgid "Save all changes"
+msgstr "Enregistrer les modifications"
+
+#: tpls/metaboxes/lock-options.php:78 tpls4/metaboxes/lock-options.php:78
+#, fuzzy
+#| msgid "Enable Password Lock"
+msgid "Enable Google +1 Lock"
+msgstr "Activer la protection par mot de passe"
+
+#: tpls/metaboxes/lock-options.php:82 tpls4/metaboxes/lock-options.php:82
+msgid "URL for +1:"
+msgstr ""
+
+#: tpls/metaboxes/package-settings-front.php:35
+#: tpls4/metaboxes/package-settings-front.php:35
+#, fuzzy
+#| msgid "View Count"
+msgid "View Count:"
+msgstr "Nombre de vues"
+
+#: tpls/modal-login-form.php:27
+#, fuzzy
+#| msgid "Dashboard"
+msgid "Account Dashboard"
+msgstr "Tableau de bord"
+
+#: tpls/new-package-form.php:99 tpls/wpdm-add-new-file-front.php:85
+#: tpls4/new-package-form.php:99 tpls4/wpdm-add-new-file-front.php:95
+#, fuzzy
+#| msgid "Attach File"
+msgid "Attach Files"
+msgstr "Joindre un fichier"
+
+#: tpls/new-package-form.php:108 tpls4/new-package-form.php:108
+msgid "Live Demo/Preview"
+msgstr ""
+
+#: tpls/new-package-form.php:110 tpls4/new-package-form.php:110
+#, fuzzy
+#| msgid "Twitter Profile URL"
+msgid "Live Preview URL"
+msgstr "URL du profil Twitter"
+
+#: tpls/new-package-form.php:157 tpls/wpdm-add-new-file-front.php:136
+#: tpls4/wpdm-add-new-file-front.php:146
+msgid "Tags"
+msgstr ""
+
+#: tpls/new-package-form.php:192 tpls/wpdm-add-new-file-front.php:168
+#: tpls4/new-package-form.php:173 tpls4/wpdm-add-new-file-front.php:178
+msgid "Main Preview Image"
+msgstr ""
+
+#: tpls/new-package-form.php:211 tpls/wpdm-add-new-file-front.php:193
+#: tpls4/new-package-form.php:192 tpls4/wpdm-add-new-file-front.php:203
+msgid "Additional Preview Images"
+msgstr ""
+
+#: tpls/new-package-form.php:241 tpls/wpdm-add-new-file-front.php:227
+#: tpls4/new-package-form.php:222 tpls4/wpdm-add-new-file-front.php:233
+msgid "Save as Draft"
+msgstr ""
+
+#: tpls/new-package-form.php:244 tpls/wpdm-add-new-file-front.php:230
+#: tpls4/new-package-form.php:225 tpls4/wpdm-add-new-file-front.php:236
+#, fuzzy
+#| msgid "Update Date"
+msgid "Update Package"
+msgstr "Date de mise à jour"
+
+#: tpls/new-package-form.php:244 tpls/wpdm-add-new-file-front.php:230
+#: tpls4/new-package-form.php:225 tpls4/wpdm-add-new-file-front.php:236
+#, fuzzy
+#| msgid "Create Date"
+msgid "Create Package"
+msgstr "Date de création"
+
+#: tpls/new-package-form.php:260 tpls/wpdm-add-new-file-front.php:245
+#: tpls4/new-package-form.php:241 tpls4/wpdm-add-new-file-front.php:252
+#, fuzzy
+#| msgid "Search Package"
+msgid "Create New Package"
+msgstr "Rechercher un paquet"
+
+#: tpls/new-package-form.php:266 tpls4/new-package-form.php:247
+#: tpls4/wpdm-add-new-file-front.php:258
+msgid "Continue..."
+msgstr ""
+
+#: tpls/new-package-form.php:336 tpls4/new-package-form.php:299
+msgid "Package Created Successfully. Opening Edit Window ..."
+msgstr ""
+
+#: tpls/new-package-form.php:341 tpls/wpdm-add-new-file-front.php:335
+#: tpls4/new-package-form.php:304 tpls4/wpdm-add-new-file-front.php:339
+#, fuzzy
+#| msgid "Privacy Settings Saved Successfully"
+msgid "Package Updated Successfully"
+msgstr "Les réglages de confidentialité ont bien été sauvegardés"
+
+#: tpls/search-result.php:3 tpls4/search-result.php:3
+msgid "Search Package"
+msgstr "Rechercher un paquet"
+
+#: tpls/search-result.php:16 tpls4/search-result.php:16
+msgid "Search Result For"
+msgstr "Résultats de recherche pour"
+
+#: tpls/search-result.php:17 tpls/search-result.php:21
+#: tpls4/search-result.php:17 tpls4/search-result.php:21
+msgid "Loading"
+msgstr "Chargement"
+
+#: tpls/user-dashboard/download-history.php:9
+#: tpls/user-dashboard/profile.php:148
+#: tpls4/user-dashboard/download-history.php:9
+#: tpls4/user-dashboard/profile.php:148
+msgid "IP"
+msgstr "IP"
+
+#: tpls/user-dashboard/edit-profile.php:13
+#: tpls4/user-dashboard/edit-profile.php:12
+msgid "SAVE FAILED!"
+msgstr "L’ENREGISTREMENT A ÉCHOUÉ !"
+
+#: tpls/user-dashboard/edit-profile.php:16 tpls/wpdm-add-new-file-front.php:335
+#: tpls/wpdm-login-form.php:248 tpls4/user-dashboard/edit-profile.php:15
+#: tpls4/wpdm-add-new-file-front.php:339 tpls4/wpdm-login-form.php:248
+msgid "DONE!"
+msgstr "TERMINÉ !"
+
+#: tpls/user-dashboard/edit-profile.php:24
+#: tpls4/user-dashboard/edit-profile.php:22
+msgid "Basic Profile"
+msgstr "Profil de base"
+
+#: tpls/user-dashboard/edit-profile.php:27
+#: tpls4/user-dashboard/edit-profile.php:25
+msgid "Display name:"
+msgstr "Nom affiché :"
+
+#: tpls/user-dashboard/edit-profile.php:28
+#: tpls4/user-dashboard/edit-profile.php:26
+msgid "PayPal Email:"
+msgstr "E-mail PayPal :"
+
+#: tpls/user-dashboard/edit-profile.php:30
+#: tpls4/user-dashboard/edit-profile.php:28
+msgid "Username:"
+msgstr "Identifiant :"
+
+#: tpls/user-dashboard/edit-profile.php:31
+#: tpls4/user-dashboard/edit-profile.php:29
+msgid "Email:"
+msgstr "E-mail :"
+
+#: tpls/user-dashboard/edit-profile.php:33
+#: tpls4/user-dashboard/edit-profile.php:31
+msgid "New Password:"
+msgstr "Nouveau mot de passe :"
+
+#: tpls/user-dashboard/edit-profile.php:33
+#: tpls4/user-dashboard/edit-profile.php:31
+msgid "Use nothing if you don\\'t want to change old password"
+msgstr ""
+"Ne saisissez rien si vous ne voulez pas modifier votre ancien mot de passe"
+
+#: tpls/user-dashboard/edit-profile.php:34
+#: tpls4/user-dashboard/edit-profile.php:32
+msgid "Re-type New Password:"
+msgstr "Saisissez une nouvelle fois votre nouveau mot de passe :"
+
+#: tpls/user-dashboard/edit-profile.php:40
+#: tpls4/user-dashboard/edit-profile.php:38
+msgid "Description:"
+msgstr "Description :"
+
+#: tpls/user-dashboard/profile.php:23 tpls4/user-dashboard/profile.php:22
+msgid "User Level"
+msgstr "Niveau d‘utilisateur"
+
+#: tpls/user-dashboard/profile.php:43 tpls4/user-dashboard/profile.php:42
+msgid "Today's Download"
+msgstr "Téléchargements du jour"
+
+#: tpls/user-dashboard/profile.php:54 tpls4/user-dashboard/profile.php:53
+msgid "Recommended Downloads"
+msgstr "Téléchargements recommandés"
+
+#: tpls/user-dashboard/profile.php:111 tpls4/user-dashboard/profile.php:111
+msgid "My Favourites"
+msgstr ""
+
+#: tpls/user-dashboard/profile.php:117 tpls4/user-dashboard/profile.php:117
+msgid "Remove"
+msgstr ""
+
+#: tpls/user-dashboard/profile.php:142 tpls4/user-dashboard/profile.php:142
+msgid "Last 5 Downloads"
+msgstr "Les 5 derniers téléchargements"
+
+#: tpls/user-profile/profile.php:45 tpls4/user-profile/profile.php:45
+#, fuzzy
+#| msgid "Active(v)"
+msgid "Activities"
+msgstr "Version active"
+
+#: tpls/user-profile/profile.php:46 tpls4/user-profile/profile.php:46
+msgid "Favourites"
+msgstr ""
+
+#: tpls/wpdm-add-new-file-front.php:187 tpls4/wpdm-add-new-file-front.php:197
+msgid "Remove Featured Image"
+msgstr ""
+
+#: tpls/wpdm-add-new-file-front.php:252
+msgid "Continue"
+msgstr ""
+
+#: tpls/wpdm-add-new-file-front.php:330 tpls4/wpdm-add-new-file-front.php:334
+#, fuzzy
+#| msgid "Privacy Settings Saved Successfully"
+msgid "Package Created Successfully!"
+msgstr "Les réglages de confidentialité ont bien été sauvegardés"
+
+#: tpls/wpdm-add-new-file-front.php:330 tpls4/wpdm-add-new-file-front.php:334
+msgid "Opening Edit Window ..."
+msgstr ""
+
+#: tpls/wpdm-all-downloads-bu.php:50 tpls/wpdm-all-downloads.php:42
+#: tpls4/wpdm-all-downloads-bu.php:50 tpls4/wpdm-all-downloads.php:37
+msgid "Display _MENU_ downloads per page"
+msgstr "Afficher _MENU_ téléchargements par page"
+
+#: tpls/wpdm-all-downloads-bu.php:51 tpls/wpdm-all-downloads.php:43
+#: tpls4/wpdm-all-downloads-bu.php:51 tpls4/wpdm-all-downloads.php:38
+msgid "Nothing _START_ to - sorry"
+msgstr "Aucun paquet trouvé"
+
+#: tpls/wpdm-all-downloads-bu.php:52 tpls/wpdm-all-downloads.php:44
+#: tpls4/wpdm-all-downloads-bu.php:52 tpls4/wpdm-all-downloads.php:39
+msgid "Showing _START_ to _END_ of _TOTAL_ downloads"
+msgstr ""
+"Affichage des téléchargements _START_ à _END_ sur _TOTAL_ téléchargements"
+
+#: tpls/wpdm-all-downloads-bu.php:53 tpls/wpdm-all-downloads.php:45
+#: tpls4/wpdm-all-downloads-bu.php:53 tpls4/wpdm-all-downloads.php:40
+msgid "No downloads available"
+msgstr "Aucun téléchargement disponible"
+
+#: tpls/wpdm-all-downloads-bu.php:54 tpls/wpdm-all-downloads.php:46
+#: tpls4/wpdm-all-downloads-bu.php:54 tpls4/wpdm-all-downloads.php:41
+msgid "(filtered from _MAX_ total downloads)"
+msgstr "(filtrés sur un total de _MAX_ téléchargements)"
+
+#: tpls/wpdm-all-downloads-bu.php:55 tpls/wpdm-all-downloads.php:47
+#: tpls4/wpdm-all-downloads-bu.php:55 tpls4/wpdm-all-downloads.php:42
+msgid "No data available in table"
+msgstr "Aucune donnée disponible"
+
+#: tpls/wpdm-all-downloads-bu.php:58 tpls/wpdm-all-downloads.php:50
+#: tpls4/wpdm-all-downloads-bu.php:58 tpls4/wpdm-all-downloads.php:45
+msgid "Loading..."
+msgstr "Chargement en cours…"
+
+#: tpls/wpdm-all-downloads-bu.php:60 tpls/wpdm-all-downloads.php:52
+#: tpls4/wpdm-all-downloads-bu.php:60 tpls4/wpdm-all-downloads.php:47
+msgid "Search:"
+msgstr "Rechercher :"
+
+#: tpls/wpdm-all-downloads-bu.php:62 tpls/wpdm-all-downloads.php:54
+#: tpls4/wpdm-all-downloads-bu.php:62 tpls4/wpdm-all-downloads.php:49
+msgid "First"
+msgstr "Premier"
+
+#: tpls/wpdm-all-downloads-bu.php:63 tpls/wpdm-all-downloads.php:55
+#: tpls4/wpdm-all-downloads-bu.php:63 tpls4/wpdm-all-downloads.php:50
+msgid "Last"
+msgstr "Dernier"
+
+#: tpls/wpdm-all-downloads-bu.php:68 tpls/wpdm-all-downloads.php:60
+#: tpls4/wpdm-all-downloads-bu.php:68 tpls4/wpdm-all-downloads.php:55
+msgid "activate to sort column ascending"
+msgstr "activer pour trier la colonne par ordre croissant"
+
+#: tpls/wpdm-all-downloads-bu.php:69 tpls/wpdm-all-downloads.php:61
+#: tpls4/wpdm-all-downloads-bu.php:69 tpls4/wpdm-all-downloads.php:56
+msgid "activate to sort column descending"
+msgstr "activer pour trier la colonne par ordre décroissant"
+
+#: tpls/wpdm-all-downloads-bu.php:73 tpls/wpdm-all-downloads.php:65
+#: tpls4/wpdm-all-downloads-bu.php:73 tpls4/wpdm-all-downloads.php:60
+msgid "All"
+msgstr "Tout"
+
+#: tpls/wpdm-all-downloads-bu.php:149 tpls4/wpdm-all-downloads-bu.php:149
+msgid "Buy Now"
+msgstr ""
+
+#: tpls/wpdm-all-downloads-bu.php:157 tpls4/wpdm-all-downloads-bu.php:157
+#: wpdm-functions.php:1084
+#, fuzzy
+#| msgid "file(s)"
+msgid "files"
+msgstr "fichier·s"
+
+#: tpls/wpdm-all-downloads-bu.php:159 tpls/wpdm-all-downloads.php:330
+#: tpls4/wpdm-all-downloads-bu.php:159 tpls4/wpdm-all-downloads.php:295
+msgid "downloads"
+msgstr "téléchargements"
+
+#: tpls/wpdm-all-downloads-bu.php:159 tpls/wpdm-all-downloads.php:330
+#: tpls4/wpdm-all-downloads-bu.php:159 tpls4/wpdm-all-downloads.php:295
+msgid "download"
+msgstr "téléchargement"
+
+#: tpls/wpdm-all-downloads-bu.php:173 tpls/wpdm-all-downloads.php:389
+#: tpls4/wpdm-all-downloads-bu.php:173 tpls4/wpdm-all-downloads.php:345
+msgid "No Packages Found"
+msgstr "Aucun paquet trouvé"
+
+#: tpls/wpdm-all-downloads.php:324 tpls4/wpdm-all-downloads.php:289
+msgid "file(s)"
+msgstr "fichier·s"
+
+#: tpls/wpdm-all-downloads.php:336 tpls4/wpdm-all-downloads.php:301
+msgid "views"
+msgstr "vues"
+
+#: tpls/wpdm-all-downloads.php:336 tpls4/wpdm-all-downloads.php:301
+msgid "view"
+msgstr "vue"
+
+#: tpls/wpdm-be-member.php:28 tpls/wpdm-login-form.php:173
+#: tpls4/wpdm-be-member.php:29 tpls4/wpdm-login-form.php:173
+msgid "Register"
+msgstr "S’inscrire"
+
+#: tpls/wpdm-be-member.php:49 tpls4/wpdm-be-member.php:50
+#, fuzzy
+#| msgid "Dashboard"
+msgid "Go To Dashboard"
+msgstr "Tableau de bord"
+
+#: tpls/wpdm-be-member.php:62 tpls/wpdm-login-form.php:65
+#: tpls4/wpdm-be-member.php:63 tpls4/wpdm-login-form.php:65
+msgid "Login Failed!"
+msgstr "La connexion a échoué !"
+
+#: tpls/wpdm-be-member.php:69 tpls/wpdm-reg-form.php:58
+#: tpls4/wpdm-be-member.php:70 tpls4/wpdm-reg-form.php:60
+msgid "Username"
+msgstr "Identifiant"
+
+#: tpls/wpdm-be-member.php:82 tpls/wpdm-login-form.php:86
+#: tpls4/wpdm-be-member.php:83 tpls4/wpdm-login-form.php:86
+msgid "Remember Me"
+msgstr "Se souvenir de moi"
+
+#: tpls/wpdm-be-member.php:89 tpls/wpdm-login-form.php:87
+#: tpls4/wpdm-be-member.php:90 tpls4/wpdm-login-form.php:87
+msgid "Forgot Password?"
+msgstr "Mot de passe oublié ?"
+
+#: tpls/wpdm-be-member.php:89 tpls4/wpdm-be-member.php:90
+#, fuzzy
+#| msgid "Re-type New Password:"
+msgid "Request New Password."
+msgstr "Saisissez une nouvelle fois votre nouveau mot de passe :"
+
+#: tpls/wpdm-edit-user-profile.php:9 tpls4/wpdm-edit-user-profile.php:9
+#, fuzzy
+#| msgid "View File"
+msgid "View Profile"
+msgstr "Voir le fichier"
+
+#: tpls/wpdm-generate-password.php:30 tpls4/wpdm-generate-password.php:30
+msgid "Select Options"
+msgstr "Sélectionnez les options"
+
+#: tpls/wpdm-generate-password.php:34 tpls4/wpdm-generate-password.php:34
+msgid "Number of passwords:"
+msgstr "Nombre de mots de passe :"
+
+#: tpls/wpdm-generate-password.php:37 tpls4/wpdm-generate-password.php:37
+msgid "Number of chars for each password:"
+msgstr "Nombre de caractères pour chaque mot de passe :"
+
+#: tpls/wpdm-generate-password.php:42 tpls4/wpdm-generate-password.php:42
+#, fuzzy
+#| msgid "Valid chars:"
+msgid "Valid Chars:"
+msgstr "Caractères valides :"
+
+#: tpls/wpdm-generate-password.php:43 tpls4/wpdm-generate-password.php:43
+msgid "Small Letters"
+msgstr ""
+
+#: tpls/wpdm-generate-password.php:44 tpls4/wpdm-generate-password.php:44
+msgid "Capital Letters"
+msgstr ""
+
+#: tpls/wpdm-generate-password.php:45 tpls4/wpdm-generate-password.php:45
+msgid "Numbers"
+msgstr ""
+
+#: tpls/wpdm-generate-password.php:46 tpls4/wpdm-generate-password.php:46
+msgid "Special Chars"
+msgstr ""
+
+#: tpls/wpdm-generate-password.php:55 tpls4/wpdm-generate-password.php:55
+msgid "Generated Passwords"
+msgstr "Mots de passe générés"
+
+#: tpls/wpdm-generate-password.php:60 tpls4/wpdm-generate-password.php:60
+#, fuzzy
+#| msgid "Generated Passwords"
+msgid "Insert Password(s)"
+msgstr "Mots de passe générés"
+
+#: tpls/wpdm-login-form.php:72 tpls/wpdm-login-form.php:163
+#: tpls4/wpdm-login-form.php:72 tpls4/wpdm-login-form.php:163
+msgid "Username or Email"
+msgstr "Identifiant ou e-mail"
+
+#: tpls/wpdm-login-form.php:109 tpls4/wpdm-login-form.php:109
+msgid "Don't have an account yet?"
+msgstr "Vous n’avez pas encore de compte ?"
+
+#: tpls/wpdm-login-form.php:109 tpls4/wpdm-login-form.php:109
+msgid "Register Now"
+msgstr "S’inscrire maintenant"
+
+#: tpls/wpdm-login-form.php:129 tpls4/wpdm-login-form.php:129
+msgid "Logging In..."
+msgstr "Connexion en cours…"
+
+#: tpls/wpdm-login-form.php:134 tpls4/wpdm-login-form.php:134
+msgid "LOGIN FAILED!"
+msgstr "LA CONNEXION A ÉCHOUÉE !"
+
+#: tpls/wpdm-login-form.php:134 tpls4/wpdm-login-form.php:134
+msgid "Please re-check login info."
+msgstr "Veuillez revérifier vos informations de connexion."
+
+#: tpls/wpdm-login-form.php:158 tpls4/wpdm-login-form.php:158
+msgid "Lost Password?"
+msgstr "Mot de passe perdu ?"
+
+#: tpls/wpdm-login-form.php:160 tpls4/wpdm-login-form.php:160
+msgid ""
+"Please enter your username or email address. You will receive a link to "
+"create a new password via email."
+msgstr ""
+"Veuillez saisir votre identifiant ou votre adresse de messagerie. Vous "
+"recevrez un lien pour créer un nouveau mot de passe par e-mail."
+
+#: tpls/wpdm-login-form.php:167 tpls4/wpdm-login-form.php:167
+msgid "Reset Password"
+msgstr "Réinitialiser le mot de passe"
+
+#: tpls/wpdm-login-form.php:171 tpls4/wpdm-login-form.php:171
+#: wpdm-functions.php:1049
+msgid "Home"
+msgstr "Accueil"
+
+#: tpls/wpdm-login-form.php:188 tpls4/wpdm-login-form.php:188
+msgid "Account not found."
+msgstr "Compte non trouvé."
+
+#: tpls/wpdm-login-form.php:192 tpls4/wpdm-login-form.php:192
+msgid "MAIL SENT!"
+msgstr "E-MAIL ENVOYÉ !"
+
+#: tpls/wpdm-login-form.php:192 tpls4/wpdm-login-form.php:192
+msgid "Please check your inbox."
+msgstr "Veuillez vérifier votre boîte de réception."
+
+#: tpls/wpdm-login-form.php:218 tpls/wpdm-login-form.php:223
+#: tpls4/wpdm-login-form.php:218 tpls4/wpdm-login-form.php:223
+msgid "New Password"
+msgstr "Nouveau mot de passe"
+
+#: tpls/wpdm-login-form.php:220 tpls4/wpdm-login-form.php:220
+msgid "Please enter a new password"
+msgstr "Veuillez saisir un nouveau mot de passe"
+
+#: tpls/wpdm-login-form.php:227 tpls/wpdm-reg-form.php:82
+#: tpls4/wpdm-login-form.php:227 tpls4/wpdm-reg-form.php:84
+msgid "Confirm Password"
+msgstr "Confirmation du mot de passe"
+
+#: tpls/wpdm-login-form.php:231 tpls4/wpdm-login-form.php:231
+msgid "Update Password"
+msgstr "Mettre à jour le mot de passe"
+
+#: tpls/wpdm-login-form.php:241 tpls4/wpdm-login-form.php:241
+msgid "Confirm password value must be same as the new password"
+msgstr ""
+"La valeur de confirmation du mot passe doit être la même que celle du "
+"nouveau mot de passe"
+
+#: tpls/wpdm-login-form.php:248 tpls/wpdm-login-form.php:250
+#: tpls4/wpdm-login-form.php:248 tpls4/wpdm-login-form.php:250
+msgid "Password Updated"
+msgstr "Mot de passe mis à jour"
+
+#: tpls/wpdm-login-form.php:248 tpls4/wpdm-login-form.php:248
+msgid "Go to your account dashboard"
+msgstr "Aller vers le tableau de bord de votre compte"
+
+#: tpls/wpdm-reg-form.php:39 tpls4/wpdm-reg-form.php:39
+msgid "REGISTRATION FAILED!"
+msgstr "L’INSCRIPTION A ÉCHOUÉ !"
+
+#: tpls/wpdm-reg-form.php:48 tpls4/wpdm-reg-form.php:48
+msgid "First Name"
+msgstr "Prénom"
+
+#: tpls/wpdm-reg-form.php:52 tpls4/wpdm-reg-form.php:53
+msgid "Last Name"
+msgstr "Nom"
+
+#: tpls/wpdm-reg-form.php:65 tpls4/wpdm-reg-form.php:67
+msgid "E-mail"
+msgstr "E-mail"
+
+#: tpls/wpdm-reg-form.php:82 tpls4/wpdm-reg-form.php:84
+msgid "Not Matched!"
+msgstr "Ne correspond pas !"
+
+#: tpls/wpdm-reg-form.php:120 tpls4/wpdm-reg-form.php:122
+msgid "Join Now!"
+msgstr "S‘inscrire !"
+
+#: tpls/wpdm-reg-form.php:130 tpls4/wpdm-reg-form.php:132
+msgid "Or Connect Using Your Social Account"
+msgstr ""
+
+#: tpls/wpdm-reg-form.php:145 tpls4/wpdm-reg-form.php:147
+msgid "Already have an account?"
+msgstr "Vous avez déjà un compte ?"
+
+#: tpls/wpdm-reg-form.php:175 tpls4/wpdm-reg-form.php:177
+msgid "Success! Redirecting..."
+msgstr "Réussi ! Redirection…"
+
+#: tpls/wpdm-reg-form.php:185 tpls4/wpdm-reg-form.php:187
+msgid "Registration is disabled!"
+msgstr "Les inscriptions sont désactivées !"
+
+#: tpls4/metaboxes/package-settings-front.php:82
+#, fuzzy
+#| msgid "File Download"
+msgid "Single Download:"
+msgstr "Téléchargement de fichiers"
+
+#: widgets/class.Affiliate.php:34
+msgid "WPDM Affiliate ID:"
+msgstr "ID d‘affilié WPDM :"
+
+#: widgets/class.CatPackages.php:76 widgets/class.Categories.php:127
+#: widgets/class.ListPackages.php:89 widgets/class.NewDownloads.php:51
+#: widgets/class.PackageInfo.php:108 widgets/class.Search.php:36
+#: widgets/class.Tags.php:72 widgets/class.TopDownloads.php:51
+msgid "Title:"
+msgstr "Titre :"
+
+#: widgets/class.CatPackages.php:80 widgets/class.ListPackages.php:93
+msgid "Select Category:"
+msgstr "Sélectionnez une catégorie :"
+
+#: widgets/class.CatPackages.php:86 widgets/class.ListPackages.php:121
+#: widgets/class.NewDownloads.php:55 widgets/class.TopDownloads.php:55
+msgid "Number of packages to show:"
+msgstr "Nombre de paquets à afficher :"
+
+#: widgets/class.Categories.php:131
+#, fuzzy
+#| msgid "Parent Category:"
+msgid "Parent:"
+msgstr "Catégorie parente :"
+
+#: widgets/class.Categories.php:135
+#, fuzzy
+#| msgid "Category Image:"
+msgid "On Category Page:"
+msgstr "Image de catégorie :"
+
+#: widgets/class.Categories.php:137
+msgid "Show all"
+msgstr ""
+
+#: widgets/class.Categories.php:138
+#, fuzzy
+#| msgid "Sub-Categories"
+msgid "Show subcategories only"
+msgstr "Sous-catégories"
+
+#: widgets/class.Categories.php:142
+#, fuzzy
+#| msgid "Style"
+msgid "Style:"
+msgstr "Style"
+
+#: widgets/class.Categories.php:149
+msgid "Top Level Only"
+msgstr ""
+
+#: widgets/class.Categories.php:152
+msgid "Hide widget when no category"
+msgstr ""
+
+#: widgets/class.ListPackages.php:100
+#, fuzzy
+#| msgid "File Download"
+msgid "On Single Download Page"
+msgstr "Téléchargement de fichiers"
+
+#: widgets/class.ListPackages.php:101
+msgid "Show packages from current package category"
+msgstr ""
+
+#: widgets/class.PackageInfo.php:21
+msgid "Total Views"
+msgstr "Nombre total de vues"
+
+#: widgets/class.PackageInfo.php:24
+msgid "Size"
+msgstr "Taille"
+
+#: widgets/class.PackageInfo.php:112
+msgid "Fields to Show:"
+msgstr "Champs à afficher :"
+
+#: widgets/class.PackageInfo.php:119
+#, fuzzy
+#| msgid "Package Name"
+msgid "Package Size"
+msgstr "Nom du paquet"
+
+#: widgets/class.PackageInfo.php:120
+msgid "Download Link"
+msgstr "Lien de téléchargement"
+
+#: widgets/class.PackageInfo.php:121
+#, fuzzy
+#| msgid "Download Button"
+msgid "Embed Download Options"
+msgstr "Bouton de téléchargement"
+
+#: widgets/class.PackageInfo.php:122
+msgid "Style"
+msgstr "Style"
+
+#: widgets/class.PackageInfo.php:122
+msgid "Tabular View"
+msgstr "Vue en tableau"
+
+#: widgets/class.PackageInfo.php:123
+msgid "Show QR Code"
+msgstr ""
+
+#: widgets/class.Search.php:40
+#, fuzzy
+#| msgid "Search Result For"
+msgid "Search Result Page"
+msgstr "Résultats de recherche pour"
+
+#: widgets/class.Search.php:43
+msgid ""
+"Note: Create a page with short-code <code>[wpdm_search_result]</code> and "
+"select that page as search redult page"
+msgstr ""
+
+#: widgets/class.Tags.php:76
+#, fuzzy
+#| msgid "Title:"
+msgid "Sub Title:"
+msgstr "Titre :"
+
+#: widgets/class.Tags.php:80
+#, fuzzy
+#| msgid "Number of packages to show:"
+msgid "Number of tags to show:"
+msgstr "Nombre de paquets à afficher :"
+
+#: wpdm-core.php:104
+msgid "Select category"
+msgstr "Sélectionnez une catégorie"
+
+#: wpdm-core.php:322
+#, php-format
+msgid "[%s] Update Available"
+msgstr ""
+
+#: wpdm-functions.php:108
+msgid "Download Limit Exceeded"
+msgstr "Limite de téléchargement dépassée"
+
+#: wpdm-functions.php:254
+msgid "You Must Agree With Terms and Conditions to Download"
+msgstr ""
+
+#: wpdm-functions.php:354
+msgid "Captcha Verification Failed!"
+msgstr "La vérification CAPTCHA a échoué !"
+
+#: wpdm-functions.php:388
+msgid "Download link sent to your email!"
+msgstr ""
+
+#: wpdm-functions.php:392
+msgid "Admin will review your request soon!"
+msgstr ""
+
+#: wpdm-functions.php:397
+msgid "Download link also sent to your email!"
+msgstr ""
+
+#: wpdm-functions.php:399
+#, fuzzy
+#| msgid "Download will be available from "
+msgid "Download will be started shortly!"
+msgstr "Ce téléchargement sera disponible à partir du "
+
+#: wpdm-functions.php:475 wpdm-functions.php:479
+#, fuzzy
+#| msgid "Wrong Password! Try Again."
+msgid "Wrong Password!"
+msgstr "Mot de passe incorrect ! Essayez à nouveau."
+
+#: wpdm-functions.php:475 wpdm-functions.php:479
+msgid "Try Again"
+msgstr ""
+
+#: wpdm-functions.php:572
+#, fuzzy
+#| msgid "You don't have permission to download this file"
+msgid "Sorry! You don't have suffient permission to download this file!"
+msgstr "Vous n‘avez pas le droit de télécharger ce fichier."
+
+#: wpdm-functions.php:918
+msgid "Sub-Categories"
+msgstr "Sous-catégories"
+
+#: wpdm-functions.php:1258
+msgid "Select Image"
+msgstr "Sélectionner une image"
+
+#: wpdm-functions.php:1287
+msgid "SELECT IMAGE"
+msgstr "SÉLECTIONNER UNE IMAGE"
+
+#: wpdm-functions.php:1724
+msgid "Ask for Visitor's Name"
+msgstr ""
+
+#: wpdm-functions.php:1727
+msgid "After Submitting Form:"
+msgstr ""
+
+#: wpdm-functions.php:1730
+#, fuzzy
+#| msgid "Download Link"
+msgid "Mail Download Link"
+msgstr "Lien de téléchargement"
+
+#: wpdm-functions.php:1732
+msgid "Wait For Approval"
+msgstr ""
+
+#: wpdm-functions.php:1735
+#, fuzzy
+#| msgid "Download History"
+msgid "Download Instantly"
+msgstr "Historique des téléchargements"
+
+#: wpdm-functions.php:1737
+#, fuzzy
+#| msgid "Download Link"
+msgid "Do Not Mail Download Link"
+msgstr "Lien de téléchargement"
+
+#: wpdm-functions.php:1769
+#, fuzzy
+#| msgid "From Name"
+msgid "Your Name"
+msgstr "Nom de l’expéditeur"
+
+#: wpdm-functions.php:1770
+msgid "Enter Your Name"
+msgstr ""
+
+#: wpdm-functions.php:1852
+#, fuzzy
+#| msgid "No file found!"
+msgid "No related download found!"
+msgstr "Aucun fichier trouvé !"
+
+#: wpdm-functions.php:1975
+msgid "View(s)"
+msgstr ""
+
+#: wpdm-functions.php:1980
+#, fuzzy
+#| msgid "Downloads"
+msgid "Download(s)"
+msgstr "Téléchargements"
+
+#: wpdm-functions.php:2189
+#, fuzzy
+#| msgid "No file found!"
+msgid "No matching files found"
+msgstr "Aucun fichier trouvé !"
+
+#: wpdm-functions.php:2197
+#, fuzzy
+#| msgid "Search Files"
+msgid "Search File..."
+msgstr "Rechercher des fichiers"
+
+#: wpdm-start-download.php:9
+msgid "Your IP address is blocked!"
+msgstr "Votre adresse IP est bloquée !"
+
+#: wpdm-start-download.php:17
+#, fuzzy
+#| msgid "Your IP address is blocked!"
+msgid "Your email address is blocked!"
+msgstr "Votre adresse IP est bloquée !"
+
+#: wpdm-start-download.php:32
+msgid "Package is not available!"
+msgstr "Paquet indisponible !"
+
+#: wpdm-start-download.php:63
+msgid "Sorry! Download is not available yet."
+msgstr "Désolé ! Le téléchargement n’est pas encore disponible."
+
+#: wpdm-start-download.php:85
+msgid "Please activate \"zlib\" in your server"
+msgstr "Veuillez activer « zlib » sur votre serveur"
+
+#: wpdm-start-download.php:165
+msgid "File not found or deleted from server"
+msgstr ""
+
+#~ msgid "W3 Eden"
+#~ msgstr "W3 Eden"
+
+#~ msgid "Uploading"
+#~ msgstr "Téléversement en cours"
+
+#~ msgid ""
+#~ "Custom Template editor is available with <a target='_blank' "
+#~ "href='%s'>WordPress Download Manager Pro</a>"
+#~ msgstr ""
+#~ "L’éditeur de modèle personnalisé est disponible avec <a target='_blank' "
+#~ "href='%s'>WordPress Download Manager Pro</a>"
+
+#~ msgid "DOWNLOAD ERROR"
+#~ msgstr "ERREUR DE TÉLÉCHARGEMENT"
+
+#~ msgid "I Agree"
+#~ msgstr "Je suis d’accord"
+
+#~ msgid ""
+#~ "If you want to use multiple passwords, keep each one inside [], like [123]"
+#~ "[456][789]"
+#~ msgstr ""
+#~ "Si vous souhaitez utiliser plusieurs mots de passe, saisissez chacun "
+#~ "d’entre eux entre crochets. Comme ceci : [123][456][789]."
+
+#~ msgid "Clear History"
+#~ msgstr "Effacer l’historique"
+
+#~ msgid "Download History is Empty"
+#~ msgstr "L’historique de téléchargement est vide."
+
+#~ msgid "Are you sure? There is no going back!"
+#~ msgstr "Confirmez-vous ? Aucun retour en arrière n’est possible !"
+
+#~ msgid "Awesome!"
+#~ msgstr "Super !"
+
+#~ msgid "Attention!"
+#~ msgstr "Avertissement !"
+
+#~ msgid "Warning!"
+#~ msgstr "Attention !"
+
+#~ msgid "Operation Failed!"
+#~ msgstr "L’opération a échouée !"
+
+#~ msgid ""
+#~ "Register a new site for reCAPTCHA from <a target=\"_blank\" href="
+#~ "\"https://www.google.com/recaptcha/admin#list\">here</a>"
+#~ msgstr ""
+#~ "Enregistrer un nouveau site pour reCAPTCHA <a target=\"_blank\" href="
+#~ "\"https://www.google.com/recaptcha/admin#list\">ici</a>"
+
+#~ msgid "Delete Current File"
+#~ msgstr "Supprime le fichier actuel"
+
+#~ msgid "Invalid File Type!"
+#~ msgstr "Type de fichier invalide !"
+
+#~ msgid "No file uploaded yet!"
+#~ msgstr "Aucun fichier mis en ligne pour le moment !"
+
+#~ msgid "https://www.wpdownloadmanager.com/"
+#~ msgstr "https://www.wpdownloadmanager.com/"
+
+#~ msgid "Manage, Protect and Track File Downloads from your WordPress site"
+#~ msgstr ""
+#~ "Gère, protège et surveille les téléchargements de fichiers réalisés à "
+#~ "partir de votre site WordPress"
+
+#~ msgid "https://www.wpdownloadmanager.com/purchases/"
+#~ msgstr "https://www.wpdownloadmanager.com/purchases/"
+
+#~ msgid "Permission Denied"
+#~ msgstr "Permission refusée"
+
+#~ msgid "Generate"
+#~ msgstr "Générer"
+
+#~ msgid "Thumbnail"
+#~ msgstr "Miniature"
+
+#~ msgid "No File Found"
+#~ msgstr "Aucun fichier trouvé"
+
+#~ msgid "Edit File"
+#~ msgstr "Modifier le fichier"
+
+#~ msgid "Clearing..."
+#~ msgstr "Effacement en cours…"
+
+#~ msgid "Server File Browser Base Dir:"
+#~ msgstr "Dossier racine du navigateur de fichiers serveur :"
+
+#~ msgid "Server File Browser"
+#~ msgstr "Navigateur de fichiers serveur"
+
+#~ msgid ""
+#~ "<div class=\"w3eden\"><div class=\"text-danger\"><i class=\"fa fa-check-"
+#~ "circle\"></i> Removed!</div></div>"
+#~ msgstr ""
+#~ "<div class=\"w3eden\"><div class=\"text-danger\"><i class=\"fa fa-check-"
+#~ "circle\"></i> Retiré !</div></div>"
+
+#~ msgctxt "Uploader: Drop file here - or - Select File"
+#~ msgid "or"
+#~ msgstr "ou"
+
+#~ msgid "attached file is missing/deleted"
+#~ msgstr "fichier joint manquant/supprimé"
+
+#~ msgid "History"
+#~ msgstr "Historique"
+
+#~ msgid "History &lsaquo; Download Manager"
+#~ msgstr "Historique &lsaquo; Download Manager"

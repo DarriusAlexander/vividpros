@@ -1,0 +1,178 @@
+/* Account Page
+================================================ */
+.ptb-submission-account-page{
+    position: relative;
+    text-align: left;
+}
+.ptb-submisssion-account-posts{
+    border-collapse: collapse;
+}
+
+.ptb-submisssion-account-posts th{
+    padding-left: 0;
+}
+
+.ptb_submission_table_wrapper table tbody tr{
+    border: none;
+    border-top: 1px solid #dfdfdf;
+}
+.ptb_submission_table_wrapper table{
+    border-bottom: 1px solid #dfdfdf;
+    font-weight: 500;
+}
+.ptb-submisssion-account-posts td {
+    padding: .9em 0 .7em 0;
+    background: #fff;
+}
+.ptb-submission-account-page .ptb_submission_table_wrapper a{
+    text-decoration: none;
+    color:#000;
+    border:none;
+}
+
+.ptb-submission-account-page .ptb_submission_table_wrapper a:hover{
+    text-decoration: underline;
+}
+.ptb_submission_payment_status a{
+    display:block;
+}
+.ptb_submission_pagenav{
+    text-align: right;
+    margin-top: 10px;
+}
+
+.ptb-submission-loader{
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+    width: 100%;
+    z-index: 9999;
+    display: none;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255,255,255,0.5);
+    cursor:wait;
+}
+.ptb-submission-loader>div{
+    background: url('../img/loading.gif') no-repeat;
+    width: 32px;
+    height: 32px;
+    margin: 15% auto;
+}
+.ptb-submission-wait{
+    cursor: wait;
+}
+.ptb-submission-wait .ptb-submission-loader{
+    display: block;
+}
+
+.ptb_subbmission_account_not_found{
+    text-align: center;
+    font-size: 17px;
+    font-weight: bold;
+    clear: both;
+}
+/* Filter
+================================================ */
+.ptb_submission_account_filter{
+    padding: 10px 0;
+    width:100%;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+.ptb_submission_account_filter input[type="text"],
+.ptb_submission_account_filter select{
+    margin: 0;
+    padding: .7em .5em;
+    width: 100%;
+    max-width: 100%;
+    box-sizing:border-box;
+    -moz-box-sizing:border-box;
+}
+.ptb_submission_account_filter label{
+    display: block;
+    width: 100%;
+}
+.ptb_submission_account_filter table tr,
+.ptb-submission-account-page td,
+.ptb-submission-account-page th{
+    border: none;
+}
+.ptb_submission_account_filter td{
+    padding-left:.5em;
+    padding-right:0;
+}
+.ptb_submission_account_filter td:first-child{
+    padding-left: 0;
+}
+.ptb_submission_account_filter>table{
+    margin-bottom: 10px;
+}
+
+.ptb-submission-module-form .ptb-submission-submit-btn{
+    float: right;
+    background: #ed1e24;
+    color: #fff;
+    border: none;
+    padding: .7em 1.4em;
+    cursor: pointer;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: .065em;
+    outline: none;
+    font-size: 15px;
+    text-decoration: none;
+}
+.ptb-submission-module-form .ptb-submission-submit-btn:hover{
+    background: #000;
+    color: #fff;
+}
+p.ptb_edit_profile{
+    display: block;
+    margin: 8px 0 0 0;
+    padding: 0;
+    font-size: 24px;
+}
+/* Profile
+================================================ */
+#ptb-submission-edit-form{
+    position: relative;
+    overflow:hidden;
+}
+#ptb-submission-edit-form td{
+    padding:5px 0;
+}
+#ptb-submission-edit-form input:not(.ptb-submission-submit-btn){
+    max-width: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+#ptb-submission-edit-form .ptb-submission-edit-profile{
+    width: 100%;
+    border: none;
+    padding: 0;
+    background: none;
+    margin: 0 0 5px 0;
+    border-collapse: separate;
+}
+
+.ptb-submission-success-text{
+    float: right;
+    margin-right: 17px;
+    margin-top: 6px;
+    font-size: 19px;
+    color: #00A93D;
+}
+.ptb-submission-error-text{
+    color: #ff0000;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: block;
+}

@@ -1,0 +1,190 @@
+.ptb-relation-loader{
+    margin: -40px 0 0 -40px;
+    height: 80px;
+    width: 80px;
+    background-color: rgba(0,0,0,.8);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    z-index: 999;
+    border-radius: 15px;
+    padding: 0;
+    border: none;
+    display: none;
+}
+.ptb-relation-wait .ptb-relation-loader{
+    background: #444 url(../img/ajax-loader.gif) no-repeat center center;
+    display: block;
+}
+.ptb-relation-loader.done{
+    background: #444 url(../img/ajax-done.png) no-repeat center center;
+    display: block;
+}
+.ptb-relation-wait{
+    cursor: wait;
+    z-index: -1;
+    opacity: 0.5;
+    position: relative;
+}
+.ptb-relation-small-input input{
+    width: 90px;
+    margin: 0;
+}
+.ptb-relation-small-input strong{
+    margin-left: 5px;
+}
+.ptb-relation-small-input{
+    margin-top: 13px;
+}
+.ptb-relation-success-message{
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+.ptb-relation-error{
+    color: #ff0000;
+    font-weight: bold;
+}
+.ptb-relation-success-message .ptb_back_active_module_input{
+    width: 100%;
+    margin-top: 13px;
+}
+.add-relation-form textarea{
+    resize: vertical;
+    min-height: 75px;
+}
+#ptb-relation-import-form{
+    text-align: center;
+}
+#ptb-relation-import-form .ptb-relation-file-btn{
+    background: #664c9e;
+    margin: 5px 0;
+    padding: 10px 30px;
+    display: inline-block;
+    color: #fff;
+    box-shadow: 0 2px 0 #5c448e;
+    -moz-box-shadow: 0 2px 0 #5c448e;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    outline: none;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+.ptb_relation_many{
+    position: relative;
+}
+.ptb_relation_many .ptb_relation_autocomplete{
+    width: 100%;
+}
+.ptb_relation_many ul{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.ptb_relation_many ul:not(:empty){
+    padding: 15px 10px 10px 10px;
+    width: 100%;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border-bottom: 1px solid #ddd;
+}
+.ptb_relation_many li {
+    background-color: #f5f5f5;
+    border: 1px solid #d9d9d9;
+    cursor: default;
+    display: block;
+    height: 100%;
+    white-space: nowrap;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    float: left;
+    margin: 0 5px 5px 0;
+    cursor: move;
+}
+.ptb_relation_many .ptb_relation_term{
+    display: inline-block;
+    color: #222;
+    margin: 2px 5px;
+    max-width: 325px;
+    max-height: 17px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.ptb_relation_many .ptb_relation_remove_term{
+    display: inline-block;
+    width: 14px;
+    height: 20px;
+    opacity: .6;
+    vertical-align: middle;
+    cursor: pointer;
+    font-size: 9px;
+}
+.ptb_relation_many .ptb_relation_remove_term:hover{
+    opacity: 1;
+}
+
+#ptb_relation_select_posts label {
+    display: block;
+    width: 49%;
+    float: left;
+    margin-right: 1%;
+    margin-bottom: 5px;
+}
+.ptb_relation_posts_wrap{
+    overflow: auto;
+    overflow-x: hidden;
+    max-height: 1000px;
+    padding: 1.2em 0;
+    border-bottom: 1px solid #ccc;
+    margin: 0 0 1.5em;
+    border-top: 1px solid #ccc;
+    width: 100%;
+}
+#ptb_relation_select_posts .ptb_relation_searh_posts{
+    margin-right: 68px;
+    width: 42%;
+    margin-top: -53px;
+}
+.ptb_relation_autocomplete_wrap input.ptb_relation_autocomplete{
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    width: 75%;
+}
+.ptb_relation_autocomplete_wrap a.ptb_custom_lightbox{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    background: #000;
+    padding: 8px;
+    margin-left: 20px;
+    max-width: 23%;
+    min-width: 13%;
+    text-align: center;
+    outline: none;
+}
+.ptb_relation_many input.ptb_relation_autocomplete{
+    border: none;
+    box-shadow: none;
+    width: 100%;
+}
+.ptb_relation_multiply{
+    border: 1px solid #ddd;
+    -webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,.07);
+    box-shadow: inset 0 1px 2px rgba(0,0,0,.07);
+    background-color: #fff;
+    color: #32373c;
+    outline: 0;
+    width: 75%;
+    float: left;
+    position: relative;
+    overflow: hidden;
+}
+.ptb_relation_many li.ptb_relation_ui_state_highlight {
+    border:1px dashed #ddd;
+    background: rgba(177, 233, 255, .5);
+    margin: 0 auto 20px;
+}
+.ptb_admin_lightbox.ptb_relation_lightbox{
+    position: fixed;
+}

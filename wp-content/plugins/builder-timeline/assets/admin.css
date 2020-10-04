@@ -1,0 +1,9 @@
+/* module icon */
+.themify_builder_module.module-type-timeline:before {
+	content: "\e72b";
+}
+
+/* z-index fix when Builder is active */
+.themify_builder_active .vco-storyjs {
+	z-index: 1;
+}
